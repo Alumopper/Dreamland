@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "Name": "minecraft:diamond_ore"
+        },
+        "place_in": [
+            {
+                "Name": "minecraft:stone"
+            }
+        ],
+        "place_on": [
+            {
+                "Name": "minecraft:stone"
+            }
+        ],
+        "place_under": [
+            {
+                "Name": "minecraft:air"
+            }
+        ]
+    }
+}

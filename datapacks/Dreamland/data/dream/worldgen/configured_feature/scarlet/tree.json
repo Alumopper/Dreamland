@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"planted": false,
+		"stem_state": {
+			"Name": "minecraft:grass_block",
+			"Properties": {
+				"snowy":"false"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:oak_log",
+			"Properties": {
+				"axis":"y"
+			}
+		},
+		"hat_state": {
+			"Name": "minecraft:oak_leaves",
+			"Properties": {
+				"distance":"7",
+				"persistent":"true"
+			}
+		},
+		"decor_state": {
+			"Name": "minecraft:red_concrete"
+		}
+	}
+}

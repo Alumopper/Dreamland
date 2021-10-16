@@ -1,0 +1,6 @@
+{
+    "parent": "dreamland:parents/gui",
+    "textures": {
+        "layer1": "dreamland:gui/dream_portal/gui"
+    }
+}

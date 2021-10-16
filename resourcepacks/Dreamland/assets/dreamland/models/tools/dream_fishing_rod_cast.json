@@ -1,0 +1,6 @@
+{
+    "parent": "dreamland:tools/dream_fishing_rod",
+    "textures": {
+        "layer0": "dreamland:tools/dream_fishing_rod_cast"
+    }
+}

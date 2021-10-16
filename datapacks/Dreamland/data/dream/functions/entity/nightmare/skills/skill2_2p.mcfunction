@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {Tags:["dream_nightmare_lightning_summon","dream_nightmare_p"],NoGravity:1b,Invisible:1b,Marker:1b}
+tp @e[tag=dream_nightmare_lightning_summon,limit=1,distance=0..0.1] ~ ~ ~ facing entity @s

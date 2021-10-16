@@ -1,0 +1,1 @@
+kill @e[tag=Math_temp_rand]

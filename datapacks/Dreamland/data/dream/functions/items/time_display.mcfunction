@@ -1,0 +1,8 @@
+execute if score dream_world_collapse dream_timer matches -2..120000 if score @s dream_sleeptime matches -1 run title @s actionbar [{"text":"你已经醒了呢","color": "aqua","bold": true}]
+execute if score dream_world_collapse dream_timer matches -2..120000 unless score @s dream_sleeptime matches -1 run scoreboard players operation #dream_sleeptime_s dream_counter = @s dream_sleeptime
+execute if score dream_world_collapse dream_timer matches -2..120000 unless score @s dream_sleeptime matches -1 run scoreboard players operation #dream_sleeptime_s dream_counter /= C_20 math_count
+execute if score dream_world_collapse dream_timer matches -2..120000 unless score @s dream_sleeptime matches -1 run title @s actionbar [{"text": "梦境已持续:","color": "aqua","bold": true},{"score": {"objective": "dream_counter","name": "#dream_sleeptime_s"},"bold": true},{"text": "s","bold": true}]
+execute unless score dream_world_collapse dream_timer matches -2..120000 run scoreboard players set dream_countdown dream_counter 240000
+execute unless score dream_world_collapse dream_timer matches -2..120000 run scoreboard players operation dream_countdown dream_counter -= dream_world_collapse dream_timer
+execute unless score dream_world_collapse dream_timer matches -2..120000 run scoreboard players operation dream_countdown dream_counter /= C_20 math_count
+execute unless score dream_world_collapse dream_timer matches -2..120000 run title @s actionbar [{"text": "距离维度大融合还有:","color": "red","bold": true},{"score": {"objective": "dream_counter","name": "dream_countdown"},"bold": true},{"text": "s","bold": true}]

@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/slime_ball"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:material/blue_slime_ball"
+        }
+    ]
+}

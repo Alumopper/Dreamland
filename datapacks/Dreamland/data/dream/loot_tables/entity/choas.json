@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:120011,display:{Name:'[{\"translate\":\"dream.item.name.chaotic_crystallization\",\"italic\":false}]'},tag:{id:\"dreamland:chaotic_crystallization\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

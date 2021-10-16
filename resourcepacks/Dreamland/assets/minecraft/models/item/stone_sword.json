@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"fish_soup:items/fish_sword"
+        }
+    ]
+}

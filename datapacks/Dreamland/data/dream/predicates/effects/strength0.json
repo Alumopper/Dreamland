@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "strength":{
+                "amplifier": 0,
+                "duration": {
+                    "max":20
+                }
+            }
+        }
+    }
+}

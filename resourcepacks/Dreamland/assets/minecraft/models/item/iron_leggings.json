@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_leggings"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:armors/dream_org_leggings"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:armors/illusory_leggings"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:armors/unnamed_leggings"
+        }
+    ]
+}

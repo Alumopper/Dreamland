@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:fishing",
+     "pools": [
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1  
+                        }
+                    ]
+                }
+            ]
+        }
+     ]
+}

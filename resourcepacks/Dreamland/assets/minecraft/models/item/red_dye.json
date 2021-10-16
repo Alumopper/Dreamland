@@ -1,0 +1,44 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/red_dye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:control/close"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:control/back"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:control/next"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12004
+            },
+            "model":"dreamland:control/last"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12005
+            },
+            "model":"dreamland:control/nolast"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12006
+            },
+            "model":"dreamland:control/nonext"
+        }
+    ]
+}

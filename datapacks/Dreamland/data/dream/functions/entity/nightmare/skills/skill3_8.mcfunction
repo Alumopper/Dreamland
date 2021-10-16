@@ -1,0 +1,2 @@
+#黑曜石坠落
+execute positioned ~ ~5 ~ unless entity @e[type=falling_block,distance=0..1] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:obsidian"},Time:1,HurtEntities:true,FallHurtMax:7,FallHurtAmount:2}

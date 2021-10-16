@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:tools/dream_fishing_rod"
+        }
+    ]
+}

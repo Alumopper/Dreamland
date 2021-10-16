@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120011}"
+        },
+        "title": {"translate":"dream.advancement.beta.choas.title"},
+        "description": {"translate":"dream.advancement.beta.choas.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "dream:choas"
+            }
+        }
+    },
+    "parent": "dream:beta/dimension_traveller"
+}

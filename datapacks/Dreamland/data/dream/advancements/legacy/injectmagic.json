@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:experience_bottle"
+        },
+        "title":{"text":"注魔师"},
+        "frame":"task",
+        "description":"要用魔法打败魔法",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "parent":"dream:legacy/dreamdust",
+    "criteria": {
+      "wtf":{
+        "trigger":"minecraft:impossible"
+      }
+    }
+}

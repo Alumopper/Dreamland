@@ -1,0 +1,9 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location": {
+            "dimension": "dream:the_end_of_dream"
+        }
+    }
+}

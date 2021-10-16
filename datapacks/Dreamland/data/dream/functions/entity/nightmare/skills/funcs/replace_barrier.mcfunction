@@ -1,0 +1,12 @@
+fill ~-30 ~-5 ~-30 ~30 ~ ~30 barrier replace end_stone
+fill ~-30 ~-10 ~-30 ~30 ~-5 ~30 barrier replace end_stone
+fill ~-30 ~-15 ~-30 ~30 ~-10 ~30 barrier replace end_stone
+fill ~-30 ~-20 ~-30 ~30 ~-15 ~30 barrier replace end_stone
+fill ~-30 ~-25 ~-30 ~30 ~-20 ~30 barrier replace end_stone
+fill ~-30 ~-30 ~-30 ~30 ~-25 ~30 barrier replace end_stone
+fill ~-30 ~-35 ~-30 ~30 ~-30 ~30 barrier replace end_stone
+fill ~-30 ~-40 ~-30 ~30 ~-35 ~30 barrier replace end_stone
+fill ~-30 ~-45 ~-30 ~30 ~-40 ~30 barrier replace end_stone
+fill ~-30 ~-50 ~-30 ~30 ~-45 ~30 barrier replace end_stone
+fill ~-30 ~-55 ~-30 ~30 ~-50 ~30 barrier replace end_stone
+fill ~-30 ~-60 ~-30 ~30 ~-55 ~30 barrier replace end_stone

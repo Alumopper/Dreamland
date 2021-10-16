@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "minecraft:health_boost":{
+                "amplifier": 4,
+                "duration": {
+                    "min":0
+                }
+            }
+        }
+    }
+}

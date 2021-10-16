@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot",
+            "nbt": "{CustomModelData:12001}"
+        },
+        "title": {"translate":"dream.advancement.alpha.from_imagination.title"},
+        "description": {"translate":"dream.advancement.alpha.from_imagination.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "iron_ingot",
+                        "nbt": "{CustomModelData:12001}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dream:alpha/made_in_dreamland"
+}

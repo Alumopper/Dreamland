@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 52,
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stone_button"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 57,
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 49,
+          "name": "minecraft:glass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 48,
+          "name": "minecraft:quartz"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:quartz_block"
+        }
+      ],
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance":0.56,
+                "looting_multiplier": 0.01
+            }
+        ]
+    }
+  ]
+}

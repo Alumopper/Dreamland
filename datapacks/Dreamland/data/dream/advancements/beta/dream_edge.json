@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120022}"
+        },
+        "title": {"translate":"dream.advancement.beta.dream_edge.title"},
+        "description": {"translate":"dream.advancement.beta.dream_edge.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "dream:the_end_of_dream",
+                "to": "dream:the_edge_of_dream"
+            }
+        }
+    },
+    "parent": "dream:beta/is_it_the_end"
+}

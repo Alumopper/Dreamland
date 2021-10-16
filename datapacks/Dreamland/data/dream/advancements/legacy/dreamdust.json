@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:glowstone_dust"
+        },
+        "title":{"text":"梦之尘"},
+        "frame":"task",
+        "description":"闪烁着微光",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "parent":"dream:legacy/goodnight",
+    "criteria": {
+      "wtf":{
+        "trigger":"minecraft:impossible"
+      }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "parent":"dreamland:parents/block",
+    "textures":{
+        "particle":"dreamland:blocks/8848tnt_side",
+        "down":"dreamland:blocks/8848tnt_bottom",
+        "up":"dreamland:blocks/8848tnt_top",
+        "north":"dreamland:blocks/8848tnt_side",
+        "east":"dreamland:blocks/8848tnt_side",
+        "south":"dreamland:blocks/8848tnt_side",
+        "west":"dreamland:blocks/8848tnt_side"
+    }
+}

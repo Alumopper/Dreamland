@@ -1,0 +1,57 @@
+#合成表，利用程序读取
+#null 代表不放东西 out>>代表产物
+
+#dream_god_sword
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_sword	    dreamland:chaotic_crystallization	    dreamland:unnamed_sword	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_sword	
+
+#dream_god_helmet
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_helmet	    dreamland:chaotic_crystallization	    dreamland:unnamed_helmet	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_helmet	
+
+#dream_god_chestplate
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_chestplate	dreamland:chaotic_crystallization	    dreamland:unnamed_chestplate	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_chestplate	
+
+#dream_god_leggings
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_leggings	    dreamland:chaotic_crystallization	    dreamland:unnamed_leggings	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_leggings	
+
+#dream_god_boots
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_boots	    dreamland:chaotic_crystallization	    dreamland:unnamed_boots	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_boots	
+
+#dream_god_axe
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_axe	        dreamland:chaotic_crystallization	    dreamland:unnamed_axe	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_axe	
+
+#dream_god_pickaxe
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_pickaxe	    dreamland:chaotic_crystallization	    dreamland:unnamed_pickaxe	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_pickaxe	
+
+#dream_god_shovel
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_shovel	    dreamland:chaotic_crystallization	    dreamland:unnamed_shovel	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_shovel	
+
+#dream_god_hoe
+dreamland:dreamdust	            dreamland:dreamdust	                    dreamland:dream_power_core	
+dreamland:illusory_hoe	        dreamland:chaotic_crystallization	    dreamland:unnamed_hoe	
+dreamland:dream_power_core	    dreamland:dreamdust	                    dreamland:dreamdust	
+out>>dreamland:dream_god_hoe	
+

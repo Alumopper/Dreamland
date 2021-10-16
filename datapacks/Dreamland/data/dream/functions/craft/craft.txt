@@ -1,0 +1,489 @@
+#合成表，利用程序读取
+#null 代表不放东西 out>>代表产物
+
+#illusory_ingot虚幻锭
+dreamland:dreamdust	            null	                    dreamland:sweetdream_essence	
+null	                        dreamland:dream_org_ingot	null	
+dreamland:sweetdream_essence	null	                    dreamland:dreamdust	
+out>>dreamland:illusory_ingot	
+
+#dream_power_core梦能核心
+dreamland:dreamdust	            dreamland:dream_essence	    dreamland:dreamdust	
+dreamland:dream_essence	        minecraft:diamond	        reamland:dream_essence	
+dreamland:dreamdust	            dreamland:dream_essence	    dreamland:dreamdust	
+out>>dream_power_core	
+
+#unnamed_ingot未名锭
+dreamland:dreamdust	            null	                    dreamland:nightmare_essence	
+null	                        dreamland:dream_org_ingot	null	
+dreamland:nightmare_essence	    null	                    dreamland:dreamdust	
+out>>unnamed_ingot	
+
+#fish_soup鱼汤
+null	                        null	                    null	
+minecraft:blaze_powder	        minecraft:cod_bucket	    minecraft:blaze_powder	
+null	                        minecraft:blaze_powder  	null	
+out>>fish_soup:fish_soup	
+
+#dream_org_sword梦原剑
+null	                        dreamland:dream_org_ingot	null	
+null	                        dreamland:dream_org_ingot	null	
+null	                        minecraft:stick	            null	
+out>>dreamland:dream_org_sword	
+
+#illusory_sword虚幻剑
+null	                        dreamland:illusory_ingot	null	
+null	                        dreamland:illusory_ingot	null	
+null	                        minecraft:stick	            null	
+out>>dreamland:illusory_sword	
+
+#unnamed_sword未名剑
+null	                        dreamland:unnamed_ingot     null	
+null	                        dreamland:unnamed_ingot	    null	
+null	                        minecraft:stick	            null	
+out>>dreamland:unnamed_sword	
+
+#illusory_helmet虚幻头盔
+dreamland:illusory_ingot	    dreamland:illusory_ingot	dreamland:illusory_ingot	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+null	                        null	                    null	
+out>>dreamland:illusory_helmet	
+
+#illusory_helmet
+null	                        null	                    null	
+dreamland:illusory_ingot	    dreamland:illusory_ingot	dreamland:illusory_ingot	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+out>>dreamland:illusory_helmet	
+
+#illusory_chestplate
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+dreamland:illusory_ingot	    dreamland:illusory_ingot	dreamland:illusory_ingot	
+dreamland:illusory_ingot	    dreamland:illusory_ingot	dreamland:illusory_ingot	
+out>>dreamland:illusory_chestplate	
+
+#illusory_leggings
+dreamland:illusory_ingot	    dreamland:illusory_ingot	dreamland:illusory_ingot	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+out>>dreamland:illusory_leggings	
+
+#illusory_boots
+null	                        null	                    null	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+out>>dreamland:illusory_boots	
+
+#illusory_boots
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+dreamland:illusory_ingot	    null	                    dreamland:illusory_ingot	
+null	                        null	                    null	
+out>>dreamland:illusory_boots	
+
+#dream_org_boots
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+null	                        null	                    null	
+out>>dreamland:dream_org_boots	
+
+#dream_org_boots
+null	                        null	                    null	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+out>>dreamland:dream_org_boots	
+
+#dream_org_leggings
+dreamland:dream_org_ingot	    dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+out>>dreamland:dream_org_leggings	
+
+#dream_org_chestplate
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+out>>dreamland:dream_org_chestplate	
+
+#dream_org_helmet
+null	                        null	                    null	
+dreamland:dream_org_ingot	    dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+out>>dreamland:dream_org_helmet	
+
+#dream_org_helmet
+dreamland:dream_org_ingot	    dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+dreamland:dream_org_ingot	    null	                    dreamland:dream_org_ingot	
+null	                        null	                    null	
+out>>dreamland:dream_org_helmet	
+
+#unnamed_helmet
+dreamland:unnamed_ingot	        dreamland:unnamed_ingot	    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+null	                        null	                    null	
+out>>dreamland:unnamed_helmet	
+
+#unnamed_helmet
+null	                        null	                    null	
+dreamland:unnamed_ingot	        dreamland:unnamed_ingot	    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+out>>dreamland:unnamed_helmet	
+
+#unnamed_chestplate
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        dreamland:unnamed_ingot	    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        dreamland:unnamed_ingot	    dreamland:unnamed_ingot	
+out>>dreamland:unnamed_chestplate	
+
+#unnamed_leggings
+dreamland:unnamed_ingot	        dreamland:unnamed_ingot	    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+out>>dreamland:unnamed_leggings	
+
+#unnamed_boots
+null	                        null                    	null	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+out>>dreamland:unnamed_boots	
+
+#unnamed_boots
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	        null	                    dreamland:unnamed_ingot	
+null	                        null	                    null	
+out>>dreamland:unnamed_boots	
+
+#dream_org_axe
+dreamland:dream_org_ingot	    dreamland:dream_org_ingot	null	
+dreamland:dream_org_ingot	    minecraft:stick	            null	
+null	                        minecraft:stick	            null	
+out>>dreamland:dream_org_axe	
+
+#dream_org_axe
+null	dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+null	minecraft:stick	dreamland:dream_org_ingot	
+null	minecraft:stick	null	
+out>>dreamland:dream_org_axe	
+
+#dream_org_axe
+dreamland:dream_org_ingot	dreamland:dream_org_ingot	null	
+minecraft:stick	dreamland:dream_org_ingot	null	
+minecraft:stick	null	null	
+out>>dreamland:dream_org_axe	
+
+#dream_org_axe
+null	dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+null	dreamland:dream_org_ingot	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:dream_org_axe	
+
+#dream_org_pickaxe
+dreamland:dream_org_ingot	dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:dream_org_pickaxe	
+
+#dream_org_shovel
+null	dreamland:dream_org_ingot	null	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:dream_org_shovel	
+
+#dream_org_shovel
+dreamland:dream_org_ingot	null	null	
+minecraft:stick	null	null	
+minecraft:stick	null	null	
+out>>dreamland:dream_org_shovel	
+
+#dream_org_shovel
+null	null	dreamland:dream_org_ingot	
+null	null	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:dream_org_shovel	
+
+#dream_org_hoe
+null	dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+null	null	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:dream_org_hoe	
+
+#dream_org_hoe
+null	dreamland:dream_org_ingot	dreamland:dream_org_ingot	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:dream_org_hoe	
+
+#dream_org_hoe
+dreamland:dream_org_ingot	dreamland:dream_org_ingot	null	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:dream_org_hoe	
+
+#dream_org_hoe
+dreamland:dream_org_ingot	dreamland:dream_org_ingot	null	
+minecraft:stick	null	null	
+minecraft:stick	null	null	
+out>>dreamland:dream_org_hoe	
+
+#illusory_axe
+null	dreamland:illusory_ingot	dreamland:illusory_ingot	
+null	minecraft:stick	dreamland:illusory_ingot	
+null	minecraft:stick	null	
+out>>dreamland:illusory_axe	
+
+#illusory_axe
+dreamland:illusory_ingot	dreamland:illusory_ingot	null	
+dreamland:illusory_ingot	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:illusory_axe	
+
+#illusory_axe
+dreamland:illusory_ingot	dreamland:illusory_ingot	null	
+minecraft:stick	dreamland:illusory_ingot	null	
+minecraft:stick	null	null	
+out>>dreamland:illusory_axe	
+
+#illusory_axe
+null	dreamland:illusory_ingot	dreamland:illusory_ingot	
+null	dreamland:illusory_ingot	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:illusory_axe	
+
+#illusory_pickaxe
+dreamland:illusory_ingot	dreamland:illusory_ingot	dreamland:illusory_ingot	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:illusory_pickaxe	
+
+#illusory_shovel
+null	dreamland:illusory_ingot	null	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:illusory_shovel	
+
+#illusory_shovel
+dreamland:illusory_ingot	null	null	
+minecraft:stick	null	null	
+minecraft:stick	null	null	
+out>>dreamland:illusory_shovel	
+
+#illusory_shovel
+null	null	dreamland:illusory_ingot	
+null	null	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:illusory_shovel	
+
+#illusory_hoe
+dreamland:illusory_ingot	dreamland:illusory_ingot	null	
+minecraft:stick	null	null	
+minecraft:stick	null	null	
+out>>dreamland:illusory_hoe	
+
+#illusory_hoe
+dreamland:illusory_ingot	dreamland:illusory_ingot	null	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:illusory_hoe	
+
+#illusory_hoe
+null	dreamland:illusory_ingot	dreamland:illusory_ingot	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:illusory_hoe	
+
+#illusory_hoe
+null	dreamland:illusory_ingot	dreamland:illusory_ingot	
+null	null	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:illusory_hoe	
+
+#unnamed_axe
+dreamland:unnamed_ingot	dreamland:unnamed_ingot	null	
+dreamland:unnamed_ingot	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:unnamed_axe	
+
+#unnamed_axe
+null	dreamland:unnamed_ingot	dreamland:unnamed_ingot	
+null	minecraft:stick	dreamland:unnamed_ingot	
+null	minecraft:stick	null	
+out>>dreamland:unnamed_axe	
+
+#unnamed_axe
+dreamland:unnamed_ingot	dreamland:unnamed_ingot	null	
+minecraft:stick	dreamland:unnamed_ingot	null	
+minecraft:stick	null	null	
+out>>dreamland:unnamed_axe	
+
+#unnamed_axe
+null	dreamland:unnamed_ingot	dreamland:unnamed_ingot	
+null	dreamland:unnamed_ingot	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:unnamed_axe	
+
+#unnamed_pickaxe
+dreamland:unnamed_ingot	dreamland:unnamed_ingot	dreamland:unnamed_ingot	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:unnamed_pickaxe	
+
+#unnamed_shovel
+null	dreamland:unnamed_ingot	null	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:unnamed_shovel	
+
+#unnamed_shovel
+dreamland:unnamed_ingot	null	null	
+minecraft:stick	null	null	
+minecraft:stick	null	null	
+out>>dreamland:unnamed_shovel	
+
+#unnamed_shovel
+null	null	dreamland:unnamed_ingot	
+null	null	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:unnamed_shovel	
+
+#unnamed_hoe
+null	dreamland:unnamed_ingot	dreamland:unnamed_ingot	
+null	null	minecraft:stick	
+null	null	minecraft:stick	
+out>>dreamland:unnamed_hoe	
+
+#unnamed_hoe
+null	dreamland:unnamed_ingot	dreamland:unnamed_ingot	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:unnamed_hoe	
+
+#unnamed_hoe
+dreamland:unnamed_ingot	dreamland:unnamed_ingot	null	
+null	minecraft:stick	null	
+null	minecraft:stick	null	
+out>>dreamland:unnamed_hoe	
+
+#unnamed_hoe
+dreamland:unnamed_ingot	dreamland:unnamed_ingot	null	
+minecraft:stick	null	null	
+minecraft:stick	null	null	
+out>>dreamland:unnamed_hoe	
+
+#xp_extract_needle
+null	null	minecraft:piston	
+minecraft:iron_ingot	minecraft:glass	minecraft:iron_ingot	
+null	minecraft:iron_ingot	null	
+out>>dreamland:xp_extract_needle	
+
+#infuse_table
+null	minecraft:paper	null	
+minecraft:redstone_block	minecraft:crying_obsidian	minecraft:redstone_block	
+minecraft:crying_obsidian	minecraft:crying_obsidian	minecraft:crying_obsidian	
+out>>dreamland:infuse_table	
+
+#weather_wand
+dreamland:blue_slime_ball	minecraft:diamond	dreamland:blue_slime_ball	
+dreamland:slime_tear	dreamland:illusory_ingot	dreamland:slime_tear	
+null	dreamland:illusory_ingot	null	
+out>>dreamland:weather_wand	
+
+#dream_portal
+dreamland:nightmare_essence	minecraft:diamond	dreamland:sweetdream_essence	
+dreamland:dream_essence	dreamland:dimension_core	dreamland:dream_essence	
+dreamland:sweetdream_essence	minecraft:redstone	dreamland:nightmare_essence	
+out>>dream_portal	
+
+#mineral_detector
+null	minecraft:diamond	null	
+minecraft:iron_ingot	minecraft:redstone	minecraft:iron_ingot	
+minecraft:diamond	dreamland:dream_power_core	minecraft:diamond	
+out>>mineral_detector	
+
+#dark_eye
+null	minecraft:blaze_powder	null	
+minecraft:blaze_powder	dreamland:dark_pearl	minecraft:blaze_powder	
+minecraft:glowstone_dust	minecraft:glowstone_dust	minecraft:glowstone_dust	
+out>>dark_eye	
+
+#cloud_umbrella
+dreamland:cloud	dreamland:cloud	dreamland:cloud	
+minecraft:string	minecraft:stick	minecraft:string	
+null	minecraft:stick	null	
+out>>cloud_umbrella	
+
+#dream_defender
+null	minecraft:diamond	null	
+dreamland:illusory_ingot	dreamland:sweetdream_essence	dreamland:illusory_ingot	
+dreamland:illusory_ingot	dreamland:illusory_ingot	dreamland:illusory_ingot	
+out>>dream_defender	
+
+#dream_breaker
+null	minecraft:redstone_block	null	
+dreamland:unnamed_ingot	dreamland:nightmare_essence	dreamland:unnamed_ingot	
+dreamland:unnamed_ingot	dreamland:unnamed_ingot	dreamland:unnamed_ingot	
+out>>dream_breaker	
+
+#dream_beacon
+null	dreamland:dream_star	null	
+minecraft:glass	minecraft:beacon	minecraft:glass	
+minecraft:glass	minecraft:glass	minecraft:glass	
+out>>dream_beacon	
+
+#pufferfish_soup
+null	null	null	
+minecraft:blaze_powder	minecraft:pufferfish_bucket	minecraft:blaze_powder	
+null	minecraft:blaze_powder	null	
+out>>pufferfish_soup	
+
+#wtf_soup
+fish_soup:dreamdust	fish_soup:dreamdust	fish_soup:dreamdust	
+fish_soup:dreamdust	fish_soup:fish_soup	fish_soup:dreamdust	
+fish_soup:dreamdust	fish_soup:dreamdust	fish_soup:dreamdust	
+out>>wtf_soup	
+
+#dream_medicine
+dreamland:dreamdust	null	dreamland:dreamdust	
+null	minecraft:diamond	null	
+dreamland:dreamdust	minecraft:glass	dreamland:dreamdust	
+out>>dream_medicine	
+
+#wake_up_medicine
+dreamland:dreamdust	null	dreamland:dreamdust	
+null	minecraft:redstone_block	null	
+dreamland:dreamdust	minecraft:glass	dreamland:dreamdust	
+out>>wake_up_medicine	
+
+#dream_timer
+minecraft:glass	minecraft:glass	minecraft:glass	
+dreamland:dreamdust	minecraft:sand	dreamland:dreamdust	
+minecraft:glass	minecraft:glass	minecraft:glass	
+out>>dream_timer	
+
+#elytra
+minecraft:phantom_membrane	null	minecraft:phantom_membrane	
+minecraft:phantom_membrane	dreamland:phantom_skelecton	minecraft:phantom_membrane	
+minecraft:phantom_membrane	null	minecraft:phantom_membrane	
+out>>minecraft:elytra	
+
+#dream_tailsman
+null	dreamland:dream_power_core	null	
+dreamland:illusory_ingot	null	dreamland:unnamed_ingot	
+dreamland:nightmare_essence	dreamland:dream_org_ingot	dreamland:sweetdream_essence	
+out>>dream_tailsman	
+
+#magic_plate
+minecraft:diamond	dreamland:dream_essence	minecraft:diamond	
+dreamland:dream_essence	dreamland:xp_extract_needle	dreamland:dream_essence	
+minecraft:diamond	dreamland:dream_essence	minecraft:diamond	
+out>>dreamland:magic_plate	
+
+#dream_wand
+dreamland:dream_org_ingot	dreamland:dream_power_core	dreamland:dream_org_ingot	
+null	dreamland:dream_org_ingot	null	
+dreamland:wand_blueprint	null	dreamland:dream_org_ingot	
+null	
+
+#choas_wand
+dreamland:unnamed_ingot	dreamland:chaotic_crystallization	dreamland:illusory_ingot	
+dreamland:chaotic_crystallization	dreamland:dream_org_ingot	dreamland:chaotic_crystallization	
+null	dreamland:dream_wand	null	
+out>>dreamland:choas_wand	
+

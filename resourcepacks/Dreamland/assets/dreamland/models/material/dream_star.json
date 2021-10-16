@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"1": "dreamland:material/dream_star",
+		"particle": "dreamland:material/dream_star",
+		"layer0": "dreamland:material/dream_star"
+	},
+	"display": {
+		"gui": {
+			"translation": [-0.5, 0.5, 0]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/milk_bucket"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"fish_soup:soup/fish_soup"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"fish_soup:soup/pufferfish_soup"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"fish_soup:soup/wtf_soup"
+        }
+    ]
+}

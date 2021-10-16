@@ -1,0 +1,45 @@
+#合成表，利用脚本读取
+#null 代表不放东西 out>>代表产物
+#这里放的是未实装物品
+
+#dark_eye
+null	minecraft:blaze_powder	null	
+minecraft:blaze_powder	dreamland:dark_pearl	minecraft:blaze_powder	
+minecraft:glowstone_dust	minecraft:glowstone_dust	minecraft:glowstone_dust	
+out>>dark_eye	
+
+#dream_beacon
+null	dreamland:dream_star	null	
+minecraft:glass	minecraft:beacon	minecraft:glass	
+minecraft:glass	minecraft:glass	minecraft:glass	
+out>>dream_beacon	
+
+#pufferfish_soup
+null	null	null	
+minecraft:blaze_powder	minecraft:pufferfish_bucket	minecraft:blaze_powder	
+null	minecraft:blaze_powder	null	
+out>>pufferfish_soup	
+
+#wtf_soup
+fish_soup:dreamdust	fish_soup:dreamdust	fish_soup:dreamdust	
+fish_soup:dreamdust	fish_soup:fish_soup	fish_soup:dreamdust	
+fish_soup:dreamdust	fish_soup:dreamdust	fish_soup:dreamdust	
+out>>wtf_soup
+
+#elytra
+minecraft:phantom_membrane	null	minecraft:phantom_membrane	
+minecraft:phantom_membrane	dreamland:phantom_skelecton	minecraft:phantom_membrane	
+minecraft:phantom_membrane	null	minecraft:phantom_membrane	
+out>>minecraft:elytra	
+
+#dream_wand
+dreamland:dream_org_ingot	dreamland:dream_power_core	dreamland:dream_org_ingot	
+null	dreamland:dream_org_ingot	null    dreamland:wand_blueprint	
+null	dreamland:dream_org_ingot	null	
+
+#choas_wand
+dreamland:unnamed_ingot	dreamland:chaotic_crystallization	dreamland:illusory_ingot	
+dreamland:chaotic_crystallization	dreamland:dream_org_ingot	dreamland:chaotic_crystallization	
+null	dreamland:dream_wand	null	
+out>>dreamland:choas_wand	
+

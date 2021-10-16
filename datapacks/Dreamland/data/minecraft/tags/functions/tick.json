@@ -1,0 +1,16 @@
+{
+	"values":[
+		"dream:timer",
+		"dream:tickmanager",
+		"dream:tick",
+		"dream:items/tick",
+		"dream:items/tick2",
+		"dream:sleep/tick",
+		"dream:structure/dream_tower/tick",
+		"dream:advancement/tick",
+		"dream:structure/tick",
+		"dream:biome/tick",
+		"dream:entity/tick",
+		"fishsoup:tick"
+	]	
+}

@@ -1,0 +1,1 @@
+execute facing entity @p[distance=0..7] eyes run tp @s ^ ^ ^-0.1

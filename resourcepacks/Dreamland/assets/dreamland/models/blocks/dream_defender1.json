@@ -1,0 +1,12 @@
+{
+    "parent":"dreamland:parents/block",
+    "textures":{
+        "particle":"dreamland:blocks/dream_defender_side",
+        "down":"block/cobblestone",
+        "up":"dreamland:blocks/dream_defender_top",
+        "north":"dreamland:blocks/dream_defender_side",
+        "east":"dreamland:blocks/dream_defender_side",
+        "south":"dreamland:blocks/dream_defender_side",
+        "west":"dreamland:blocks/dream_defender_side"
+    }
+}

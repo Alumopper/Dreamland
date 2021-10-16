@@ -1,0 +1,164 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/light_blue_dye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:material/dream_essence"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:material/sweetdream_essence"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:material/nightmare_essence"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12004
+            },
+            "model":"dreamland:material/slime_tear"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12005
+            },
+            "model":"dreamland:material/dimension_core"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12006
+            },
+            "model":"dreamland:tools/cloud_umbrella"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12007
+            },
+            "model":"dreamland:material/dream_power_core"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12008
+            },
+            "model":"dreamland:tools/dream_timer"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12009
+            },
+            "model":"dreamland:material/phantom_skelecton"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120010
+            },
+            "model":"dreamland:tools/dream_tailsman"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120011
+            },
+            "model":"dreamland:material/chaotic_crystallization"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120012
+            },
+            "model":"dreamland:material/unicorn_horn"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120013
+            },
+            "model":"dreamland:material/fishing_rod_blueprint"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120014
+            },
+            "model":"dreamland:material/wand_blueprint"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120015
+            },
+            "model":"dreamland:gui/crafting_table_gui"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120016
+            },
+            "model":"dreamland:material/memory_fragment"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120017
+            },
+            "model":"dreamland:picture/pc_crash"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120018
+            },
+            "model":"dreamland:gui/craftingtable_gui"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120019
+            },
+            "model":"dreamland:gui/example"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120020
+            },
+            "model":"dreamland:gui/infuse_table_gui"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120021
+            },
+            "model":"dreamland:gui/dream_dbtower_gui"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120022
+            },
+            "model":"dreamland:material/cloud"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120023
+            },
+            "model":"dreamland:gui/dream_portal/gui"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120024
+            },
+            "model":"dreamland:gui/dream_portal/empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120025
+            },
+            "model":"dreamland:gui/dream_portal/sweetdream"
+        },
+        {
+            "predicate": {
+                "custom_model_data":120026
+            },
+            "model":"dreamland:gui/dream_portal/nightmare"
+        }
+    ]
+}

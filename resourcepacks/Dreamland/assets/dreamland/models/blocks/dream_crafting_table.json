@@ -1,0 +1,12 @@
+{
+    "parent":"dreamland:parents/block",
+    "textures":{
+        "particle":"dreamland:blocks/dream_crafting_table_front",
+        "down":"block/oak_planks",
+        "up":"dreamland:blocks/dream_crafting_table_top",
+        "north":"dreamland:blocks/dream_crafting_table_front",
+        "east":"dreamland:blocks/dream_crafting_table_side",
+        "south":"dreamland:blocks/dream_crafting_table_side",
+        "west":"dreamland:blocks/dream_crafting_table_front"
+    }
+}

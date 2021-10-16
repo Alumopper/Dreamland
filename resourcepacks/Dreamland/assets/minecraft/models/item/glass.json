@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "minecraft:block/glass"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:test/test"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:entity/dream_protector"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:entity/balloon_slime"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12004
+            },
+            "model":"dreamland:entity/nightmare"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12005
+            },
+            "model":"dreamland:entity/marine"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:tools/dream_org_axe"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:tools/illusory_axe"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:tools/unnamed_axe"
+        },
+        {
+            "predicate":{
+                "custom_model_data":12004
+            },
+            "model":"dreamland:tools/dream_god_axe"
+        }
+    ]
+}

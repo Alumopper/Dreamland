@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dreamland:tools/cloud_gun"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [4, -90, 0],
+			"translation": [0, 2.25, -1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 2.25, -1.5]
+		}
+	}
+}

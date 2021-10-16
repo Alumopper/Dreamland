@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "fish_soup:items/fisheye_gem"
+    }
+}

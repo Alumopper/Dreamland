@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dreamland:tools/xp_extract_needle"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -90, -43],
+			"translation": [0, 4, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, -90, 43],
+			"translation": [0, 4, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

@@ -1,0 +1,2 @@
+particle dust 0.114 0.675 1 1 ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute unless entity @e[distance=0..0.5,tag=dream_bed] unless entity @e[distance=0..0.5,tag=dream_breaker] positioned ^ ^ ^0.2 run function dream:tower/sray

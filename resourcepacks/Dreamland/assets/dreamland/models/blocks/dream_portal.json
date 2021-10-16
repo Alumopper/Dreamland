@@ -1,0 +1,12 @@
+{
+    "parent":"dreamland:parents/block",
+    "textures":{
+        "particle":"dreamland:blocks/dream_portal_top",
+        "down":"dreamland:blocks/infuse_table_bottom",
+        "up":"dreamland:blocks/dream_portal_top",
+        "north":"dreamland:blocks/dream_portal_side",
+        "east":"dreamland:blocks/dream_portal_side",
+        "south":"dreamland:blocks/dream_portal_side",
+        "west":"dreamland:blocks/dream_portal_side"
+    }
+}

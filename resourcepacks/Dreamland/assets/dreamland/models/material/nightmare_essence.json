@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "dreamland:material/nightmare_essence"
+    },
+	"display": {
+		"gui": {
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

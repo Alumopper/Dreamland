@@ -1,0 +1,101 @@
+{
+    "precipitation": "rain",
+    "category": "plains",
+    "depth": 0.1,
+    "scale": 0.2,
+    "temperature": 0.65,
+    "temperature_modifier": "none",
+    "downfall": 0.2,
+    "effects":{
+        "sky_color": 16497629,
+        "fog_color": 16764904,
+        "foliage_color": 16614350,
+        "grass_color": 16755400,
+        "water_color":16751554,
+        "water_fog_color": 16741290
+    },
+    "surface_builder": "dream:dream",
+    "carvers": {
+        "air": [
+            "minecraft:cave"
+        ],
+        "liquid": [
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [   
+            "minecraft:lake_water"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:ore_coal",
+            "minecraft:ore_iron",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_lapis",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"],
+        [],
+        [
+            "minecraft:patch_tall_grass_2",
+            "minecraft:plain_vegetation",
+            "minecraft:flower_plain_decorated",
+            "minecraft:patch_grass_plain",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin",
+            "minecraft:spring_water"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "starts": [
+        
+    ],
+    "spawners": {
+        "creature": [
+            {
+                "type": "sheep",
+                "weight": 10,
+                "maxCount": 4,
+                "minCount": 4
+            },
+            {
+                "type": "pig",
+                "weight": 10,
+                "maxCount": 4,
+                "minCount": 4
+            },
+            {
+                "type": "mooshroom",
+                "weight": 9,
+                "maxCount": 4,
+                "minCount": 4
+            }
+        ],
+        "water_ambient": [],
+        "monster": [
+            {
+                "type": "minecraft:slime",
+                "weight": 2,
+                "maxCount": 2,
+                "minCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

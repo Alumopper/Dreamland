@@ -1,0 +1,6 @@
+{
+    "parent": "dreamland:parents/picture",
+    "textures": {
+        "layer0": "dreamland:picture/pc_crash"
+    }
+}

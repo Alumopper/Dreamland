@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_chestplate"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:armors/dream_org_chestplate"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:armors/illusory_chestplate"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:armors/unnamed_chestplate"
+        }
+    ]
+}

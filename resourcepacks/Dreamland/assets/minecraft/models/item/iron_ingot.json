@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_ingot"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data":12001
+            },
+            "model":"dreamland:material/dream_org_ingot"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12002
+            },
+            "model":"dreamland:material/illusory_ingot"
+        },
+        {
+            "predicate": {
+                "custom_model_data":12003
+            },
+            "model":"dreamland:material/unnamed_ingot"
+        }
+    ]
+}
