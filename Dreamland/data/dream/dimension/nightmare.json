@@ -1,0 +1,78 @@
+{
+    "type":"dream:nightmare",
+    "generator":{
+        "type":"minecraft:noise",
+        "seed":0,
+        "settings":"dream:nightmare",
+        "biome_source":{
+            "type": "multi_noise",
+            "altitude_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "humidity_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "temperature_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "weirdness_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
+            "seed": 0,
+            "biomes": [
+                {
+                    "biome": "dream:deepdeepdark",
+                    "parameters": {
+                        "erosion": 0.2,
+                        "depth": 0.2,
+                        "continentalness": 0.2,
+                        "humidity": 0.2,
+                        "temperature": 0.0,
+                        "weirdness": -0.1,
+                        "offset": 0.4
+                    }
+                },
+                {
+                    "biome": "dream:scarlet",
+                    "parameters": {
+                        "erosion": 0.2,
+                        "depth": 0.2,
+                        "continentalness": 0.2,
+                        "humidity": 0.1,
+                        "temperature": 0.2,
+                        "weirdness": -0.0,
+                        "offset": 0.5
+                    }
+                },
+                {
+                    "biome": "dream:stoneshore",
+                    "parameters": {
+                        "erosion": 0.2,
+                        "depth": 0.2,
+                        "continentalness": 0.2,
+                        "humidity": -0.2,
+                        "temperature": 0.1,
+                        "weirdness": -0.0,
+                        "offset": 0.5
+                    }
+                }
+            ]
+        }
+    }
+}

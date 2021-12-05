@@ -1,0 +1,83 @@
+{
+    "sea_level":0,
+    "disable_mob_generation":false,
+    "structures":{
+        "structures": {
+            "minecraft:village":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:ruined_portal":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:stronghold":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:pillager_outpost":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:mineshaft":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            }
+        }
+    },
+    "noise":{
+        "top_slide":{
+            "target":-2500,
+            "size":64,
+            "offset":-46
+        },
+        "bottom_slide":{
+            "target":-30,
+            "size":7,
+            "offset":1    
+        },
+        "sampling":{
+            "xz_scale":2.0,
+            "xz_factor":80.0,
+            "y_scale":2.0,
+            "y_factor":160.0
+        },
+        "size_vertical":1,
+        "size_horizontal":2,
+        "height":256,
+        "min_y":0,
+        "terrain_shaper": {
+            "offset": 0,
+            "factor": 0,
+            "jaggedness": 0
+        }
+    },
+    "default_block":{
+        "Name":"minecraft:stone"
+    },
+    "default_fluid":{
+        "Name":"minecraft:water",
+        "Properties":{
+            "level":"0",
+            "falling":"false"
+        }
+    },
+    "aquifers_enabled":false,
+    "deepslate_enabled":true,
+    "noise_caves_enabled":false,
+    "noodle_caves_enabled":false,
+    "ore_veins_enabled":true,
+    "min_surface_level":0,
+    "surface_rule": {
+        "type": "minecraft:block",
+        "result_state": {
+            "Name": "minecraft:stone"
+        }
+    },
+    "legacy_random_source": false
+}

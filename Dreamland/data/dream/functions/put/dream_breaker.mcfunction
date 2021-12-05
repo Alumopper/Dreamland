@@ -1,0 +1,4 @@
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ chest{CustomName:'"梦崩毁塔"'}
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Small:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:120011}}],Pose:{LeftArm:[0.0f,0.0f,0.0f]},Tags:["dream_breaker","dream_block"]}
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:120012}}],Pose:{LeftArm:[0.0f,0.0f,0.0f]},Tags:["dream_breaker","dream_block","dream_db"]}
+tag @s remove dream_breaker

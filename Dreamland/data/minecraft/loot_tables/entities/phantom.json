@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0.0,
+                  "max": 1.0,
+                  "type": "minecraft:uniform"
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 0.0,
+                  "max": 1.0
+                }
+              }
+            ],
+            "name": "minecraft:phantom_membrane"
+          },
+          {
+              "type": "minecraft:item",
+              "functions":[
+                  {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{CustomModelData:120009,display:{Name:'[{\"translate\":\"dream.item.name.phantom_skelecton\",\"italic\":false}]'},tag:{id:\"dreamland:phantom_skelecton\"}}"
+                  }
+              ],
+              "name": "minecraft:light_blue_dye",
+              "conditions": [
+                  {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.05
+                  }
+              ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      }
+    ]
+  }

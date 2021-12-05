@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:item",
+        "minecraft:player",
+        "minecraft:chicken",
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:slime"
+    ]
+}

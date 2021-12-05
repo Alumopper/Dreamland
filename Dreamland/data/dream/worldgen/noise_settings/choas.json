@@ -1,0 +1,82 @@
+{
+    "sea_level":-15,
+    "disable_mob_generation":false,
+    "structures":{
+        "structures": {
+            "minecraft:village":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:ruined_portal":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:stronghold":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:pillager_outpost":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            },
+            "minecraft:mineshaft":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            }
+        }
+    },
+    "noise":{
+        "top_slide":{
+            "target":0,
+            "size":5,
+            "offset":-46
+        },
+        "bottom_slide":{
+            "target":-30,
+            "size":7,
+            "offset":1    
+        },
+        "sampling":{
+            "xz_scale":100.0,
+            "xz_factor":10.0,
+            "y_scale":0.2,
+            "y_factor":10.0
+        },
+        "size_vertical":1,
+        "size_horizontal":2,
+        "height":144,
+        "min_y":-16,
+        "amplified": false,
+        "terrain_shaper": {
+            "offset": 0,
+            "factor": 0,
+            "jaggedness": 0
+        }
+    },
+    "default_block":{
+        "Name":"minecraft:stone"
+    },
+    "default_fluid":{
+        "Name":"minecraft:water",
+        "Properties":{
+            "level":"0",
+            "falling":"false"
+        }
+    },
+    "aquifers_enabled":false,
+    "noise_caves_enabled":false,
+    "noodle_caves_enabled":false,
+    "ore_veins_enabled":false,
+    "legacy_random_source": false,
+    "surface_rule": {
+        "type": "minecraft:block",
+        "result_state": {
+            "Name": "minecraft:stone"
+        }
+    }
+}

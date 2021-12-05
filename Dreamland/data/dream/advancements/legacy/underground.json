@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:lava_bucket"
+        },
+        "title":{"text":"岩石之下"},
+        "frame":"task",
+        "description":"万恶之源",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "parent":"dream:legacy/nightmare",
+    "criteria": {
+      "wtf":{
+        "trigger":"minecraft:impossible"
+      }
+    }
+}

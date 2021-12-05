@@ -1,0 +1,82 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                                }
+                        },
+                        {
+                        "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0.0,
+                                "max": 1.0
+                            }
+                        }
+                    ],
+                    "name": "minecraft:arrow"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0.0,
+                                "max": 2.0,
+                            "type": "minecraft:uniform"
+                        }
+                    },
+                    {
+                        "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0.0,
+                                "max": 1.0
+                            }
+                    }
+                    ],
+                    "name": "minecraft:bone"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                    {
+                        "type": "item",
+                        "name": "minecraft:light_blue_dye",
+                        "functions": [
+                            {
+                                "function": "set_nbt",
+                                "tag": "{CustomModelData:120003,display:{Name:'[{\"translate\":\"dream.item.name.nightmare_essence\",\"italic\":false}]'},tag:{id:\"dreamland:nightmare_essence\"}}"
+                            }
+                        ]
+                    }
+                ],
+                "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance":0.2,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        }
+    ]
+  }

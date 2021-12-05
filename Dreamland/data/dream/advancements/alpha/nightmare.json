@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120003}"
+        },
+        "title": {"translate":"dream.advancement.alpha.nightmare.title"},
+        "description": {"translate":"dream.advancement.alpha.nightmare.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to":"dream:nightmare"
+            }
+        }
+    },
+    "parent": "dream:alpha/goodnight"
+}

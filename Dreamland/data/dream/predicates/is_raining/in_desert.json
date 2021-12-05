@@ -1,0 +1,126 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "biome": "minecraft:desert"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:desert_hills"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:desert_lakes"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:badlands"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:badlands_plateau"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:snowy_beach"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:snowy_mountains"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:snowy_taiga"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:snowy_taiga_hills"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:snowy_taiga_mountains"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:snowy_tundra"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "biome":"minecraft:ice_spikes"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location":{
+                    "position": {
+                        "y": {
+                            "min":100
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

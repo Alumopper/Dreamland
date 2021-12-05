@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:iron_ingot"
+        },
+        "title":{"text":"轻盈如毛"},
+        "frame":"task",
+        "description":"芜湖起飞",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "parent":"dream:legacy/dreamdust",
+    "criteria": {
+        "wtf":{
+        "trigger":"minecraft:impossible"
+        }
+    }
+}

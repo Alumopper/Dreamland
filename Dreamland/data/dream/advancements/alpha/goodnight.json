@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
+        "title": {"translate":"dream.advancement.alpha.goodnight.title"},
+        "description": {"translate":"dream.advancement.alpha.goodnight.disc"},
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

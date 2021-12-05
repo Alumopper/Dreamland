@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120001}"
+        },
+        "title": {"translate":"dream.advancement.alpha.dream_essence.title"},
+        "description": {"translate":"dream.advancement.alpha.dream_essence.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:light_blue_dye"],
+                        "nbt": "{tag:{id:\"dreamland:dream_essence\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dream:alpha/goodnight"
+}

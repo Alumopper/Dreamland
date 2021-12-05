@@ -1,0 +1,2 @@
+#{ ArmorItems:[{},{},{},{id:"glass",Count:1b,tag:{CustomModelData:120005}}]}
+summon armor_stand ~14 ~17 ~16 {ArmorItems:[{},{},{},{id:"glass",Count:1b,tag:{CustomModelData:120005}}],Invisible:true,Tags:["dream_marine"],NoGravity:true,Rotation:[0.0f,0.0f]}

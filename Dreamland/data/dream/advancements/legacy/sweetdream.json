@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:pink_bed"
+        },
+        "title":{"text":"甜蜜的梦"},
+        "frame":"task",
+        "description":"流连忘返",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "parent":"dream:legacy/goodnight",
+    "criteria": {
+      "wtf":{
+        "trigger":"minecraft:impossible"
+      }
+    }
+}

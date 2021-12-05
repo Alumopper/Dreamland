@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot",
+            "nbt": "{CustomModelData:120002}"
+        },
+        "title": {"translate":"dream.advancement.alpha.light_as_feather.title"},
+        "description": {"translate":"dream.advancement.alpha.light_as_feather.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["iron_ingot"],
+                        "nbt": "{CustomModelData:120002}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dream:alpha/from_imagination"
+}

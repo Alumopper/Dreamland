@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "title": {"translate":"dream.advancement.beta.back_to_overworld.title"},
+        "description": {"translate":"dream.advancement.beta.back_to_overworld.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dream:beta/dream_edge"
+}

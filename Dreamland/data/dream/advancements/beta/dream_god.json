@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120005}"
+        },
+        "title": {"translate":"dream.advancement.beta.dream_god.title"},
+        "description": {"translate":"dream.advancement.beta.dream_god.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dream:beta/choas"
+}

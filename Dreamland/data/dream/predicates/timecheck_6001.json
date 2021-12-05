@@ -1,0 +1,4 @@
+{
+    "condition": "minecraft:time_check",
+    "value":6001
+}

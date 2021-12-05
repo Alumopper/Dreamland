@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{tag:{id:\"dreamland:dream_essence\"},CustomModelData:120001,display:{Name:'[{\"translate\":\"dream.item.name.dream_essence\",\"italic\": false}]'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

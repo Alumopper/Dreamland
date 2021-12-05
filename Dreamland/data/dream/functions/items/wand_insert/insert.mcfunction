@@ -1,0 +1,9 @@
+#注入
+item modify entity @s weapon.mainhand dream:wand_insert
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:fire_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run item modify entity @s weapon.mainhand dream:wand_setlore/fire
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:water_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run item modify entity @s weapon.mainhand dream:wand_setlore/water
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:void_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run item modify entity @s weapon.mainhand dream:wand_setlore/void
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:natural_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run item modify entity @s weapon.mainhand dream:wand_setlore/natural
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:ender_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run item modify entity @s weapon.mainhand dream:wand_setlore/ender
+#无效化
+item modify entity @s weapon.offhand dream:crystal_disable

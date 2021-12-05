@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:120004}"
+        },
+        "title": {"translate":"dream.advancement.alpha.infuse_master.title"},
+        "description": {"translate":"dream.advancement.alpha.infuse_master.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["carrot_on_a_stick"],
+                        "nbt": "{CustomModelData:120004}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dream:alpha/made_in_dreamland"
+}

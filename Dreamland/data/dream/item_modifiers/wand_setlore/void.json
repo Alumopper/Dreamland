@@ -1,0 +1,8 @@
+{
+    "function": "minecraft:set_lore",
+    "replace": false,
+    "entity": "this",
+    "lore": [
+        {"translate": "dream.item.wand.name.void","color": "#E6E6E6"}
+    ]
+}

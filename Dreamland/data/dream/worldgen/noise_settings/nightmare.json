@@ -1,0 +1,63 @@
+{
+    "sea_level":0,
+    "disable_mob_generation":false,
+    "structures":{
+        "structures":{
+            "minecraft:mineshaft":{
+                "spacing":1000,
+                "separation":990,
+                "salt":56484
+            }
+        }
+    },
+    "noise":{
+        "top_slide":{
+            "target":120,
+            "size":3,
+            "offset":0
+        },
+        "bottom_slide":{
+            "target":320,
+            "size":5,
+            "offset":-1    
+        },
+        "sampling":{
+            "xz_scale":2.0,
+            "xz_factor":80.0,
+            "y_scale":2.0,
+            "y_factor":60.0
+        },
+        "size_vertical":1,
+        "size_horizontal":2,
+        "height":256,
+        "min_y":0,
+        "terrain_shaper": {
+            "offset": 0.019921875,
+            "factor": 0,
+            "jaggedness": 0
+        }
+    },
+    "default_block":{
+        "Name":"minecraft:stone"
+    },
+    "default_fluid":{
+        "Name":"minecraft:lava",
+        "Properties":{
+            "level":"0",
+            "falling":"false"
+        }
+    },
+    "aquifers_enabled":false,
+    "deepslate_enabled":false,
+    "noise_caves_enabled":false,
+    "noodle_caves_enabled":false,
+    "ore_veins_enabled":false,
+    "min_surface_level":0,
+    "legacy_random_source": false,
+    "surface_rule": {
+        "type": "minecraft:block",
+        "result_state": {
+            "Name": "minecraft:stone"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  	"type": "minecraft:entity",
+  	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_blue_dye",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 120031, display: {Name: '[{\"translate\":\"dream.item.name.ender_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.teleport\",\"color\": \"#9A2EFE\"}']}, tag: {id: \"dreamland:ender_crystal\",WandEx:[5]}}"
+						}
+					]
+				}
+			]
+		}
+  	]
+}

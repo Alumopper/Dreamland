@@ -1,0 +1,6 @@
+#检测玩家副手持有的物品
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:fire_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run function dream:items/wand_insert/insert
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:water_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run function dream:items/wand_insert/insert
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:void_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run function dream:items/wand_insert/insert
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:natural_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run function dream:items/wand_insert/insert
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:ender_crystal"}}}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run function dream:items/wand_insert/insert

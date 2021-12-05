@@ -1,0 +1,8 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "replace": true,
+    "lore": [
+        {"translate":"dream.item.wand.name.invalid","color": "white"}
+    ]
+}

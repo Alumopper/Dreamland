@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"dream.item.name.dream_org_ingot\",\"italic\":false}]'},tag:{id:\"dreamland:dream_org_ingot\"}}"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "dream:if_entity/in_dream"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_ore"
+              }
+            ]
+          } 
+        ],
+        "conditions": [
+            {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      },
+      {
+          "rolls": 1,
+          "entries": [
+              
+          ]
+      }
+    ]
+  }

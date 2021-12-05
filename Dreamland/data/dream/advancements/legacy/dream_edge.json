@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:clock"
+        },
+        "title":{"text":"梦之边缘"},
+        "frame":"task",
+        "description":"来了",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false
+    },
+    "parent":"dream:legacy/the_end",
+    "criteria": {
+      "wtf":{
+        "trigger":"minecraft:impossible"
+      }
+    }
+}

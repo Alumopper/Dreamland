@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot",
+            "nbt": "{CustomModelData:120003}"
+        },
+        "title": {"translate":"dream.advancement.alpha.the_unnamed_one.title"},
+        "description": {"translate":"dream.advancement.alpha.the_unnamed_one.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["iron_ingot"],
+                        "nbt": "{CustomModelData:120003}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dream:alpha/from_imagination"
+}

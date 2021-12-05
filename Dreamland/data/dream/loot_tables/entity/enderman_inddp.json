@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.15
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"dream.item.name.dark_pearl\",\"italic\":false}]'},tag:{id:\"dreamland:dark_pearl\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

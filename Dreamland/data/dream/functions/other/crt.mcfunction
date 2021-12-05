@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{tag:{id:"dreamland:creative"}}

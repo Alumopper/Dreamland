@@ -1,0 +1,103 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 5,
+                                "min": 3
+                            }
+                        }
+                    ],
+                    "name": "minecraft:blaze_rod",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 10,
+                                "min": 8
+                            }
+                        }
+                    ],
+                    "name": "minecraft:blaze_powder",
+                    "conditions":[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": ["fire_protection","flame"]
+                        }
+                    ],
+                    "name": "minecraft:enchanted_book",
+                    "conditions":[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.02
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        }
+                    ],
+                    "name": "minecraft:magma_cream",
+                    "conditions":[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120027, display: {Name: '[{\"translate\":\"dream.item.name.fire_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.blazing\",\"color\": \"#FF0000\"}']}, tag: {id: \"dreamland:fire_crystal\",WandEx:[1]}}"
+                        }
+                    ],
+                    "name": "minecraft:light_blue_dye",
+                    "conditions":[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                }
+            ]
+        }
+    ]  
+}

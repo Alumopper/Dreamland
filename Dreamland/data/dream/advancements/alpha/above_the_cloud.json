@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz_block"
+        },
+        "title": {"translate":"dream.advancement.alpha.above_the_cloud.title"},
+        "description": {"translate":"dream.advancement.alpha.above_the_cloud.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dream:alpha/sweetdream"
+}

@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+        {
+            "op": "append",
+            "target": "tag.WandEx",
+            "source": "Inventory[-1].tag.tag.WandEx"
+        }
+    ]
+}

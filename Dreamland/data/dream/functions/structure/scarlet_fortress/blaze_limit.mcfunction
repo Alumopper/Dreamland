@@ -1,0 +1,2 @@
+execute store result score dream_temp_s_s_bl dream_counter if entity @e[type=blaze,distance=0..30]
+execute if score dream_temp_s_s_bl dream_counter matches 10.. run tp @e[type=blaze,distance=0..30,sort=furthest,limit=3] 0 -50 0
