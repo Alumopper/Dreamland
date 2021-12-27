@@ -43,10 +43,18 @@
                     1
                 ]
             },
+            "altitude_noise": {
+                "firstOctave": -7,
+                "amplitudes": [
+                    1,
+                    1
+                ]
+            },
             "biomes": [
                 {
                     "biome": "minecraft:plains",
                     "parameters": {
+                        "altitude": -0.1,
                         "temperature": 0.1,
                         "humidity": -0.2,
                         "weirdness": 0.2,
@@ -59,6 +67,7 @@
                 {
                     "biome": "minecraft:river",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -71,6 +80,7 @@
                 {
                     "biome": "minecraft:ocean",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -83,6 +93,7 @@
                 {
                     "biome": "minecraft:forest",
                     "parameters": {
+                        "altitude": 0.2,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -95,6 +106,7 @@
                 {
                     "biome": "minecraft:desert",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -107,6 +119,7 @@
                 {
                     "biome": "minecraft:badlands",
                     "parameters": {
+                        "altitude": -0.3,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -119,6 +132,7 @@
                 {
                     "biome": "minecraft:end_highlands",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -131,6 +145,7 @@
                 {
                     "biome": "minecraft:nether_wastes",
                     "parameters": {
+                        "altitude": 0.0,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -143,6 +158,7 @@
                 {
                     "biome": "minecraft:warped_forest",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -155,6 +171,7 @@
                 {
                     "biome": "dream:deepdeepdark",
                     "parameters": {
+                        "altitude": 0.5,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -167,6 +184,7 @@
                 {
                     "biome": "dream:scarlet",
                     "parameters": {
+                        "altitude": 0.2,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -179,6 +197,7 @@
                 {
                     "biome": "dream:stoneshore",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -191,6 +210,7 @@
                 {
                     "biome": "dream:pinkplain",
                     "parameters": {
+                        "altitude": -0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -203,6 +223,7 @@
                 {
                     "biome": "dream:slimeland",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -215,6 +236,7 @@
                 {
                     "biome": "dream:sweetdream",
                     "parameters": {
+                        "altitude": 0.2,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,

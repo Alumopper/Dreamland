@@ -56,7 +56,11 @@
             "offset": 0,
             "factor": 0,
             "jaggedness": 0
-        }
+        },
+        "density_factor":0.0,
+        "density_offset":0.0,
+        "simplex_surface_noise":true,
+        "random_density_offset":false
     },
     "default_block":{
         "Name":"minecraft:stone"
@@ -78,5 +82,9 @@
         "result_state": {
             "Name": "minecraft:stone"
         }
-    }
+    },
+    "bedrock_roof_position":-2147483648,
+    "bedrock_floor_position":-2147483648,
+    "min_surface_level":-16,
+    "deepslate_enabled": false
 }

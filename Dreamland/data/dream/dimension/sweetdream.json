@@ -38,6 +38,7 @@
                 {
                     "biome": "dream:sweetdream",
                     "parameters": {
+                        "altitude": -0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -50,6 +51,7 @@
                 {
                     "biome": "dream:slimeland",
                     "parameters": {
+                        "altitude": 0.0,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -62,6 +64,7 @@
                 {
                     "biome": "dream:pinkplain",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,

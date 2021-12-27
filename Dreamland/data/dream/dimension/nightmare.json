@@ -39,6 +39,7 @@
                 {
                     "biome": "dream:deepdeepdark",
                     "parameters": {
+                        "altitude": -0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -51,6 +52,7 @@
                 {
                     "biome": "dream:scarlet",
                     "parameters": {
+                        "altitude": -0.2,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,
@@ -63,6 +65,7 @@
                 {
                     "biome": "dream:stoneshore",
                     "parameters": {
+                        "altitude": 0.1,
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2,

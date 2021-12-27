@@ -35,7 +35,13 @@
             "offset": 0.019921875,
             "factor": 0,
             "jaggedness": 0
-        }
+        },
+        "density_factor": 0,
+        "density_offset": 0,
+        "simplex_surface_noise": false,
+        "amplified": false,
+        "island_noise_override": false,
+        "random_density_offset": false
     },
     "default_block":{
         "Name":"minecraft:stone"
@@ -59,5 +65,7 @@
         "result_state": {
             "Name": "minecraft:stone"
         }
-    }
+    },
+    "bedrock_floor_position": 0,
+    "bedrock_roof_position": 255
 }
