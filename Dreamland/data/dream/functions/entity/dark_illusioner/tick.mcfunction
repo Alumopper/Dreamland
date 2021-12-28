@@ -12,7 +12,7 @@ execute as @e[tag=dream_dark_meteor] at @s run tp @s ~ ~-0.15 ~
     execute as @e[tag=dream_dark_meteor] at @s unless block ~ ~ ~ air run kill @s
 execute at @e[tag=dream_dark_illusioner] if predicate dream:1in100 run summon vex ~ ~ ~
 #距离限制
-execute as @a at @s unless entity @e[tag=dream_dark_illusioner] run effect give @s poison 1 1
+execute as @a at @s unless entity @e[tag=dream_dark_illusioner,distance=..10] run effect give @s poison 1 1
 #检测boss是否存活
 execute unless entity @e[tag=dream_dark_illusioner] run function dream:entity/dark_illusioner/end
 #如果玩家全挂了
