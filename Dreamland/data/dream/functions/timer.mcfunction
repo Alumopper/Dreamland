@@ -47,7 +47,7 @@ execute if score dream_world_collapse dream_timer matches 240000 as @a run funct
 #梦魇计时器
 function dream:entity/nightmare/skills/timer
 #梦魇防御塔自毁
-execute as @e[scores={dream_timer=600}] at @s run function dream:entity/nightmare/skills/funcs/kill_self
+execute as @e[scores={dream_timer=600},tag=dream_nightmare_defend_tower] at @s run function dream:entity/nightmare/skills/funcs/kill_self
 scoreboard players add @e[tag=dream_nightmare_defend_tower] dream_timer 1
 #传送到梦之边境
 execute if score dream_pre_tp_to_ted dream_timer matches 0.. run scoreboard players add dream_pre_tp_to_tec dream_timer 1
@@ -62,5 +62,5 @@ execute if score dream_tec_story dream_timer matches 2074 run scoreboard players
 execute as @e[tag=dream_balloon_slime] run scoreboard players add @s dream_timer 1
 execute as @e[tag=dream_balloon_slime,scores={dream_timer=1200..}] at @s run particle dust 0.094 0.745 0.945 0.75 ~ ~ ~ 0.2 0.2 0.2 0.1 10
 execute as @e[tag=dream_balloon_slime,scores={dream_timer=1200..}] run tp @s ~ -100 ~
-#追逐者寿命
+execute as @e[tag=dream_balloon_slime,scores={dream_timer=1200..}] run scoreboard players reset @s dream_timer
 execute as @e[tag=dream_chaser] run scoreboard players add @s dream_timer 1
