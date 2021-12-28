@@ -8,3 +8,4 @@ bossbar set dream:boss name ["---<",{"translate":"dream.name.boss.dark_illusione
 bossbar set dream:boss max 120
 bossbar set dream:boss color purple
 bossbar set dream:boss visible true
+bossbar set dream:boss players @a
