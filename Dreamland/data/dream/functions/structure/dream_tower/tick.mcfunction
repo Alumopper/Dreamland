@@ -1,3 +1,4 @@
+#<2021.12.28评>真是屎山代码，我当时都在写些什么玩意
 #bossbar
 execute as @e[tag=dream_boss1] store result bossbar dream:boss value run data get entity @e[tag=dream_boss1,limit=1] Health
 execute store result score @e[tag=dream_boss1] dream_boss_hp run data get entity @e[tag=dream_boss1,limit=1] Health
@@ -24,7 +25,7 @@ execute as @e[tag=dream_boss1] at @s unless entity @a[distance=0..60] run functi
 execute as @e[tag=dream_boss1] at @s unless entity @a[distance=0..60] run kill @s
 scoreboard players set dream_if_kill_boss1 dream_counter 1
 #检测Boss是否存活
-execute as @a[tag=dream_fighting_boss1] unless entity @e[tag=dream_boss1] if score dream_gamestage dream_counter matches 1 run function dream:structure/dream_tower/end
+execute as @a[tag=dream_fighting_boss1] unless entity @e[tag=dream_boss1] run function dream:structure/dream_tower/end
 #检测玩家是否进入Boss区
 execute as @p at @p if entity @a[x=-10,y=181,z=-10,dx=20,dy=3,dz=20] if score dream_dreamtowerboss_pre dream_timer matches -1 run scoreboard players set dream_dreamtowerboss_pre dream_timer 0
 execute as @p at @p if entity @a[x=-3,y=181,z=-3,dx=6,dy=3,dz=6] if score dream_dreamtowerboss_pre dream_timer matches -2 run scoreboard players set dream_dreamtowerboss_pre dream_timer 131

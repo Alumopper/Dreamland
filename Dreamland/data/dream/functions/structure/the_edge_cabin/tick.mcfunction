@@ -1,2 +1,2 @@
-execute at @e[tag=dream_marine] if entity @a[distance=0..2] unless score dream_tec_story dream_timer matches 0.. run scoreboard players set dream_tec_story dream_timer 0
+execute at @e[tag=dream_marine] if entity @a[distance=0..2] unless score dream_tec_story dream_timer matches -1.. run scoreboard players set dream_tec_story dream_timer 0
 execute as @e[tag=dream_marine] at @s run tp @s ~ ~ ~ facing entity @p

@@ -33,6 +33,7 @@ scoreboard objectives add dream_p_xp xp "个人经验"
 scoreboard objectives add dream_beacon dummy "信标属性"
 #记录玩家的魔法值
 scoreboard objectives add dream_magic dummy "魔法值"
+execute as @a unless score @s dream_magic matches -2147483648..2147483647 run scoreboard players set @s dream_magic 80
 #记录维度传送时间
 #tpwait值   描述
 #-1         没有在等待被传送
