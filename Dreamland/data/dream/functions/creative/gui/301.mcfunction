@@ -15,12 +15,12 @@ item replace entity @s container.5 with air
 item replace entity @s container.6 with air
 item replace entity @s container.7 with air
 item replace entity @s container.8 with air
-item replace entity @s container.9 with minecraft:carrot_on_a_stick{CustomModelData: 120003, display: {Name: '[{"translate":"dream.item.name.craftingtable","italic":false}]'}, tag: {id: "dreamland:crafting_table"}} 
-item replace entity @s container.10 with minecraft:carrot_on_a_stick{CustomModelData: 120004, display: {Name: '[{"translate":"dream.item.name.infuse_table","italic":false}]'}, tag: {id: "dreamland:infuse_table"}}
-item replace entity @s container.11 with minecraft:carrot_on_a_stick{CustomModelData: 120009, display: {Name: '[{"translate":"dream.item.name.dream_defender","italic":false}]'}, tag: {id: "dreamland:dream_defender"}}
-item replace entity @s container.12 with minecraft:carrot_on_a_stick{CustomModelData: 120011, display: {Name: '[{"translate":"dream.item.name.dream_breaker","italic":false}]'}, tag: {id: "dreamland:dream_breaker"}}
-item replace entity @s container.13 with minecraft:carrot_on_a_stick{CustomModelData: 120006, display: {Name: '[{"translate":"dream.item.name.dream_portal","italic":false}]'}, tag: {id: "dreamland:dream_portal"}}
-item replace entity @s container.14 with minecraft:carrot_on_a_stick{CustomModelData: 120013, display: {Name: '[{"translate":"dream.item.name.dream_beacon","italic":false}]'}, tag: {id: "dreamland:dream_beacon"}}
+item replace entity @s container.9 with minecraft:carrot_on_a_stick{CustomModelData: 120003, display: {Name: '[{"translate":"dream.item.name.craftingtable","italic":false}]'}, tag: {id: "dreamland:crafting_table",isTemp: 0b}} 
+item replace entity @s container.10 with minecraft:carrot_on_a_stick{CustomModelData: 120004, display: {Name: '[{"translate":"dream.item.name.infuse_table","italic":false}]'}, tag: {id: "dreamland:infuse_table",isTemp: 0b}}
+item replace entity @s container.11 with minecraft:carrot_on_a_stick{CustomModelData: 120009, display: {Name: '[{"translate":"dream.item.name.dream_defender","italic":false}]'}, tag: {id: "dreamland:dream_defender",isTemp: 0b}}
+item replace entity @s container.12 with minecraft:carrot_on_a_stick{CustomModelData: 120011, display: {Name: '[{"translate":"dream.item.name.dream_breaker","italic":false}]'}, tag: {id: "dreamland:dream_breaker",isTemp: 0b}}
+item replace entity @s container.13 with minecraft:carrot_on_a_stick{CustomModelData: 120006, display: {Name: '[{"translate":"dream.item.name.dream_portal","italic":false}]'}, tag: {id: "dreamland:dream_portal",isTemp: 0b}}
+item replace entity @s container.14 with minecraft:carrot_on_a_stick{CustomModelData: 120013, display: {Name: '[{"translate":"dream.item.name.dream_beacon","italic":false}]'}, tag: {id: "dreamland:dream_beacon",isTemp: 0b}}
 item replace entity @s container.15 with air
 item replace entity @s container.16 with air
 item replace entity @s container.17 with air

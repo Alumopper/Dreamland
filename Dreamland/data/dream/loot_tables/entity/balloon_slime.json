@@ -22,7 +22,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"dream.item.name.blue_slime_ball\",\"italic\":false}]'},tag:{id:\"dreamland:blue_slime_ball\"}}"
+                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"dream.item.name.blue_slime_ball\",\"italic\":false}]'},tag:{id:\"dreamland:blue_slime_ball\",isTemp: 0b}}"
                         },
                         {
                             "function": "minecraft:set_count",
@@ -45,7 +45,7 @@
                     "functions":[
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:120004,display:{Name:'[{\"translate\":\"dream.item.name.slime_tear\",\"italic\":false}]'},tag:{id:\"dreamland:slime_tear\"}}"
+                            "tag": "{CustomModelData:120004,display:{Name:'[{\"translate\":\"dream.item.name.slime_tear\",\"italic\":false}]'},tag:{id:\"dreamland:slime_tear\",isTemp: 0b}}"
                         }
                     ],
                     "conditions":[

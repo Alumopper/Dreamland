@@ -15,8 +15,8 @@ item replace entity @s container.5 with air
 item replace entity @s container.6 with air
 item replace entity @s container.7 with air
 item replace entity @s container.8 with air
-item replace entity @s container.9 with minecraft:milk_bucket{CustomModelData: 120001, display: {Name: '[{"translate":"fishsoup.item.name.fish_soup","italic":false}]'}, tag: {id: "fishsoup:fish_soup"}}
-item replace entity @s container.10 with minecraft:apple{CustomModelData: 120001, display: {Name: '[{"translate":"fishsoup.item.name.peach","italic":false}]'}, tag: {id: "fishsoup:peach"}}
+item replace entity @s container.9 with minecraft:milk_bucket{CustomModelData: 120001, display: {Name: '[{"translate":"fishsoup.item.name.fish_soup","italic":false}]'}, tag: {id: "fishsoup:fish_soup",isTemp: 0b}}
+item replace entity @s container.10 with minecraft:apple{CustomModelData: 120001, display: {Name: '[{"translate":"fishsoup.item.name.peach","italic":false}]'}, tag: {id: "fishsoup:peach",isTemp: 0b}}
 item replace entity @s container.11 with air
 item replace entity @s container.12 with air
 item replace entity @s container.13 with air

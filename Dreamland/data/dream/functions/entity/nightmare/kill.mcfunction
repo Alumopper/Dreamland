@@ -12,5 +12,6 @@ give @p nether_star{CustomModelData:120001,display: {Name: '[{"translate":"dream
 give @p light_blue_dye{CustomModelData: 120034, display: {Name: '[{"translate":"dream.item.name.memory_fragment","italic":false}]'}, tag: {id: "dreamland:memory_fragment"}} 1
 #游戏阶段设置
 scoreboard players set dream_gamestage dream_counter 4
+scoreboard players set dream_world_collapse dream_counter -3
 #准备传送
 scoreboard players set dream_pre_tp_to_ted dream_timer 0

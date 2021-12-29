@@ -86,7 +86,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120027, display: {Name: '[{\"translate\":\"dream.item.name.fire_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.blazing\",\"color\": \"#FF0000\"}']}, tag: {id: \"dreamland:fire_crystal\",WandEx:[1]}}"
+                            "tag": "{CustomModelData: 120027, display: {Name: '[{\"translate\":\"dream.item.name.fire_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.blazing\",\"color\": \"#FF0000\"}']}, tag: {id: \"dreamland:fire_crystal\",WandEx:[1],isTemp: 0b}}"
                         }
                     ],
                     "name": "minecraft:light_blue_dye",
