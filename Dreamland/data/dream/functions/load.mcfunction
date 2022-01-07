@@ -19,6 +19,13 @@ scoreboard objectives add dream_counter dummy "计数器"
     #4--二周目
     #define score_holder dream_gamestage "游戏阶段"
     execute unless score dream_if_kill_boss1 dream_counter matches -2147483648..2147483647 run scoreboard players set dream_gamestage dream_counter 0
+    #最后的故事
+    #-1-还没开始
+    #0-剧情：太空舱
+    #1-剧情：记忆深渊
+    #2-剧情：最后的Boss
+    #3-剧情：离开梦境
+    execute unless score dream_finalstotystage dream_counter matches -2147483648..2147483647 run scoreboard players set dream_finalstotystage dream_counter -1
     execute unless score dream_infuse_stage dream_counter matches -2147483648..2147483647 run scoreboard players set dream_infuse_stage dream_counter 0
     execute unless score dream_blackhole_radius dream_counter matches -2147483648..2147483647 run scoreboard players set dream_blackhole_radius dream_counter 5
 #判断玩家挥剑次数

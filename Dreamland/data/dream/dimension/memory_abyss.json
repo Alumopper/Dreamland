@@ -1,0 +1,24 @@
+{
+    "type": "dream:memory_abyss",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [
+                {
+                    "block": "minecraft:air",
+                    "height": 1
+                }
+            ],
+            "biome": "minecraft:plains",
+            "lakes": false,
+            "structures": {
+                "stronghold": {
+                    "count": 1,
+                    "distance": 1023,
+                    "spread": 1023
+                },
+                "structures": {}
+            }
+        }
+    }
+}
