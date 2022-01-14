@@ -93,6 +93,14 @@
                 "minCount": 1,
                 "maxCount": 3
             }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:bat",
+                "weight": 100,
+                "maxCount": 3,
+                "minCount": 3
+            }
         ]
     },
     "spawn_costs": {},
