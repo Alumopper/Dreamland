@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Gener",
+            "request": "launch",
+            "mainClass": "Dreamland.data.dream.functions.particle.spreading_circle.Gener",
+            "projectName": "datapacks_578b7f1f"
+        },
+        {
+            "type": "java",
             "name": "Launch Spliter",
             "request": "launch",
             "mainClass": "Spliter",

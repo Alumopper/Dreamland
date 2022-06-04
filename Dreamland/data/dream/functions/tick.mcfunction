@@ -37,3 +37,5 @@ tag @a remove dream_sneaking
 execute as @a[scores={dream_shift=1..}] run function dream:other/sneak
 #记录玩家钓鱼行为
 execute as @a if score @s dream_fishing matches 1.. run function dream:other/fishing
+#
+function dream:particle/tick

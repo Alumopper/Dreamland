@@ -93,6 +93,11 @@ scoreboard objectives add dream_playerno dummy "玩家编号"
 #生成追逐者的延时
 scoreboard objectives add dream_chaser_sm dummy "追逐者生成延时"
     execute as @a unless score @s dream_chaser_sm matches -2147483648..2147483647 run scoreboard players set @s dream_chaser_sm 0
+#粒子圆的半径(*0.1倍率，即一位小数)
+scoreboard objectives add dream_par_rad dummy "圆半径"
+#粒子扩散圆的标号
+scoreboard objectives add dream_par_id dummy "粒子圆标记"
+    scoreboard players set $static_par_id dream_par_id 0
 #bossbar区
 #经验池，全部玩家通用
 bossbar add dream:xp ["经验池   ",{"score": {"objective": "dream_xp","name": "xp"}},"/10000"]

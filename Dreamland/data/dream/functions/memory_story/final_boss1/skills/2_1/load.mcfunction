@@ -1,0 +1,1 @@
+effect give @a levitation 233 47 false
