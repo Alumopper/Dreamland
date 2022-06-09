@@ -1,0 +1,1 @@
+execute at @a run summon endermite ~ ~ ~ {Lifetime:2300}

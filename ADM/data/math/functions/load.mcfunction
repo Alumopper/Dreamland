@@ -11,4 +11,5 @@ scoreboard players set C_10 math_count 10
 scoreboard players set C_20 math_count 20
 scoreboard players set C_27 math_count 27
 scoreboard players set C_100 math_count 100
+scoreboard players set C_3919 math_count 3919
 scoreboard players set C_10000 math_count 10000

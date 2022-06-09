@@ -1,0 +1,1 @@
+execute as @e[tag=dream_playerpos_tracker] facing entity @s eyes run function dream:memory_story/final_boss1/skills/1_3/line

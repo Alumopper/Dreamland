@@ -1,0 +1,1 @@
+execute as @a at @s facing 495 ~ 495 run tp ^ ^ ^0.2
