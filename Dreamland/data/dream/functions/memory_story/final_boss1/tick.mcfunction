@@ -8,3 +8,5 @@ execute as @e[tag=dream_playerpos_tracker] at @s run function dream:memory_story
 scoreboard players operation $dream_t_mbet_a dream_counter = C_3919 math_count
 scoreboard players operation $dream_t_mbet_a dream_counter -= $dream_finalskill_psummon_timer dream_timer
 execute store result bossbar dream:boss value run scoreboard players get $dream_t_mbet_a dream_counter
+#技能tick
+function dream:memory_story/final_boss1/skills/tick

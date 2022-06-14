@@ -1,3 +1,4 @@
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2619..2670 run function dream:memory_story/final_boss1/timerzip/0-187
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2676..2685 run function dream:memory_story/final_boss1/timerzip/0-188
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2688..2694 run function dream:memory_story/final_boss1/timerzip/0-189
+execute if score $dream_finalskill_psummon_timer dream_timer matches 3375..3384 run function dream:memory_story/final_boss1/timerzip/0-249
+execute if score $dream_finalskill_psummon_timer dream_timer matches 3390..3390 run function dream:memory_story/final_boss1/timerzip/0-250
+execute if score $dream_finalskill_psummon_timer dream_timer matches 3396..3405 run function dream:memory_story/final_boss1/timerzip/0-251
+execute if score $dream_finalskill_psummon_timer dream_timer matches 3405..3411 run function dream:memory_story/final_boss1/timerzip/0-252

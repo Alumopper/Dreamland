@@ -5,9 +5,9 @@ execute as @e[tag=dream_block] at @s unless block ~ ~ ~ chest run function dream
 #检测是否使用胡萝卜钓竿
 execute as @a[scores={dream_using=1..}] run function dream:coas_test
 #工作台合成
-execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s unless block ~ ~ ~ minecraft:chest{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/craft
-execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if block ~ ~ ~ minecraft:chest{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/magic_craft
-execute as @e[tag=dream_craftingtable] if entity @s[tag=dream_crafting] at @s unless block ~ ~ ~ minecraft:chest{Items:[{Slot:16b}]} run tag @s remove dream_crafting
+execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] unless block ~ ~ ~ minecraft:chest{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/craft
+execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] if block ~ ~ ~ minecraft:chest{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/magic_craft
+execute as @e[tag=dream_craftingtable] if entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] unless block ~ ~ ~ minecraft:chest{Items:[{Slot:16b}]} run tag @s remove dream_crafting
 #清除玩家身上不应该有的物品
 clear @a #dream:clear{tag:{isTemp:1b}}
 clear @a light_blue_dye{tag:{id:"dreamland:index"}}
@@ -30,12 +30,10 @@ function dream:infuse/tick
 execute as @a run function dream:effect
 #清除临时物品
 kill @e[nbt={Item:{tag:{tag:{isTemp:1b}}}}]
-#混沌世界
-execute if score dream_gamestage dream_counter matches 3 run function dream:choas/tick
 #检测玩家的潜行
 tag @a remove dream_sneaking
 execute as @a[scores={dream_shift=1..}] run function dream:other/sneak
 #记录玩家钓鱼行为
-execute as @a if score @s dream_fishing matches 1.. run function dream:other/fishing
+execute as @a[scores={dream_fishing=1..}] run function dream:other/fishing
 #
 function dream:particle/tick

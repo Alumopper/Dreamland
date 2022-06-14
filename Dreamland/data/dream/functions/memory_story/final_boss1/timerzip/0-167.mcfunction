@@ -1,3 +1,4 @@
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2253 run say 8
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2259 run say 8
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2265 run say 8
+execute if score $dream_finalskill_psummon_timer dream_timer matches 2031 run say 10
+execute if score $dream_finalskill_psummon_timer dream_timer matches 2034 run say 10
+execute if score $dream_finalskill_psummon_timer dream_timer matches 2037 run say 10
+execute if score $dream_finalskill_psummon_timer dream_timer matches 2040 run say 10
