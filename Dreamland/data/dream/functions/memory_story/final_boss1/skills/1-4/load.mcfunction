@@ -1,1 +1,0 @@
-execute at @e[tag=dream_playerpos_tracker] run summon lightning_bolt ~ ~ ~
