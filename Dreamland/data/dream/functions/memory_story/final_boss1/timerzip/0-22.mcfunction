@@ -1,4 +1,4 @@
-execute if score $dream_finalskill_psummon_timer dream_timer matches 486 run say 4
-execute if score $dream_finalskill_psummon_timer dream_timer matches 495 run say 4
-execute if score $dream_finalskill_psummon_timer dream_timer matches 516 run say 4
-execute if score $dream_finalskill_psummon_timer dream_timer matches 522 run say 4
+execute if score $dream_finalskill_psummon_timer dream_timer matches 486 run function dream:memory_story/final_boss1/skills/1_3/load
+execute if score $dream_finalskill_psummon_timer dream_timer matches 495 run function dream:memory_story/final_boss1/skills/1_3/load
+execute if score $dream_finalskill_psummon_timer dream_timer matches 516 run function dream:memory_story/final_boss1/skills/1_3/load
+execute if score $dream_finalskill_psummon_timer dream_timer matches 522 run function dream:memory_story/final_boss1/skills/1_3/load
