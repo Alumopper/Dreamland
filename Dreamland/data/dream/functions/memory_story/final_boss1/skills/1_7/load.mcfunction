@@ -1,0 +1,1 @@
+execute at @a run summon zombie ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:60.0}]}
