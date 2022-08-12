@@ -1,0 +1,9 @@
+execute rotated 0.0 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 40.17232568840125 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 80.3446513768025 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 120.51697706520375 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 160.689302753605 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 200.86162844200626 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 241.03395413040752 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 281.20627981880875 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1
+execute rotated 321.37860550721 ~ positioned ^ ^ ^0.7131250000000006 run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 1

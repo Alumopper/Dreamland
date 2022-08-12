@@ -5,6 +5,13 @@
             "type": "java",
             "name": "Launch Gener",
             "request": "launch",
+            "mainClass": "Dreamland.data.dream.functions.particle.spreading_circle_small.Gener",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Gener",
+            "request": "launch",
             "mainClass": "Dreamland.data.dream.functions.particle.spreading_circle.Gener",
             "projectName": "datapacks_578b7f1f"
         },
