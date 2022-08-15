@@ -1,1 +1,1 @@
-execute at @a run summon skeleton ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:45.0}]}
+execute at @a run summon skeleton ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:6.0}]}

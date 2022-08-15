@@ -1,1 +1,1 @@
-execute at @a run summon spider ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:30.0}]}
+execute at @a run summon spider ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:5.0}]}
