@@ -1,7 +1,10 @@
 #495 100 495
+#总计时
 execute if score $dream_finalskill_psummon_timer dream_timer matches -100.. run scoreboard players add $dream_finalskill_psummon_timer dream_timer 1
 #技能计时器
-execute if score $dream_finalskill_psummon_timer dream_timer matches -100.. run function dream:memory_story/final_boss1/timer
+execute if score dream_finalboss1_skilltimer dream_timer matches 0.. run function dream:memory_story/final_boss1/skill_timer
+#开始boss战
+execute if score $dream_finalskill_psummon_timer dream_timer matches 0 run function dream:memory_story/final_boss1/start
 #玩家坐标追踪器
 execute as @e[tag=dream_playerpos_tracker] at @s run function dream:memory_story/final_boss1/tracker_chase
 #boss条计算

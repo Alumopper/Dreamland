@@ -40,9 +40,11 @@ public class Gener{
             FileWriter fw2 = new FileWriter("Dreamland/data/dream/functions/particle/spreading_circle/parts/"+(i+1)+".mcfunction");
             fw2.write(ss);
             fw2.flush();
+            fw2.close();
         }
         //fw.write(tick);
         //fw.flush();
+        fw.close();
     }
 
     /**

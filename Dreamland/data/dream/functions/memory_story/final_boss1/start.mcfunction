@@ -9,3 +9,5 @@ bossbar set dream:boss value 3919
 bossbar set dream:boss name {"translate":"dream.name.boss.dream"}
 bossbar set dream:boss visible true
 bossbar set dream:boss players @a
+#技能计时器启动
+scoreboard players set dream_finalboss1_skilltimer dream_timer 0

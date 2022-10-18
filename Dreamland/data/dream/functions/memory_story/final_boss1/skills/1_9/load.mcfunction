@@ -1,1 +1,1 @@
-execute at @a run summon skeleton ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:6.0}]}
+execute at @e[tag=dream_playerpos_tracker] run summon skeleton ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:6.0}]}

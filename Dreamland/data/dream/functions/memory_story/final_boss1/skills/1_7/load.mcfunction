@@ -1,1 +1,1 @@
-execute at @a run summon zombie ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:10.0}]}
+execute at @e[tag=dream_playerpos_tracker] run summon zombie ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:10.0}]}

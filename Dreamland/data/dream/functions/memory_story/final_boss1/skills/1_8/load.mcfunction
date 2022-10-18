@@ -1,1 +1,1 @@
-execute at @a run summon spider ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:5.0}]}
+execute at @e[tag=dream_playerpos_tracker] run summon spider ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:5.0},{Name:"minecraft:generic.movement_speed",Base:0.95}]}

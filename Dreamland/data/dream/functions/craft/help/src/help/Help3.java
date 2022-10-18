@@ -7,7 +7,6 @@ import java.math.*;
 public class Help3 {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		for(int i = 0;i <= 359;i ++) {
 			if(i % 20 == 0) {
 				FileOutputStream fs = new FileOutputStream("D:\\mc\\.minecraft\\saves\\Dreamlandstudio\\datapacks\\Dreamland\\data\\dream\\functions\\entity\\blue_slime\\move1.mcfunction",true);
@@ -21,7 +20,7 @@ public class Help3 {
 			int j = i % 20;
 			FileOutputStream fs2 = new FileOutputStream("D:\\mc\\.minecraft\\saves\\Dreamlandstudio\\datapacks\\Dreamland\\data\\dream\\functions\\entity\\blue_slime\\move2\\" + j*20 + "_" + (j*20 + 19) + ".mcfunction",true);
 			String s1 = "execute if score @s dream_direction matches " + i + " run function dream:entity/blue_slime/move3/" + i;
-			//Ð´move2ÏÂµÄº¯Êý
+			//Ð´move2ï¿½ÂµÄºï¿½ï¿½ï¿½
 			System.out.println(s1);
 			fs2.write(s1.getBytes());
 			fs2.flush();
