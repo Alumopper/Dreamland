@@ -1,7 +1,0 @@
-{
-    "type": "minecraft:pillager_outpost",
-    "config": {
-        "start_pool": "dream:test",
-        "size": 1
-    }
-}

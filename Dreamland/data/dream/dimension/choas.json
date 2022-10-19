@@ -2,7 +2,6 @@
     "type": "dream:choas",
     "generator": {
         "type": "minecraft:noise",
-        "seed": 0,
         "settings": "dream:choas",
         "biome_source": {
             "type": "minecraft:multi_noise",
@@ -62,32 +61,6 @@
                         "erosion": 0.2,
                         "depth": 0.2,
                         "continentalness": 0.2
-                    }
-                },
-                {
-                    "biome": "minecraft:river",
-                    "parameters": {
-                        "altitude": 0.1,
-                        "erosion": 0.2,
-                        "depth": 0.2,
-                        "continentalness": 0.2,
-                        "temperature": -0.2,
-                        "humidity": 0.4,
-                        "weirdness": -0.3,
-                        "offset": 1
-                    }
-                },
-                {
-                    "biome": "minecraft:ocean",
-                    "parameters": {
-                        "altitude": 0.1,
-                        "erosion": 0.2,
-                        "depth": 0.2,
-                        "continentalness": 0.2,
-                        "temperature": -0.4,
-                        "humidity": 0.2,
-                        "weirdness": 0.3,
-                        "offset": 1
                     }
                 },
                 {
@@ -246,8 +219,7 @@
                         "offset": 1
                     }
                 }
-            ],
-            "seed": 0
+            ]
         }
     }
 }

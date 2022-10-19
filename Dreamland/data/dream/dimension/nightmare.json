@@ -2,7 +2,6 @@
     "type":"dream:nightmare",
     "generator":{
         "type":"minecraft:noise",
-        "seed":0,
         "settings":"dream:nightmare",
         "biome_source":{
             "type": "multi_noise",
@@ -34,7 +33,6 @@
                     1
                 ]
             },
-            "seed": 0,
             "biomes": [
                 {
                     "biome": "dream:deepdeepdark",

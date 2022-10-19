@@ -2,7 +2,6 @@
     "type":"dream:sweetdream",
     "generator":{
         "type":"minecraft:noise",
-        "seed":0,
         "biome_source":{
             "type":"multi_noise",
             "altitude_noise": {
@@ -19,7 +18,6 @@
                     1
                 ]
             },
-            "seed": 0,
             "temperature_noise": {
                 "firstOctave": -7,
                 "amplitudes": [

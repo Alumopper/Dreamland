@@ -10,8 +10,11 @@
     "has_ceiling": false,
     "ambient_light": 0.0,
     "logical_height": 256,
-    "infiniburn": "minecraft:infiniburn_overworld",
+    "infiniburn": "#minecraft:infiniburn_overworld",
     "fixed_time":20000,
     "height":256,
-    "min_y":0
+    "min_y":0,
+    "monster_spawn_block_light_limit": 15,
+    "monster_spawn_light_level": 15,
+    "effects": "the_nether"
 }

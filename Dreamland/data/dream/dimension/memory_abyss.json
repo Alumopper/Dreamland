@@ -11,14 +11,7 @@
             ],
             "biome": "minecraft:plains",
             "lakes": false,
-            "structures": {
-                "stronghold": {
-                    "count": 1,
-                    "distance": 1023,
-                    "spread": 1023
-                },
-                "structures": {}
-            }
+            "structure_overrides": []
         }
     }
 }

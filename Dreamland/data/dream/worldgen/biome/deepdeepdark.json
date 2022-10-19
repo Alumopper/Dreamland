@@ -26,9 +26,7 @@
     },
     "features": [
         [],
-        [   
-            "minecraft:lake_water"
-        ],
+        [],
         [],
         [],
         [],
@@ -36,11 +34,11 @@
         [
             "minecraft:ore_dirt",
             "minecraft:ore_gravel",
-            "minecraft:ore_granite",
-            "minecraft:ore_diorite",
-            "minecraft:ore_andesite",
-            "minecraft:ore_coal",
-            "minecraft:ore_iron",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_iron_middle",
             "minecraft:ore_gold",
             "minecraft:ore_redstone",
             "minecraft:ore_diamond",
@@ -52,8 +50,9 @@
         [],
         [
             "minecraft:patch_tall_grass_2",
-            "minecraft:plain_vegetation",
-            "minecraft:patch_grass_plain"
+            "minecraft:trees_plains",
+            "minecraft:patch_grass_plain",
+            "minecraft:patch_pumpkin"
         ],
         [
             "minecraft:freeze_top_layer"
