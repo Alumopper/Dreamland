@@ -1,5 +1,13 @@
-#故事阶段
-scoreboard players set dream_finalstotystage dream_counter 0
+gamerule commandBlockOutput false
+#> 
+# 故事阶段
+# 
+# 0-实验室 1-末日剧情 2-第一个boss 3-第二个boss
+# 
+# **object** - dream_counter
+# @within dream:memory_story/**
+#declare score_holder dream_finalstorystage
+scoreboard players set dream_finalstorystage dream_counter 0
 #故事触发点
 #-1 = 不可触发
 #0 = 待触发
@@ -15,4 +23,3 @@ scoreboard players set st_next dream_counter 0
 scoreboard players set st_notouchfish dream_counter 0
 #空间站故事线
 scoreboard players set stl_story dream_counter 0
-gamerule commandBlockOutput false

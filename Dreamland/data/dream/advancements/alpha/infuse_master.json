@@ -4,8 +4,8 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120004}"
         },
-        "title": {"translate":"dream.advancement.alpha.infuse_master.title"},
-        "description": {"translate":"dream.advancement.alpha.infuse_master.disc"},
+        "title": {"translate":"advancements.dream.alpha.infuse_master.title"},
+        "description": {"translate":"advancements.dream.alpha.infuse_master.disc"},
         "frame": "task"
     },
     "criteria": {

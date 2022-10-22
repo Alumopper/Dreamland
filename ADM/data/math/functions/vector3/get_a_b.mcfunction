@@ -1,5 +1,12 @@
-#获取从实体math_vector_a到math_vector_b的三维向量
-#vector3 Math.vector3.get_a_b(Entity<s> math_vector_a,Entity<s> math_vector_b)
+#> math:vector3/get_a_b
+# **vector3** Math.vector3.get_a_b(**Entity** *math_vector_a*,**Entity** *math_vector_b*)
+#
+# 获取从实体math_vector_a到math_vector_b的三维向量
+# @output score
+#   *math_r_vector3_getab_x math_output*  - x分量
+#   *math_r_vector3_getab_y math_output*  - y分量
+#   *math_r_vector3_getab_z math_output*  - z分量
+
 #获取a坐标
 execute store result score math_temp_vector3_getab_ax math_temp run data get entity @e[limit=1,tag=math_vector_a] Pos[0] 100
 execute store result score math_temp_vector3_getab_ay math_temp run data get entity @e[limit=1,tag=math_vector_a] Pos[1] 100

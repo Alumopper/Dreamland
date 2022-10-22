@@ -1,8 +1,21 @@
+#declare objective math_input 数学输入
 scoreboard objectives add math_input dummy "input"
+#declare objective math_output 数学输出
 scoreboard objectives add math_output dummy "output"
+#>
+# 数学临时变量
+#
+#@internal
+#declare objective math_temp 
 scoreboard objectives add math_temp dummy "temp"
+#declare objective math_input 数学输入
 scoreboard objectives add math_count dummy "count"
 #设置常量
+#>
+# 一个数学常量。X代表常量的值
+#
+# **object** - math_count
+#declare score_holder C_X
 scoreboard players set C_-1 math_count -1
 scoreboard players set C_1 math_count 1
 scoreboard players set C_3 math_count 3

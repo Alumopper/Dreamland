@@ -4,8 +4,8 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120003}"
         },
-        "title": {"translate":"dream.advancement.alpha.made_in_dreamland.title"},
-        "description": {"translate":"dream.advancement.alpha.made_in_dreamland.disc"},
+        "title": {"translate":"advancements.dream.alpha.made_in_dreamland.title"},
+        "description": {"translate":"advancements.dream.alpha.made_in_dreamland.disc"},
         "frame": "task"
     },
     "criteria": {

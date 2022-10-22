@@ -4,8 +4,8 @@
             "item": "minecraft:light_blue_dye",
             "nbt": "{CustomModelData:120003}"
         },
-        "title": {"translate":"dream.advancement.alpha.nightmare.title"},
-        "description": {"translate":"dream.advancement.alpha.nightmare.disc"},
+        "title": {"translate":"advancements.dream.alpha.nightmare.title"},
+        "description": {"translate":"advancements.dream.alpha.nightmare.disc"},
         "frame": "task"
     },
     "criteria": {

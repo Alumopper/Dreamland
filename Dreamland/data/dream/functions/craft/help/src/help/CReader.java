@@ -53,7 +53,7 @@ public class CReader {
 	static ArrayList<String> split(String s) {
 		//锟斤拷一锟斤拷锟叫凤拷,锟斤拷取锟斤拷锟斤拷锟皆硷拷锟斤拷锟斤拷
 		s = s.substring(45);
-		//if block ~ ~ ~ minecraft:chest{Items:[{Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:2b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:3b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:10b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:11b,Count:1b,tag:{tag:{id:"dreamland:dream_org_ingot"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:12b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:19b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:20b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:21b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} run replaceitem block ~ ~ ~ container.16 minecraft:iron_ingot{CustomModelData:120002,display:{Name:'[{"translate":"dream.item.name.illusory_ingot","italic":false}]'},tag:{id:"dreamland:illusory_ingot",isTemp:1b}}
+		//if block ~ ~ ~ minecraft:chest{Items:[{Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:2b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:3b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:10b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:11b,Count:1b,tag:{tag:{id:"dreamland:dream_org_ingot"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:12b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:19b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:20b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:21b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} run replaceitem block ~ ~ ~ container.16 minecraft:iron_ingot{CustomModelData:120002,display:{Name:'[{"translate":"item.dreamland.illusory_ingot","italic":false}]'},tag:{id:"dreamland:illusory_ingot",isTemp:1b}}
 		ArrayList<String> inputs = new ArrayList<String>();//锟斤拷锟斤拷
 		//锟街凤拷锟斤拷锟斤拷锟�
 		String output = s.substring(s.indexOf("run") + 41);
@@ -78,8 +78,8 @@ public class CReader {
 			}
 		}
 		//锟斤拷锟斤拷锟斤拷锟斤拷
-		//minecraft:iron_ingot{CustomModelData:120002,display:{Name:'[{"translate":"dream.item.name.illusory_ingot","italic":false}]'},tag:{id:"dreamland:illusory_ingot",isTemp:1b}}
-		//minecraft:iron_chestplate{CustomModelData:120001,display:{Name:'[{"translate":"dream.item.name.dream_org_chestplate","italic":false}]'},tag:{id:"dreamland:dream_org_chestplate",isTemp:1b,type:2b,infusion:0b},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;14958484,1076729488,182811115,1253354]}]}
+		//minecraft:iron_ingot{CustomModelData:120002,display:{Name:'[{"translate":"item.dreamland.illusory_ingot","italic":false}]'},tag:{id:"dreamland:illusory_ingot",isTemp:1b}}
+		//minecraft:iron_chestplate{CustomModelData:120001,display:{Name:'[{"translate":"item.dreamland.dream_org_chestplate","italic":false}]'},tag:{id:"dreamland:dream_org_chestplate",isTemp:1b,type:2b,infusion:0b},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;14958484,1076729488,182811115,1253354]}]}
 		//minecraft:elytra{tag:{isTemp:1b,type:9b,infusion:0b}}
 		if(output.indexOf("id")!=-1) {
 			output = "out>>" + output.substring(output.indexOf("id:") + 4,output.indexOf("\",isTemp"));

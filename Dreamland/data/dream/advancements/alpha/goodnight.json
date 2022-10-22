@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:red_bed"
         },
-        "title": {"translate":"dream.advancement.alpha.goodnight.title"},
-        "description": {"translate":"dream.advancement.alpha.goodnight.disc"},
+        "title": {"translate":"advancements.dream.alpha.goodnight.title"},
+        "description": {"translate":"advancements.dream.alpha.goodnight.disc"},
         "frame": "task",
         "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
     },

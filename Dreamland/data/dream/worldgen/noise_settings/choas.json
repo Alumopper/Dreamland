@@ -134,6 +134,7 @@
           "then_run": {
             "type": "minecraft:condition",
             "if_true": {
+              
               "type": "minecraft:y_above",
               "anchor": {
                 "absolute": 100

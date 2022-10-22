@@ -6,18 +6,18 @@
 execute if entity @s[nbt=!{Items:[{Slot:0b}]}] run scoreboard players set @s dream_c_page 1
 execute if entity @s[nbt=!{Items:[{Slot:0b}]}] run tag @s add dream_just
 #维持界面正常
-item replace entity @s container.0 with red_dye{CustomModelData: 120002, display: {Name: '{"translate":"dream.gui.creative.back"}'}, tag: {isTemp: 1b}}
-item replace entity @s container.1 with red_dye{CustomModelData: 120005, display: {Name: '{"translate":"dream.gui.creative.nolast"}'}, tag: {isTemp: 1b}}
-item replace entity @s container.2 with red_dye{CustomModelData: 120006, display: {Name: '{"translate":"dream.gui.creative.nonext"}'}, tag: {isTemp: 1b}}
+item replace entity @s container.0 with red_dye{CustomModelData: 120002, display: {Name: '{"translate":"gui.dream.creative.back"}'}, tag: {isTemp: 1b}}
+item replace entity @s container.1 with red_dye{CustomModelData: 120005, display: {Name: '{"translate":"gui.dream.creative.nolast"}'}, tag: {isTemp: 1b}}
+item replace entity @s container.2 with red_dye{CustomModelData: 120006, display: {Name: '{"translate":"gui.dream.creative.nonext"}'}, tag: {isTemp: 1b}}
 item replace entity @s container.3 with air
 item replace entity @s container.4 with air
 item replace entity @s container.5 with air
 item replace entity @s container.6 with air
 item replace entity @s container.7 with air
 item replace entity @s container.8 with air
-item replace entity @s container.9 with minecraft:milk_bucket{CustomModelData: 120001, display: {Name: '[{"translate":"fishsoup.item.name.fish_soup","italic":false}]'}, tag: {id: "fishsoup:fish_soup",isTemp: 0b}}
-item replace entity @s container.10 with minecraft:apple{CustomModelData: 120001, display: {Name: '[{"translate":"fishsoup.item.name.peach","italic":false}]'}, tag: {id: "fishsoup:peach",isTemp: 0b}}
-item replace entity @s container.11 with minecraft:milk_bucket{CustomModelData: 120004, display: {Name: '[{"translate":"fishsoup.item.name.memory_soup","italic":false}]'}, tag: {id: "fishsoup:memory_soup",isTemp: 0b}}
+item replace entity @s container.9 with minecraft:milk_bucket{CustomModelData: 120001, display: {Name: '[{"translate":"item.fishsoup.fish_soup","italic":false}]'}, tag: {id: "fishsoup:fish_soup",isTemp: 0b}}
+item replace entity @s container.10 with minecraft:apple{CustomModelData: 120001, display: {Name: '[{"translate":"item.fishsoup.peach","italic":false}]'}, tag: {id: "fishsoup:peach",isTemp: 0b}}
+item replace entity @s container.11 with minecraft:milk_bucket{CustomModelData: 120004, display: {Name: '[{"translate":"item.fishsoup.memory_soup","italic":false}]'}, tag: {id: "fishsoup:memory_soup",isTemp: 0b}}
 item replace entity @s container.12 with air
 item replace entity @s container.13 with air
 item replace entity @s container.14 with air

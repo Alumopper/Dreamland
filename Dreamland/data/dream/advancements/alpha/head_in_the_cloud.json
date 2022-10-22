@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:iron_sword"
         },
-        "title": {"translate":"dream.advancement.alpha.head_in_the_cloud.title"},
-        "description": {"translate":"dream.advancement.alpha.head_in_the_cloud.disc"},
+        "title": {"translate":"advancements.dream.alpha.head_in_the_cloud.title"},
+        "description": {"translate":"advancements.dream.alpha.head_in_the_cloud.disc"},
         "frame": "task"
     },
     "criteria": {

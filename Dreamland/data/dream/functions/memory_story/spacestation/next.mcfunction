@@ -1,2 +1,2 @@
 tellraw @a {"translate":"dream.word.memory_story.spacestaion.next"}
-give @p minecraft:light_blue_dye{CustomModelData: 120005, display: {Name: '[{"translate":"dream.item.name.dimension_core","italic":false}]'}, tag: {id: "dreamland:dimension_core",isTemp: 0b}}
+give @p minecraft:light_blue_dye{CustomModelData: 120005, display: {Name: '[{"translate":"item.dreamland.dimension_core","italic":false}]'}, tag: {id: "dreamland:dimension_core",isTemp: 0b}}

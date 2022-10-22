@@ -4,8 +4,8 @@
             "item": "minecraft:iron_ingot",
             "nbt": "{CustomModelData:120002}"
         },
-        "title": {"translate":"dream.advancement.alpha.light_as_feather.title"},
-        "description": {"translate":"dream.advancement.alpha.light_as_feather.disc"},
+        "title": {"translate":"advancements.dream.alpha.light_as_feather.title"},
+        "description": {"translate":"advancements.dream.alpha.light_as_feather.disc"},
         "frame": "task"
     },
     "criteria": {

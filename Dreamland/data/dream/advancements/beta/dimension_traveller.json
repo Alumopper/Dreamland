@@ -4,8 +4,8 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120006}"
         },
-        "title": {"translate":"dream.advancement.beta.dimension_traveller.title"},
-        "description": {"translate":"dream.advancement.beta.dimension_traveller.disc"},
+        "title": {"translate":"advancements.dream.beta.dimension_traveller.title"},
+        "description": {"translate":"advancements.dream.beta.dimension_traveller.disc"},
         "frame": "task",
         "hidden": true
     },

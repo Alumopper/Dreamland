@@ -1,3 +1,5 @@
+#> math:sqrt/first
+# 
 scoreboard players set a math_temp 0
 scoreboard players operation a math_temp = input math_input
 #模拟小数运算

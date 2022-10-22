@@ -1,0 +1,3 @@
+execute if score dream_t_b_fbossstage dream_counter matches 1 at @a unless entity @e[type=zombie,distance=0..10] run function dream:memory_story/memory_absyy/next
+execute if score dream_t_b_fbossstage dream_counter matches 2 at @a unless entity @e[type=skeleton,distance=0..10] run function dream:memory_story/memory_absyy/next
+execute if score dream_t_b_fbossstage dream_counter matches 3 at @a unless entity @e[type=spider,distance=0..10] run function dream:memory_story/memory_absyy/next

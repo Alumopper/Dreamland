@@ -10,14 +10,15 @@ scoreboard objectives add dream_timer dummy "计时器"
 scoreboard objectives add dream_using minecraft.used:carrot_on_a_stick "胡萝卜钓竿计数"
 #通用计数器及临时变量储存器
 scoreboard objectives add dream_counter dummy "计数器"
-    #初始化游戏阶段——如果没有打过BossI就默认为0
-    #-1     对战暗影幻术师
-    #0      开始到噩梦开启原点塔
-    #1      开启原点塔到Boss战结束
-    #2      Boss战结束到使用梦境传送门
-    #3      使用梦境传送门到击败梦魇
-    #4--二周目
-    #define score_holder dream_gamestage "游戏阶段"
+    #>
+    # 初始化游戏阶段——如果没有打过BossI就默认为0
+    # -1     对战暗影幻术师
+    # 0      开始到噩梦开启原点塔
+    # 1      开启原点塔到Boss战结束
+    # 2      Boss战结束到使用梦境传送门
+    # 3      使用梦境传送门到击败梦魇
+    # 4--二周目
+    #define score_holder dream_gamestage
     execute unless score dream_if_kill_boss1 dream_counter matches -2147483648..2147483647 run scoreboard players set dream_gamestage dream_counter 0
     #最后的故事
     #-1-还没开始
@@ -113,4 +114,4 @@ execute unless entity @e[tag=dream_black_hole] in dream:choas run function dream
 #功能区
 #检测维度是否生成
 execute store success score dream_dimtest dream_counter in dream:sweetdream run summon pig 0 0 0 
-execute if score dream_dimtest dream_counter matches 0 run tellraw @a [{"translate":"dream.info.load.dimwarn","color": "yellow"}]
+execute if score dream_dimtest dream_counter matches 0 run tellraw @a [{"translate":"info.dream.load.dimwarn","color": "yellow"}]

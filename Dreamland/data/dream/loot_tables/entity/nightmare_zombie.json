@@ -63,7 +63,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:120003,display:{Name:'[{\"translate\":\"dream.item.name.nightmare_essence\",\"italic\":false}]'},tag:{id:\"dreamland:nightmare_essence\",isTemp: 0b}}"
+                            "tag": "{CustomModelData:120003,display:{Name:'[{\"translate\":\"item.dreamland.nightmare_essence\",\"italic\":false}]'},tag:{id:\"dreamland:nightmare_essence\",isTemp: 0b}}"
                         }
                     ]
                 }

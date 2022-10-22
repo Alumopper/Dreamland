@@ -4,8 +4,8 @@
             "item": "minecraft:iron_ingot",
             "nbt": "{CustomModelData:120001}"
         },
-        "title": {"translate":"dream.advancement.alpha.from_imagination.title"},
-        "description": {"translate":"dream.advancement.alpha.from_imagination.disc"},
+        "title": {"translate":"advancements.dream.alpha.from_imagination.title"},
+        "description": {"translate":"advancements.dream.alpha.from_imagination.disc"},
         "frame": "task"
     },
     "criteria": {

@@ -63,7 +63,7 @@
             "functions": [
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"dream.item.name.dreamdust\",\"italic\":false}]'},tag:{id:\"dreamland:dreamdust\"}}"
+                "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"item.dreamland.dreamdust\",\"italic\":false}]'},tag:{id:\"dreamland:dreamdust\"}}"
               }
             ]
           }

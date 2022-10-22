@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:grass"
         },
-        "title": {"translate":"dream.advancement.beta.back_to_overworld.title"},
-        "description": {"translate":"dream.advancement.beta.back_to_overworld.disc"},
+        "title": {"translate":"advancements.dream.beta.back_to_overworld.title"},
+        "description": {"translate":"advancements.dream.beta.back_to_overworld.disc"},
         "frame": "task",
         "hidden": true
     },

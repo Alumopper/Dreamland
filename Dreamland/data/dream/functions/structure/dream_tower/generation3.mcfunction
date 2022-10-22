@@ -23,6 +23,6 @@ execute positioned -23 149 3 run function dream:structure/dream_tower/loot
 execute positioned -24 149 3 run function dream:structure/dream_tower/loot
 execute positioned -26 149 3 run function dream:structure/dream_tower/loot
 execute positioned -27 149 3 run function dream:structure/dream_tower/loot
-execute in dream:sweetdream run item replace block -28 149 0 container.13 with carrot_on_a_stick{CustomModelData: 120023, tag: {id: "dreamland:cloud_gun",isTemp: 0b}, display: {Name: '[{"translate":"dream.item.name.cloud_gun","italic": false}]'}}
+execute in dream:sweetdream run item replace block -28 149 0 container.13 with carrot_on_a_stick{CustomModelData: 120023, tag: {id: "dreamland:cloud_gun",isTemp: 0b}, display: {Name: '[{"translate":"item.dreamland.cloud_gun","italic": false}]'}}
 scoreboard players set dream_tower_generation dream_counter -1
 #清扫生成的花花草草

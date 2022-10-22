@@ -208,7 +208,7 @@ public class help {
 		str += ("run replaceitem block ~ ~ ~ container.16 minecraft:" + strs[9] + "{");
 		if (!strs[12].isEmpty()) str += ("CustomModelData:1200" + strs[12] + ",");
 		if (!strs[10].isEmpty()){
-			str += ("display:{Name:'[{\"translate\":\"dream.item.name." + strs[10].substring(strs[10].indexOf(':') + 1) + "\",\"italic\":false}]'},tag:{id:\"" + strs[10] + "\",isTemp:1b}}");
+			str += ("display:{Name:'[{\"translate\":\"item.dreamland." + strs[10].substring(strs[10].indexOf(':') + 1) + "\",\"italic\":false}]'},tag:{id:\"" + strs[10] + "\",isTemp:1b}}");
 		}
 		else{
 			str += "tag:{isTemp:1b}}";

@@ -4,8 +4,8 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120020}"
         },
-        "title": {"translate":"dream.advancement.beta.wand_master.title"},
-        "description": {"translate":"dream.advancement.beta.wand_master.disc"},
+        "title": {"translate":"advancements.dream.beta.wand_master.title"},
+        "description": {"translate":"advancements.dream.beta.wand_master.disc"},
         "frame": "task",
         "hidden": true
     },

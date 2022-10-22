@@ -5,7 +5,7 @@ execute if score #magic_time dream_timer matches 15.. run scoreboard players set
 #获得云
 execute as @a unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{tag:{id:"dreamland:cloud_gun"}}}]}] run scoreboard players set @s dream_cloudcd 0
 execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{tag:{id:"dreamland:cloud_gun"}}}]}] run scoreboard players add @s dream_cloudcd 1
-execute as @a if score @s dream_cloudcd matches 2000 run give @s light_blue_dye{CustomModelData:120022,tag:{id:"dreamland:cloud"},display:{Name:'[{"translate":"dream.item.name.cloud","italic": false}]'}}
+execute as @a if score @s dream_cloudcd matches 2000 run give @s light_blue_dye{CustomModelData:120022,tag:{id:"dreamland:cloud"},display:{Name:'[{"translate":"item.dreamland.cloud","italic": false}]'}}
 execute as @a if score @s dream_cloudcd matches 2000 run scoreboard players set @s dream_cloudcd 0
 #混沌前计时器
 function dream:timer/dream
