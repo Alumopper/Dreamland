@@ -99,6 +99,8 @@ scoreboard objectives add dream_par_rad dummy "圆半径"
 #粒子扩散圆的标号
 scoreboard objectives add dream_par_id dummy "粒子圆标记"
     scoreboard players set $static_par_id dream_par_id 0
+#玩家血量
+scoreboard objectives add dream_player_health health "玩家血量"
 #bossbar区
 #经验池，全部玩家通用
 bossbar add dream:xp ["经验池   ",{"score": {"objective": "dream_xp","name": "xp"}},"/10000"]

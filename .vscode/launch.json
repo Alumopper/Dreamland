@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Gen",
+            "request": "launch",
+            "mainClass": "Dreamland.data.dream.functions.memory_story.final_boss2.healthset.Gen",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
             "name": "Launch Gener",
             "request": "launch",
             "mainClass": "Dreamland.data.dream.functions.particle.spreading_circle_small.Gener",
