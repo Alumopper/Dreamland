@@ -1,0 +1,1 @@
+execute as @e[type=arrow,distance=0..10] facing entity @e[tag=dream_finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.1

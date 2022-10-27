@@ -6,7 +6,7 @@ execute as @e[tag=dream_nightmare_defend_tower] at @s run effect give @a[distanc
 execute as @e[tag=dream_nightmare_defend_tower] at @s as @a[distance=0..10] align xyz positioned ~0.5 ~5.8 ~0.5 facing entity @s eyes run function dream:entity/nightmare/skills/funcs/tower_ray
 #护盾扣血
 execute at @e[tag=dream_nightmare_shield] positioned ~ ~-1 ~ if entity @e[type=arrow,distance=0..2.5] run scoreboard players remove dream_nightmare_shield_hp dream_counter 5
-execute at @e[tag=dream_nightmare_shield] positioned ~ ~-1 ~ if entity @e[tag=dream_magicball,distance=0..2.5] run scoreboard players remove dream_nightmare_shield_hp dream_counter 8
+execute at @e[tag=dream_nightmare_shield] positioned ~ ~-1 ~ if entity @e[tag=,distance=0..2.5] run scoreboard players remove dream_nightmare_shield_hp dream_counter 8
 execute at @e[tag=dream_nightmare_shield] positioned ~ ~-1 ~ if entity @e[tag=choas_magicball,distance=0..2.5] run scoreboard players remove dream_nightmare_shield_hp dream_counter 10
 execute if score dream_nightmare_shield_hp dream_counter matches 80.. at @e[tag=dream_nightmare_shield] positioned ~ ~-1 ~ if entity @e[type=egg,distance=0..2.5] run scoreboard players remove dream_nightmare_shield_hp dream_counter 1
 execute if score dream_nightmare_shield_hp dream_counter matches 100.. at @e[tag=dream_nightmare_shield] positioned ~ ~-1 ~ if entity @e[type=snowball,distance=0..2.5] run scoreboard players remove dream_nightmare_shield_hp dream_counter 1

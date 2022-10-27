@@ -1,3 +1,4 @@
+#declare tag dream_magicball 梦境法杖魔法球
 scoreboard players remove @s[gamemode=!creative] dream_magic 5
 execute if entity @s[nbt={SelectedItem:{tag:{tag:{infusion:3b}}}}] run scoreboard players add @s[gamemode=!creative] dream_magic 1
 execute if entity @s[nbt={SelectedItem:{tag:{tag:{infusion:4b}}}}] run scoreboard players add @s[gamemode=!creative] dream_magic 3

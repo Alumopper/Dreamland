@@ -48,3 +48,5 @@ execute as @a if score @s dream_chaser_sm matches 1200.. run scoreboard players 
 execute as @e[tag=dream_chaser] at @s run function dream:entity/chaser/tick
 #噩梦时间的蝙蝠轰炸机
 execute as @e[type=bat] if entity @s[predicate=dream:if_entity/in_nightmare] at @s positioned ~-1 ~-10 ~-1 if entity @a[dx=3,dy=10,dz=3] run function dream:entity/nightmare_bat/bat
+#治疗水晶
+execute as @e[tag=dream_healing_crystal] run function dream:entity/healing_crystal/tick

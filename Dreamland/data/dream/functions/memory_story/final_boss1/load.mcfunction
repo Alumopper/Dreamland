@@ -8,6 +8,7 @@
 #execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~-60 ~ ~-60 minecraft:gray_concrete
 #endregion
 
+#alias vector finalbosspos 495 96 495 
 effect give @a night_vision 123456 0 true
 #中央标记
 execute in dream:memory_abyss run summon marker 495 96 495 {Tags:["dream_final_boss1"]}
