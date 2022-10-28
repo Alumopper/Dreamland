@@ -1,5 +1,4 @@
-playsound dreamland:entity.finalboss.bgm master @a
-scoreboard players set $dream_finalskill_psummon_timer dream_timer 0
+execute at @p run playsound dreamland:entity.finalboss.bgm master @a ~ ~ ~
 #玩家跟踪器
 execute as @a at @s run function dream:memory_story/final_boss1/tracker
 #boss条
@@ -11,3 +10,5 @@ bossbar set dream:boss visible true
 bossbar set dream:boss players @a
 #技能计时器启动
 scoreboard players set dream_finalboss1_skilltimer dream_timer 0
+#开始
+difficulty hard

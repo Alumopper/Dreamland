@@ -13,3 +13,6 @@ scoreboard players operation $dream_t_mbet_a dream_counter -= $dream_finalskill_
 execute store result bossbar dream:boss value run scoreboard players get $dream_t_mbet_a dream_counter
 #技能tick
 function dream:memory_story/final_boss1/skills/tick
+#停止
+execute if score $dream_finalskill_psummon_timer dream_timer matches 3920 run function dream:memory_story/final_boss1/end
+execute if score $dream_finalskill_psummon_timer dream_timer matches 4300.. run function dream:memory_story/final_boss1/next

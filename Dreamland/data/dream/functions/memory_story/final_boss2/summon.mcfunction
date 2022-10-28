@@ -1,5 +1,5 @@
-#declare tag dream_finalboss2
-#declare tag aj.finalboss_ani.root
+#declare tag dream_finalboss2 实体
+#declare tag aj.finalboss_ani.root 模型
 #玩家跟踪器
 execute as @a at @s run function dream:memory_story/final_boss1/tracker
 #生成实体
@@ -8,3 +8,5 @@ summon zombie ~ ~ ~ {NoAI:true,Silent:false,Tags:["dream_finalboss2"],Attributes
 function finalboss_ani:summon/default
 #技能重置
 scoreboard players set @e[tag=dream_finalboss2,limit=1] dream_counter 0
+#
+scoreboard players set dream_finalstorystage dream_counter 3

@@ -9,3 +9,5 @@ bossbar set dream:boss visible true
 bossbar set dream:boss name "U3lzdGVtLmNvcmU="
 #玩家血量修改
 execute as @a run attribute @s minecraft:generic.max_health base set 150
+#生成实体
+execute positioned 495 96 495 run function dream:memory_story/final_boss2/summon

@@ -17,3 +17,7 @@ scoreboard players set $dream_finalskill_psummon_timer dream_timer -100
 #技能标记
 scoreboard players set @e[tag=dream_final_boss1] dream_counter 0
 scoreboard players set dream_final_boss1_skilltimer dream_timer -1
+#回血
+difficulty peaceful
+#禁止实体破坏方块
+gamerule mobGriefing false
