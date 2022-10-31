@@ -1,1 +1,2 @@
-attribute @s minecraft:generic.max_health base set 150.0
+execute unless score dream_temp.ma.fb2_temp.stage dream_counter matches 1 as @a[nbt=!{Attributes:[{Name:"minecraft:generic.max_health",Base:150.0d}]}] run attribute @s minecraft:generic.max_health base set 150.0
+execute if score dream_temp.ma.fb2_temp.stage dream_counter matches 1 as @a[nbt=!{Attributes:[{Name:"minecraft:generic.max_health",Base:75.0d}]}] run attribute @s minecraft:generic.max_health base set 75.0

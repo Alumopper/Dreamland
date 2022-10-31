@@ -8,3 +8,4 @@ execute if score dream_finalbosshealth dream_boss_hp matches 128..159 as @a run 
 #清除血量上限效果
 effect give @s instant_health 
 schedule function dream:memory_story/final_boss2/healthset/clear 2t
+#

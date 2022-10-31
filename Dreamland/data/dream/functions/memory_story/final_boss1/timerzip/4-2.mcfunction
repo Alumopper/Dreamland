@@ -1,2 +1,0 @@
-execute if score $dream_finalskill_psummon_timer dream_timer matches 2421..3447 run function dream:memory_story/final_boss1/timerzip/3-4
-execute if score $dream_finalskill_psummon_timer dream_timer matches 3447..3918 run function dream:memory_story/final_boss1/timerzip/3-5

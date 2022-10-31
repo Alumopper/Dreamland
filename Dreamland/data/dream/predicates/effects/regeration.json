@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "regeneration":{
+                "amplifier": {
+                    "min":0
+                },
+                "duration": {
+                    "min":0
+                }
+            }
+        }
+    }
+}
