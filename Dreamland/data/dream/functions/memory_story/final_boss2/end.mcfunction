@@ -8,3 +8,4 @@ kill @e[tag=dream_cyst_blue]
 kill @e[tag=dream_cyst_green]
 function finalboss_ani:uninstall
 scoreboard players set dream_finalstorystage dream_counter 4
+effect clear @a regeneration

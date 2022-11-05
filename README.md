@@ -1,11 +1,11 @@
 # Dreamland
-## 这是什么？
 Dreamland(虚幻梦境)是Alumopper制作的一个Minecraft大型生存向和剧情向数据包，目前仍在制作中
-## 怎么使用？
-参见MCBBS的原版模组安装教程
-## 这个数据包什么时候能做好？
-虽然目前开发进度缓慢，但今年之内应该能大致成型！
-## 为什么里面会有java文件？
-在开发过程中，我写了一些java程序来协助我编写指令（纯手敲太累啦，比如合成表和矿物探测仪的部分
-## 关于此数据包项目的主页面
-[》项目主页面](http://alumopper.top/dreamland/)
+## 此数据包项目的主页面
+[Dreamland(Alumopper Site)](http://alumopper.top/dreamland/)
+## 数据包前置/使用工具
+* [血量控制 - 钠钠钠镓](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1181242)
+* [简单的字幕 - Alumopper](https://alumopper.top/projects/%e7%ae%80%e5%8d%95%e7%9a%84%e5%ad%97%e5%b9%95/)
+* [Animated Java](https://github.com/Animated-Java/animated-java)
+## 开发阶段
+目前：Gamma 0.1(2022.11.1)<br>
+开发周期历史：[Dreamland Wiki](https://alumopper.top/Wiki/Dreamland-wiki/index.html)

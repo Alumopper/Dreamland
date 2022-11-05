@@ -8,7 +8,7 @@ execute if predicate dream:1in100 run function dream:entity/dark_illusioner/skil
 execute as @e[tag=dream_dark_meteor] at @s run tp @s ~ ~-0.15 ~
     execute at @e[tag=dream_dark_meteor] run particle dust 0.467 0.031 0.322 1 ~ ~ ~ 0.1 0.1 0.1 0.1 5
     #落地溅射伤害
-    execute as @e[tag=dream_dark_meteor] at @s unless block ~ ~ ~ air run summon area_effect_cloud ~ ~ ~ {Duration:40,Radius:1.5f,Color:3081028,Effects:[{Id:20b,ShowIcon:true,Amplifier:1b}]}
+    execute as @e[tag=dream_dark_meteor] at @s unless block ~ ~ ~ air run summon area_effect_cloud ~ ~ ~ {Duration:40,Radius:1.5f,Color:3081028,Effects:[{Id:20,ShowIcon:true,Amplifier:1b}]}
     execute as @e[tag=dream_dark_meteor] at @s unless block ~ ~ ~ air run kill @s
 execute at @e[tag=dream_dark_illusioner] if predicate dream:1in100 run summon vex ~ ~ ~
 #距离限制

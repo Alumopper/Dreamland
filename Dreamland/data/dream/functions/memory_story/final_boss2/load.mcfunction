@@ -9,11 +9,15 @@ bossbar set dream:boss visible true
 bossbar set dream:boss name "U3lzdGVtLmNvcmU="
 #玩家血量修改
 execute as @a run attribute @s minecraft:generic.max_health base set 150
-#生成实体
-execute in dream:memory_abyss positioned 495 98 495 run function dream:memory_story/final_boss2/summon
-#
-scoreboard players set dream_finalstorystage dream_counter 3
 #
 difficulty easy
 #
-effect give @a regeneration 7 127 true
+effect give @a regeneration 8 127 false
+effect give @a regeneration 114514 1 false
+#世界边界修改
+worldborder center 495 495
+worldborder set 60
+worldborder set 30 5
+worldborder warning distance 0
+#
+schedule function dream:memory_story/final_boss2/qwq 8s
