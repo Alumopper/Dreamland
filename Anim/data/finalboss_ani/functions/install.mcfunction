@@ -9,5 +9,6 @@ scoreboard objectives add aj.finalboss_ani.animation.finalboss2.up.loopMode dumm
 scoreboard objectives add aj.finalboss_ani.animation.finalboss2.down.loopMode dummy
 scoreboard objectives add aj.finalboss_ani.animation.finalboss2.handup.loopMode dummy
 scoreboard objectives add aj.finalboss_ani.animation.finalboss2.handdown.loopMode dummy
+scoreboard objectives add aj.finalboss_ani.animation.finalboss2.shield_rotate.loopMode dummy
 function finalboss_ani:reset_animation_flags
 scoreboard players set .aj.finalboss_ani.framerate aj.i 1

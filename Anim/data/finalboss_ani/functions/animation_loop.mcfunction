@@ -3,5 +3,5 @@
 schedule function finalboss_ani:animation_loop 1t
 scoreboard players set .aj.anim_loop aj.finalboss_ani.animating 1
 scoreboard players set .aj.animation aj.finalboss_ani.animating 0
-execute as @e[type=minecraft:marker,tag=aj.finalboss_ani.root] run function finalboss_ani:zzz/execute/26
-execute if score .aj.animation aj.finalboss_ani.animating matches 0 run function finalboss_ani:zzz/execute/27
+execute as @e[type=minecraft:marker,tag=aj.finalboss_ani.root] run function finalboss_ani:zzz/execute/33
+execute if score .aj.animation aj.finalboss_ani.animating matches 0 run function finalboss_ani:zzz/execute/34

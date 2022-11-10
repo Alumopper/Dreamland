@@ -4,10 +4,11 @@ tp @s ~ ~ ~ ~ ~
 execute store result score @s aj.id run scoreboard players add .aj.last_id aj.i 1
 execute at @s run function finalboss_ani:summon/zzz/execute/1
 tag @s remove new
-scoreboard players set @s aj.finalboss_ani.animation.finalboss2.ray.loopMode 0
-scoreboard players set @s aj.finalboss_ani.animation.finalboss2.up.loopMode 0
-scoreboard players set @s aj.finalboss_ani.animation.finalboss2.down.loopMode 0
-scoreboard players set @s aj.finalboss_ani.animation.finalboss2.handup.loopMode 0
-scoreboard players set @s aj.finalboss_ani.animation.finalboss2.handdown.loopMode 0
+scoreboard players set @s aj.finalboss_ani.animation.finalboss2.ray.loopMode 1
+scoreboard players set @s aj.finalboss_ani.animation.finalboss2.up.loopMode 1
+scoreboard players set @s aj.finalboss_ani.animation.finalboss2.down.loopMode 1
+scoreboard players set @s aj.finalboss_ani.animation.finalboss2.handup.loopMode 1
+scoreboard players set @s aj.finalboss_ani.animation.finalboss2.handdown.loopMode 1
+scoreboard players set @s aj.finalboss_ani.animation.finalboss2.shield_rotate.loopMode 2
 scoreboard players set @s aj.frame 0
 scoreboard players set @s aj.finalboss_ani.animating 0

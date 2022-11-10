@@ -6,4 +6,6 @@ execute if entity @s[tag=aj.finalboss_ani.bone.righthand] run function finalboss
 execute if entity @s[tag=aj.finalboss_ani.bone.qwq] run function finalboss_ani:animations/animation.finalboss2.up/tree/qwq_display_top
 execute if entity @s[tag=aj.finalboss_ani.bone.qwq2] run function finalboss_ani:animations/animation.finalboss2.up/tree/qwq2_display_top
 execute if entity @s[tag=aj.finalboss_ani.bone.particle] run function finalboss_ani:animations/animation.finalboss2.up/tree/particle_display_top
+execute if entity @s[tag=aj.finalboss_ani.bone.level1] run function finalboss_ani:animations/animation.finalboss2.up/tree/level1_display_top
+execute if entity @s[tag=aj.finalboss_ani.bone.level2] run function finalboss_ani:animations/animation.finalboss2.up/tree/level2_display_top
 execute positioned as @s run tp @s ~ ~ ~ ~ ~

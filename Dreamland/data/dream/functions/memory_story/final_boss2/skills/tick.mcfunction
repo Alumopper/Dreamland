@@ -11,3 +11,5 @@ execute if score dream_temp.mb.fb2.s.tick dream_counter matches 3.. run function
 execute unless score dream_temp.ma.fb2_temp.stage dream_counter matches 1 if score dream_finalbosshealth dream_boss_hp matches ..75 run function dream:memory_story/final_boss2/skills/b_4/load
 #b-5    修复协议
 execute unless score dream_temp.ma.fb2_temp.stage dream_counter matches 1 run function dream:memory_story/final_boss2/skills/b_5/tick
+#b-5    濒死护盾
+execute if score dream_temp.ma.fb2_temp.stage dream_counter matches 1 run function dream:memory_story/final_boss2/skills/b_6/tick

@@ -3,7 +3,7 @@
 #玩家跟踪器
 execute as @a at @s run function dream:memory_story/final_boss1/tracker
 #生成实体
-summon zombie ~ ~ ~ {NoAI:true,Silent:false,Tags:["dream_finalboss2"],Attributes:[{Name:"minecraft:generic.max_health",Base:150.0}],Health:150.0f}
+summon zombie ~ ~ ~ {NoAI:true,Silent:false,Tags:["dream_finalboss2"],Attributes:[{Name:"minecraft:generic.max_health",Base:150.0},{Name:"minecraft:generic.armor",Base:5.0}],Health:150.0f}
 #TODO
 effect give @e[tag=dream_finalboss2] invisibility 114514 0 true
 #模型

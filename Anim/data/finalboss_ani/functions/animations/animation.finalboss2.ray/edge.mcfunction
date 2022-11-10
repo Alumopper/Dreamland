@@ -2,4 +2,4 @@
 
 execute if score @s aj.finalboss_ani.animation.finalboss2.ray.loopMode matches 0 run function finalboss_ani:animations/animation.finalboss2.ray/stop
 execute if score @s aj.finalboss_ani.animation.finalboss2.ray.loopMode matches 1 run function finalboss_ani:animations/animation.finalboss2.ray/pause
-execute if score @s aj.finalboss_ani.animation.finalboss2.ray.loopMode matches 2 run function finalboss_ani:animations/animation.finalboss2.ray/zzz/execute/28
+execute if score @s aj.finalboss_ani.animation.finalboss2.ray.loopMode matches 2 run function finalboss_ani:animations/animation.finalboss2.ray/zzz/execute/35

@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Counter",
+            "request": "launch",
+            "mainClass": "Counter",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
             "name": "Launch Gen",
             "request": "launch",
             "mainClass": "Dreamland.data.dream.functions.memory_story.final_boss2.healthset.Gen",
