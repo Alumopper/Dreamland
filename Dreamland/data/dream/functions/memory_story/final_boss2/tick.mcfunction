@@ -1,8 +1,7 @@
 #游戏是否结束
 execute unless entity @e[tag=dream_finalboss2] run function dream:memory_story/final_boss2/end 
 #镜面实体投射
-function dream:memory_story/final_boss2/mirror
-execute as @e[tag=dream_finalboss2] at @s facing entity @a[limit=1] eyes run tp @s ~ ~ ~ ~ ~ 
+execute if score dream_finalboss_mirror_on dream_counter matches 1 run function dream:memory_story/final_boss2/mirror
 #玩家跟踪器
 execute as @e[tag=dream_playerpos_tracker] at @s run function dream:memory_story/final_boss1/tracker_chase
 #region 血量绑定
