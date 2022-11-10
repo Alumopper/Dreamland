@@ -10,6 +10,6 @@ execute at @s[tag=dream_cyst_blue] if entity @a[distance=0..2] run kill @s
 execute at @s[tag=dream_cyst_blue] run particle dust 0.078 0.624 0.718 1 ~ ~ ~ 0.5 0.5 0.5 0.1 2
 execute at @s[tag=dream_cyst_green] run particle dust 0.078 0.718 0.549 1 ~ ~ ~ 1 0.5 0.5 0.1 2
 #受伤
-execute at @s if entity @e[tag=choas_magicball,distance=0..1.5] run kill @s
-execute at @s if entity @e[tag=dream_magicball,distance=0..1.2] run kill @s
-execute at @s if entity @e[type=arrow,distance=0..1.2] run kill @s
+execute at @s if entity @e[tag=choas_magicball,distance=0..1.5] run function dream:entity/healing_crystal/kill
+execute at @s if entity @e[tag=dream_magicball,distance=0..1.2] run function dream:entity/healing_crystal/kill
+execute at @s if entity @e[type=arrow,distance=0..1.2] run function dream:entity/healing_crystal/kill
