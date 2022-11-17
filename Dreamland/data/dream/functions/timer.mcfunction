@@ -12,8 +12,8 @@ function dream:timer/dream
 #混沌后计时器
 function dream:timer/choas
 #蓝色史莱姆的寿命
-execute as @e[tag=dream_balloon_slime] run scoreboard players add @s dream_timer 1
-execute as @e[tag=dream_balloon_slime,scores={dream_timer=1200..}] at @s run particle dust 0.094 0.745 0.945 0.75 ~ ~ ~ 0.2 0.2 0.2 0.1 10
-execute as @e[tag=dream_balloon_slime,scores={dream_timer=1200..}] run tp @s ~ -100 ~
-execute as @e[tag=dream_balloon_slime,scores={dream_timer=1200..}] run scoreboard players reset @s dream_timer
-execute as @e[tag=dream_chaser] run scoreboard players add @s dream_timer 1
+execute as @e[tag=entity.dream.balloon_slime] run scoreboard players add @s dream_timer 1
+execute as @e[tag=entity.dream.balloon_slime,scores={dream_timer=1200..}] at @s run particle dust 0.094 0.745 0.945 0.75 ~ ~ ~ 0.2 0.2 0.2 0.1 10
+execute as @e[tag=entity.dream.balloon_slime,scores={dream_timer=1200..}] run tp @s ~ -100 ~
+execute as @e[tag=entity.dream.balloon_slime,scores={dream_timer=1200..}] run scoreboard players reset @s dream_timer
+execute as @e[tag=entity.dream.chaser] run scoreboard players add @s dream_timer 1

@@ -1,8 +1,8 @@
 #游戏阶段临时修改为-1
 scoreboard players set dream_gamestage dream_counter -1
 #生成幻术师
-execute in dream:nightmare positioned 0 60 0 at @p run summon illusioner ~ ~1 ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:120.0}],CustomName:'{"translate":"dream.name.boss.dark_illusioner"}',CustomNameVisible:false,Tags:["dream_dark_illusioner","dream_just_dill"]}
-effect give @e[tag=dream_dark_illusioner] instant_health 1 10
+execute in dream:nightmare positioned 0 60 0 at @p run summon illusioner ~ ~1 ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:120.0}],CustomName:'{"translate":"dream.name.boss.dark_illusioner"}',CustomNameVisible:false,Tags:["entity.dream.dark_illusioner","dream_just_dill"]}
+effect give @e[tag=entity.dream.dark_illusioner] instant_health 1 10
 #bossbar
 bossbar set dream:boss name ["---<",{"translate":"dream.name.boss.dark_illusioner"},">---"]
 bossbar set dream:boss max 120

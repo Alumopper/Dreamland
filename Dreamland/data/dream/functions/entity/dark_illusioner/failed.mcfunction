@@ -6,5 +6,5 @@ advancement grant @a only dream:alpha/dark_illusioner
 #bossbar 
 bossbar set dream:boss visible false
 #
-tp @e[tag=dream_dark_illusioner] 0 -10 0
+tp @e[tag=entity.dream.dark_illusioner] 0 -10 0
 kill @e[tag=dream_dark_meteor]

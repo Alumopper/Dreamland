@@ -1,7 +1,7 @@
 #极端情况0：实体数过高
 execute store result score adm_entitynum adm_temp if entity @e
 tellraw @a ["总数量",{"score":{"name":"adm_entitynum","objective": "adm_temp"}}]
-execute store result score adm_entitynum adm_temp if entity @e[type=armor_stand,tag=dream_void_ore_generator]
+execute store result score adm_entitynum adm_temp if entity @e[type=armor_stand,tag=block.dream.void_ore.generator]
 tellraw @a ["生成器盔甲架数量",{"score":{"name":"adm_entitynum","objective": "adm_temp"}}]
 execute store result score adm_entitynum adm_temp if entity @e[type=fireball]
 tellraw @a ["火球数量",{"score":{"name":"adm_entitynum","objective": "adm_temp"}}]

@@ -1,2 +1,2 @@
 execute store result bossbar dream:boss value run scoreboard players get dream_players_maxhealth dream_counter
-execute store result entity @e[tag=dream_finalboss2,limit=1] Health double 1.0 run scoreboard players get dream_players_maxhealth dream_counter
+execute store result entity @e[tag=entity.dream.finalboss2,limit=1] Health double 1.0 run scoreboard players get dream_players_maxhealth dream_counter

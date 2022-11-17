@@ -9,8 +9,8 @@ execute if score dream_world_collapse dream_timer matches 240000 as @a at @s run
 #梦魇计时器
 function dream:entity/nightmare/skills/timer
 #梦魇防御塔自毁
-execute as @e[scores={dream_timer=600},tag=dream_nightmare_defend_tower] at @s run function dream:entity/nightmare/skills/funcs/kill_self
-scoreboard players add @e[tag=dream_nightmare_defend_tower] dream_timer 1
+execute as @e[scores={dream_timer=600},tag=entity.dream.nightmare_defend_tower] at @s run function dream:entity/nightmare/skills/funcs/kill_self
+scoreboard players add @e[tag=entity.dream.nightmare_defend_tower] dream_timer 1
 #传送到梦之边境
 execute if score dream_pre_tp_to_ted dream_timer matches 0.. run scoreboard players add dream_pre_tp_to_ted dream_timer 1
 execute if score dream_pre_tp_to_ted dream_timer matches 0.. at @a run particle portal ~ ~ ~ 3 3 3 0.1 50
