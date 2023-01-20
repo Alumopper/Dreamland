@@ -1,5 +1,6 @@
 #> math:rand/rand
 # **int** Math.rand()
+# TODO：性能警告
 # 生成一个0到9的随机数
 # @output **score** rand_output math_output
 summon area_effect_cloud ~ ~ ~ {UUID:[I;1222545,5254848,34578111,0],Tags:[Math_temp_rand]}

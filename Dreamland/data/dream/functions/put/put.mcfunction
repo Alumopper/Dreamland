@@ -1,3 +1,3 @@
 execute unless entity @s[distance=5..] if block ~ ~ ~ air positioned ^ ^ ^0.1 run function dream:put/put
 execute unless entity @s[tag=dream_hasput] unless entity @s[nbt={SelectedItem:{tag:{tag:{id:"dreamland:cloud_gun"}}}}] unless block ~ ~ ~ air run function dream:put/put2
-execute unless entity @s[tag=dream_hasput] if entity @s[nbt={SelectedItem:{tag:{tag:{id:"dreamland:cloud_gun"}}}}] unless block ~ ~ ~ air unless entity @e[tag=dream_cloud,distance=0..0.5] run function dream:items/cloud_gun
+execute unless entity @s[tag=dream_hasput] if entity @s[nbt={SelectedItem:{tag:{tag:{id:"dreamland:cloud_gun"}}}}] unless block ~ ~ ~ air unless entity @e[tag=block.dream.cloud,distance=0..0.5] run function dream:items/cloud_gun

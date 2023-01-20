@@ -37,3 +37,4 @@ execute as @a[scores={dream_shift=1..}] run function dream:other/sneak
 execute as @a[scores={dream_fishing=1..}] run function dream:other/fishing
 #
 function dream:particle/tick
+scoreboard players operation #FS_C_FISHSOU aclib_temp %= #FS_C_FISHSOUP aclib_temp

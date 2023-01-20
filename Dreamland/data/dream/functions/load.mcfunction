@@ -68,9 +68,9 @@ scoreboard objectives add dream_boss_hp dummy "Boss血量"
 #记录玩家是否使用梦境护符
 scoreboard objectives add dream_tm_use dummy "使用梦境护符"
 #记录玩家能获得云的间隔时间
-scoreboard objectives add dream_cloudcd dummy "获得云"
+scoreboard objectives add block.dream.cloudcd dummy "获得云"
 #云消散的时间
-scoreboard objectives add dream_clouddrt dummy "云消散"
+scoreboard objectives add block.dream.clouddrt dummy "云消散"
 #创造模式物品栏的页面
 scoreboard objectives add dream_c_page dummy "物品栏页数"
 #传送标记
@@ -101,6 +101,13 @@ scoreboard objectives add dream_par_id dummy "粒子圆标记"
     scoreboard players set $static_par_id dream_par_id 0
 #玩家血量
 scoreboard objectives add dream_player_health health "玩家血量"
+#玩家法杖使用cd
+scoreboard objectives add dream_wanduse_cd dummy
+    execute as @a unless score @s dream_wanduse_cd matches -2147483648..2147483647 run scoreboard players set @s dream_wanduse_cd 0
+#玩家魔法回复cd
+scoreboard objectives add dream_magic_regeneration dummy
+    execute as @a unless score @s dream_magic_regeneration matches -2147483648..2147483647 run scoreboard players set @s dream_magic_regeneration 0
+
 #bossbar区
 #经验池，全部玩家通用
 bossbar add dream:xp ["经验池   ",{"score": {"objective": "dream_xp","name": "xp"}},"/10000"]
@@ -108,8 +115,12 @@ bossbar set dream:xp color green
 bossbar set dream:xp max 10000
 #boss专用
 bossbar add dream:boss ""
+#final_boss的护盾
+bossbar add dream:boss_sheild ""
+
 #强制加载
 execute in dream:choas run forceload add -10 -10 10 10
+
 #结构区
 #黑洞生成
 execute unless entity @e[tag=dream_black_hole] in dream:choas run function dream:structure/black_hole/load

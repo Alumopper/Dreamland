@@ -7,7 +7,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "dream:dream_monument"
+                "location": "dream:miscellaneous/dream_monument"
             },
             "weight": 1
         }

@@ -1,6 +1,8 @@
 #declare tag entity.dream.magicball.chaos 混沌魔法球
 #扣除魔法值
 scoreboard players remove @s[gamemode=!creative] dream_magic 7
+#cd
+scoreboard players set @s dream_wanduse_cd 0
 #注魔-节能
 execute if entity @s[nbt={SelectedItem:{tag:{tag:{infusion:3b}}}}] run scoreboard players add @s[gamemode=!creative] dream_magic 2
 execute if entity @s[nbt={SelectedItem:{tag:{tag:{infusion:3b}}}}] run scoreboard players add @s[gamemode=!creative] dream_magic 4
@@ -19,4 +21,3 @@ execute if score dream_temp_i_chswand dream_counter matches 5 run tag @e[tag=ent
 #scoreboard players set dream_temp_i_chswand dream_counter 0
 execute at @s run tp @e[tag=dream_just,limit=1] ^ ^ ^0.1 ~ ~
 tag @e remove dream_just
-scoreboard players set #magic_time dream_timer -40
