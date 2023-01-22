@@ -10,6 +10,6 @@ kill @e[tag=entity.dream.healing_crystal.blue]
 kill @e[tag=entity.dream.healing_crystal.green]
 tp @e[type=drowned,predicate=dream:if_entity/in_the_end_of_dream] 0 0 0
 function finalboss_ani:uninstall
-scoreboard players set dream_finalstorystage dream_counter 4
 effect clear @a regeneration
 kill @e[tag=dream_playerpos_tracker]
+schedule function dream:memory_story/final_boss2/next 5s

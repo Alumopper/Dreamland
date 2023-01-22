@@ -1,0 +1,17 @@
+{
+    "type": "btoe:space",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [
+                {
+                    "block": "minecraft:air",
+                    "height": 1
+                }
+            ],
+            "biome": "minecraft:plains",
+            "lakes": false,
+            "structure_overrides": []
+        }
+    }
+}

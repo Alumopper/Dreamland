@@ -39,7 +39,5 @@ execute if score subt_dreamland_end subt_timer matches 370 run summon armor_stan
 execute if score subt_dreamland_end subt_timer matches 380 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":"所有在mcbbs帮助过我的人"}'}
 execute if score subt_dreamland_end subt_timer matches 390 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":"沙雕群友们"}'}
 execute if score subt_dreamland_end subt_timer matches 400 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":""}'}
-execute if score subt_dreamland_end subt_timer matches 410 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":""}'}
-execute if score subt_dreamland_end subt_timer matches 420 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":""}'}
-execute if score subt_dreamland_end subt_timer matches 430 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":"<-以及你->","bold":true}'}
-execute if score subt_dreamland_end subt_timer matches 560 run function subtitle:subtitles/dreamland_end/end
+execute if score subt_dreamland_end subt_timer matches 410 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":"<-以及你->","bold":true}'}
+execute if score subt_dreamland_end subt_timer matches 540 run function subtitle:subtitles/dreamland_end/end
