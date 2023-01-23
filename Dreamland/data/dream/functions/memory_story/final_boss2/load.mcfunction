@@ -21,5 +21,7 @@ worldborder center 495 495
 worldborder set 60
 worldborder set 30 5
 worldborder warning distance 0
+#剧情
+tellraw @a {"translate":"word.dream.memory_abyss.sys3","color": "gray","italic": true}
 #正式开始
 schedule function dream:memory_story/final_boss2/qwq 8s

@@ -28,3 +28,5 @@ execute if score dream_system_frameid dream_counter matches 27 run data modify e
 execute if score dream_system_frameid dream_counter matches 28 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 121112
 execute if score dream_system_frameid dream_counter matches 29 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 121113
 execute if score dream_system_frameid dream_counter matches 30 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 121114
+execute if score dream_system_frameid dream_counter matches 30 run scoreboard players set dream_system_load_timer dream_timer -2
+execute if score dream_system_frameid dream_counter matches 30 run scoreboard players set dream_system_log_timer dream_timer -31

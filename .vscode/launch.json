@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SReader",
+            "request": "launch",
+            "mainClass": "SReader",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sreader",
+            "request": "launch",
+            "mainClass": "Sreader",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
             "name": "Launch Counter",
             "request": "launch",
             "mainClass": "Counter",

@@ -23,3 +23,5 @@ scoreboard players set st_next dream_counter 0
 scoreboard players set st_notouchfish dream_counter 0
 #空间站故事线
 scoreboard players set stl_story dream_counter 0
+#放梦境方块
+execute in dream:memory_abyss positioned 64.5 68 57.5 run function dream:put/dream_portal

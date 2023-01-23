@@ -1,0 +1,1 @@
+tellraw @a {"translate": "word.dream.memory_abyss.sys6","color": "gray","italic": true}

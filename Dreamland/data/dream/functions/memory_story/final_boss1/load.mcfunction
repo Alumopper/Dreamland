@@ -10,6 +10,8 @@
 
 #alias vector finalbosspos 495 96 495 
 effect give @a night_vision 123456 0 true
+gamemode adventure @a[gamemode=!creative]
+execute in dream:memory_abyss run tp @a 495 97 495
 #中央标记
 execute in dream:memory_abyss run summon marker 495 96 495 {Tags:["dream_final_boss1"]}
 #时间标记(一百tick准备时间)
@@ -21,3 +23,5 @@ scoreboard players set dream_final_boss1_skilltimer dream_timer -1
 difficulty peaceful
 #禁止实体破坏方块
 gamerule mobGriefing false
+#阶段
+scoreboard players set dream_finalstorystage dream_counter 2
