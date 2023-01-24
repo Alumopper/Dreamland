@@ -28,22 +28,22 @@ public class Sreader {
 	public static void output(String s,FileWriter w,FileWriter w1) throws IOException {
 		//ï¿½Ð¶ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Ëµï¿½Ä»ï¿½
 		//System.out.println(sc.nextLine());
-		if(s.startsWith("¡·")) {
+		if(s.startsWith("ï¿½ï¿½")) {
 			//Îªï¿½ï¿½ï¿½ï¿½Ëµï¿½Ä»ï¿½
 			//execute if score dream_tec_story dream_timer matches 0 run tellraw @a {"text":"[ï¿½ï¿½ï¿½ï¿½]...","color": "aqua"}
-			String out = "execute if score dream_tec_story dream_timer matches "+t+" run tellraw @a {\"translate\":\"dream.word.the_edge_cabin.Marine"+i+"\",\"color\": \"aqua\"}\n";
+			String out = "execute if score dream_tec_story dream_timer matches "+t+" run tellraw @a {\"translate\":\"word.dream.the_edge_cabin.Marine"+i+"\",\"color\": \"aqua\"}\n";
 			t += (s.length()*3+10);
 			w.write(out);
-			//dream.word.the_edge_cabin.MarineX
-			out = "\"dream.word.the_edge_cabin.Marine"+ i++ + "\":\"<ÀÏÕß>" + s.substring(s.indexOf("¡·")+1) +"\",\n";
+			//word.dream.the_edge_cabin.MarineX
+			out = "\"word.dream.the_edge_cabin.Marine"+ i++ + "\":\"<ï¿½ï¿½ï¿½ï¿½>" + s.substring(s.indexOf("ï¿½ï¿½")+1) +"\",\n";
 			w1.write(out);
 		}else {
 			//execute if score dream_tec_story dream_timer matches 0 run tellraw @a {"text":"[ï¿½ï¿½]...","color": "white"}
-			String out = "execute if score dream_tec_story dream_timer matches "+t+" run tellraw @a {\"translate\":\"dream.word.the_edge_cabin.Player"+ k +"\",\"color\": \"white\"}\n";
+			String out = "execute if score dream_tec_story dream_timer matches "+t+" run tellraw @a {\"translate\":\"word.dream.the_edge_cabin.Player"+ k +"\",\"color\": \"white\"}\n";
 			w.write(out);
 			t += (s.length()*3+10);
-			//dream.word.the_edge_cabin.Player
-			out = "\"dream.word.the_edge_cabin.Player"+ k++ + "\":\"<×Ô¼º>" + s +"\",\n";
+			//word.dream.the_edge_cabin.Player
+			out = "\"word.dream.the_edge_cabin.Player"+ k++ + "\":\"<ï¿½Ô¼ï¿½>" + s +"\",\n";
 			w1.write(out);
 		}
 	}

@@ -1,4 +1,5 @@
 #<2021.12.28评>真是屎山代码，我当时都在写些什么玩意
+#<2023.01.24评>完了现在更看不懂了
 #bossbar
 execute as @e[tag=dream_boss1] store result bossbar dream:boss value run data get entity @e[tag=dream_boss1,limit=1] Health
 execute store result score @e[tag=dream_boss1] dream_boss_hp run data get entity @e[tag=dream_boss1,limit=1] Health

@@ -1,5 +1,5 @@
 #气球史莱姆的移动
-execute as @e[tag=entity.dream.balloon_slime] at @s run function dream:entity/balloon_slime/move
+execute if entity @a as @e[tag=entity.dream.balloon_slime] at @s run function dream:entity/balloon_slime/move
 #生成气球史莱姆
 execute as @e[type=slime,predicate=dream:if_entity/in_slimeland,tag=!entity.dream.balloon_slime,tag=!dream_unable_to_summon_slime] at @s run function dream:entity/balloon_slime/summon
 #气球史莱姆模型设置

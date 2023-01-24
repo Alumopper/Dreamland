@@ -6,4 +6,4 @@ execute in dream:memory_abyss run summon zombie 500 251 500 {Attributes:[{Name:"
 execute in dream:memory_abyss run summon zombie 500 251 500 {Attributes:[{Name:"minecraft:generic.max_health",Base:30.0},{Name:"minecraft:generic.attack_damage",Base:8.0}]}
 execute in dream:memory_abyss run summon zombie 500 251 500 {Attributes:[{Name:"minecraft:generic.max_health",Base:20.0},{Name:"minecraft:generic.attack_damage",Base:6.0}]}
 #剧情
-tellraw @a {"translate":"dream.word.memory_abyss.sys1","color": "gray"}
+tellraw @a {"translate":"word.dream.memory_abyss.sys1","color": "gray"}
