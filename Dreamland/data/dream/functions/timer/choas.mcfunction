@@ -7,7 +7,7 @@ execute if score dream_world_collapse dream_timer matches 0.. run scoreboard pla
 execute if score dream_world_collapse dream_timer matches 120000 run scoreboard players set dream_world_collapse dream_timer -2
 execute if score dream_world_collapse dream_timer matches 240000 as @a at @s run function dream:structure/black_hole/tp
 #梦魇计时器
-function dream:entity/nightmare/skills/timer
+execute if entity @a[tag=dream_fight_nightmare] run function dream:entity/nightmare/skills/timer
 #梦魇防御塔自毁
 execute as @e[scores={dream_timer=600},tag=entity.dream.nightmare_defend_tower] at @s run function dream:entity/nightmare/skills/funcs/kill_self
 scoreboard players add @e[tag=entity.dream.nightmare_defend_tower] dream_timer 1
@@ -17,6 +17,6 @@ execute if score dream_pre_tp_to_ted dream_timer matches 0.. at @a run particle 
 execute if score dream_pre_tp_to_ted dream_timer matches 200.. run function dream:entity/nightmare/tp
 #梦之边境剧情
 execute if score dream_tec_story dream_timer matches 0.. run scoreboard players add dream_tec_story dream_timer 1
-function dream:structure/the_edge_cabin/story
+execute if score dream_tec_story dream_timer matches 0.. run function dream:structure/the_edge_cabin/story
 execute if score dream_tec_story dream_timer matches 2074 run function dream:structure/the_edge_cabin/exit
 execute if score dream_tec_story dream_timer matches 2074 run scoreboard players set dream_tec_story dream_timer -1

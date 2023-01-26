@@ -1,22 +1,17 @@
-#气球史莱姆的移动
-execute if entity @a as @e[tag=entity.dream.balloon_slime] at @s run function dream:entity/balloon_slime/move
-#生成气球史莱姆
-execute as @e[type=slime,predicate=dream:if_entity/in_slimeland,tag=!entity.dream.balloon_slime,tag=!dream_unable_to_summon_slime] at @s run function dream:entity/balloon_slime/summon
-#气球史莱姆模型设置
-effect give @e[tag=entity.dream.balloon_slime] invisibility 1 0 true
-#删除模型
-execute as @e[tag=entity.dream.balloon_slime_model] at @s unless entity @e[tag=entity.dream.balloon_slime,distance=0..2] run kill @s
+#气球史莱姆
+    execute as @a[tag=entity.dream.balloon_slime] run function dream:entity/balloon_slime/tick
+    #生成气球史莱姆
+    execute as @e[type=slime,predicate=dream:if_entity/in_slimeland,tag=!entity.dream.balloon_slime,tag=!dream_unable_to_summon_slime] at @s run function dream:entity/balloon_slime/summon
 #随机修改噩梦世界中僵尸和骷髅的战利品表来掉落噩梦精华
-execute as @e[type=zombie,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare,tag=!entity.dream.block_ghost] at @s run function dream:entity/zombie/loot
-execute as @e[type=skeleton,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] at @s run function dream:entity/skeleton/loot
+execute as @e[type=zombie,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare,tag=!entity.dream.block_ghost] run function dream:entity/zombie/loot
+execute as @e[type=skeleton,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] run function dream:entity/skeleton/loot
 #修改美梦世界中史莱姆的战利品表来掉落美梦精华
-execute as @e[type=slime,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] at @s run function dream:entity/slime/loot
+execute as @e[type=slime,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] run function dream:entity/slime/loot
 #生成方块鬼魂
-execute as @e[type=zombie,predicate=dream:if_entity/in_stoneshore,tag=!dream_unable_to_turn_block] at @s run function dream:entity/block_ghost/summon
+execute as @e[type=zombie,tag=!dream_unable_to_turn_block,predicate=dream:if_entity/in_stoneshore] at @s run function dream:entity/block_ghost/summon
 #触发方块鬼魂
 execute as @e[tag=entity.dream.block_ghost.trigger] at @s if entity @a[distance=0..5] run function dream:entity/block_ghost/trigger
-#方块鬼魂的模型
-effect give @e[tag=entity.dream.block_ghost] invisibility 233 0 true
+#TODO 方块鬼魂的模型
 execute as @e[tag=entity.dream.block_ghost] at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:diamond_ore"},Time:599,DropItem:false,NoGravity:true}
 #幻翼火球
 scoreboard players add @e[type=phantom,predicate=dream:if_entity/in_choas] dream_phire 1
@@ -28,25 +23,15 @@ execute as @e[tag=dream_phantom_fireball] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 ai
 execute if entity @e[tag=entity.dream.nightmare] run function dream:entity/nightmare/tick
 #生成梦魇
 execute if entity @a[tag=entity.dream.nightmare_wait_to_restart] run function dream:entity/nightmare/load
-#尝试生成虚空矿石
-    #初始化
-    execute unless entity @e[tag=block.dream.void_ore] in dream:choas positioned 0 -30 0 run function dream:entity/void_ore/summon
-execute as @e[tag=!block.dream.void_ore.end,tag=block.dream.void_ore] in dream:choas positioned 0 -30 0 if entity @s[distance=..100] at @s run function dream:entity/void_ore/generation
-#如果矿石不足
-execute store result score dream_temp_e_tick dream_counter if entity @e[tag=block.dream.void_ore]
-execute if score dream_temp_e_tick dream_counter matches ..5 run function dream:entity/void_ore/regeneration
-#虚空矿石的显示
-execute as @e[tag=block.dream.void_ore] at @s run function dream:entity/void_ore/display
-execute as @e[tag=block.dream.void_ore.ball] at @s run function dream:entity/void_ore/dig_t
-#虚空矿石给玩家的伤害
-execute as @a at @s if entity @e[tag=block.dream.void_ore,distance=..16] run effect give @s wither 1 0 false
-#生成追逐者
-execute as @a if entity @s[predicate=dream:if_entity/in_deepdeepdark] run scoreboard players add @s entity.dream.chaser_sm 1
-execute as @a at @s if score @s entity.dream.chaser_sm matches 1200.. if predicate dream:1in10 run function dream:entity/chaser/summon
-execute as @a if score @s entity.dream.chaser_sm matches 1200.. run scoreboard players set @s entity.dream.chaser_sm 0
+#虚空矿石
+execute if entity @a[predicate=dream:if_entity/in_choas] run function dream:entity/void_ore/tick
 #追逐者
 execute as @e[tag=entity.dream.chaser] at @s run function dream:entity/chaser/tick
-#噩梦时间的蝙蝠轰炸机
+    #生成追逐者
+    execute as @a if entity @s[predicate=dream:if_entity/in_deepdeepdark] run scoreboard players add @s entity.dream.chaser_sm 1
+    execute as @a at @s if score @s entity.dream.chaser_sm matches 1200.. if predicate dream:1in10 run function dream:entity/chaser/summon
+    execute as @a if score @s entity.dream.chaser_sm matches 1200.. run scoreboard players set @s entity.dream.chaser_sm 0
+#噩梦世界的蝙蝠轰炸机
 execute as @e[type=bat] if entity @s[predicate=dream:if_entity/in_nightmare] at @s positioned ~-1 ~-10 ~-1 if entity @a[dx=3,dy=10,dz=3] run function dream:entity/nightmare_bat/bat
 #治疗水晶
 execute as @e[tag=entity.dream.healing_crystal] run function dream:entity/healing_crystal/tick

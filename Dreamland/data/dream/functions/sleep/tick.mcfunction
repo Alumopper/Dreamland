@@ -13,5 +13,5 @@ execute as @e[tag=dream_bed] at @s unless block ~ ~ ~ #beds run kill @s
 #   老的药水云被清除，新的药水云无法生成，data get只能获取个寂寞
 #   所以两个rand必须分开在两个游戏刻执行以避免UUID冲突
 #注：此问题已经被解决(2021/6)
-execute as @a if predicate dream:timecheck_6000 run function dream:sleep/random
-execute as @a if predicate dream:timecheck_6001 run function dream:sleep/random2
+#注：随机数算法更新为线性同余算法(2023.1.25)
+execute as @a if predicate dream:timecheck_6000 run function dream:sleep/random2

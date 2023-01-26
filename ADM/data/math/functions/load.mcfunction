@@ -8,7 +8,8 @@ scoreboard objectives add math_output dummy "output"
 #@internal
 #declare objective math_temp 
 scoreboard objectives add math_temp dummy "temp"
-#declare objective math_input 数学输入
+scoreboard players set random_seed math_temp 114514
+#declare objective math_count 数学常数
 scoreboard objectives add math_count dummy "count"
 #设置常量
 #>
@@ -27,3 +28,6 @@ scoreboard players set C_100 math_count 100
 scoreboard players set C_3919 math_count 3919
 scoreboard players set C_10000 math_count 10000
 scoreboard players set C_49500 math_count 49500
+scoreboard players set C_49500 math_count 49500
+scoreboard players set C_20010921 math_count 20060921
+scoreboard players set C_1103515245 math_count 1103515245

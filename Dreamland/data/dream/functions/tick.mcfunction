@@ -24,8 +24,11 @@ execute if score dream_infuse_stage dream_counter matches 2 if score stage3 drea
 execute if score dream_infuse_stage dream_counter matches 4 as @e[tag=dream_infusetable] at @s unless block ~ ~ ~ minecraft:chest{Items:[{Slot:24b}]} run scoreboard players set dream_infuse_stage dream_counter 0
 #判断梦之尘是否在床上
 execute as @e[type=item,nbt={Item:{tag:{tag:{id:"dreamland:dreamdust"}}}}] at @s if block ~ ~ ~ #minecraft:beds align xyz positioned ~0.5 ~ ~0.5 run function dream:sleep/bed
+#去除床的标记
+execute as @e[tag=defended_dream_bed] at @s unless entity @e[tag=dream_defender,tag=dream_activated,distance=0..5] run tag @s remove defended_dream_bed
+execute as @e[tag=broken_dream_bed] at @s unless entity @e[tag=dream_breaker,tag=dream_activated,distance=0..5] run tag @s remove broken_dream_bed
 #注魔效果
-function dream:infuse/tick
+execute as @a run function dream:infuse/tick
 #药水效果
 execute as @a run function dream:effect
 #清除临时物品
