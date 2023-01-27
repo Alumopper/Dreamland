@@ -1,7 +1,7 @@
 #为梦床添加粒子特效
 execute as @e[tag=dream_bed] at @s run particle dust 0 0.6352941176470588 1 1 ~ ~1 ~ 0.5 0.5 0.5 0.1 1
 #如玩家在床上，开启维度传送计时
-execute as @a if score @s dream_tpwait matches 0..99 store result score @s dream_tpwait run data get entity @s SleepTimer
+execute as @a unless data entity @s {SleepTimer:0s} store result score @s dream_tpwait run data get entity @s SleepTimer
 #挖掉床
 execute as @e[tag=dream_bed] at @s unless block ~ ~ ~ #beds run kill @s
 #每当时间到6000时，重置玩家进入两个梦境世界的概率
@@ -14,4 +14,6 @@ execute as @e[tag=dream_bed] at @s unless block ~ ~ ~ #beds run kill @s
 #   所以两个rand必须分开在两个游戏刻执行以避免UUID冲突
 #注：此问题已经被解决(2021/6)
 #注：随机数算法更新为线性同余算法(2023.1.25)
-execute as @a if predicate dream:timecheck_6000 run function dream:sleep/random2
+#execute as @a if predicate dream:timecheck_6000 run function dream:sleep/random2
+#TODO 概率
+scoreboard players set @s dream_likelihood 50

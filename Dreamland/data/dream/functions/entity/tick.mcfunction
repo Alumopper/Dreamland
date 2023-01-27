@@ -6,13 +6,13 @@
 execute as @e[type=zombie,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare,tag=!entity.dream.block_ghost] run function dream:entity/zombie/loot
 execute as @e[type=skeleton,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] run function dream:entity/skeleton/loot
 #修改美梦世界中史莱姆的战利品表来掉落美梦精华
-execute as @e[type=slime,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] run function dream:entity/slime/loot
+execute as @e[type=slime,tag=!dream_has_tested,tag=!entity.dream.balloon_slime,predicate=dream:if_entity/in_sweetdream] run function dream:entity/slime/loot
 #生成方块鬼魂
 execute as @e[type=zombie,tag=!dream_unable_to_turn_block,predicate=dream:if_entity/in_stoneshore] at @s run function dream:entity/block_ghost/summon
 #触发方块鬼魂
 execute as @e[tag=entity.dream.block_ghost.trigger] at @s if entity @a[distance=0..5] run function dream:entity/block_ghost/trigger
 #TODO 方块鬼魂的模型
-execute as @e[tag=entity.dream.block_ghost] at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:diamond_ore"},Time:599,DropItem:false,NoGravity:true}
+#execute as @e[tag=entity.dream.block_ghost] at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:diamond_ore"},Time:599,DropItem:false,NoGravity:true}
 #幻翼火球
 scoreboard players add @e[type=phantom,predicate=dream:if_entity/in_choas] dream_phire 1
 execute as @e[scores={dream_phire=200..}] at @s run function dream:entity/phantom/fire

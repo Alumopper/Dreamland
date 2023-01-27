@@ -29,6 +29,7 @@
     "temperature": 0.5,
     "downfall": 0.5,
     "category": "the_end",
+    "has_precipitation":false,
     "depth": 0.1
 }
   

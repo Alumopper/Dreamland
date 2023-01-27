@@ -1,79 +1,49 @@
 {
-    "type":"dream:nightmare",
-    "generator":{
-        "type":"minecraft:noise",
-        "settings":"dream:nightmare",
-        "biome_source":{
-            "type": "multi_noise",
-            "altitude_noise": {
-                "firstOctave": -7,
-                "amplitudes": [
-                    1,
-                    1
-                ]
-            },
-            "humidity_noise": {
-                "firstOctave": -7,
-                "amplitudes": [
-                    1,
-                    1
-                ]
-            },
-            "temperature_noise": {
-                "firstOctave": -7,
-                "amplitudes": [
-                    1,
-                    1
-                ]
-            },
-            "weirdness_noise": {
-                "firstOctave": -7,
-                "amplitudes": [
-                    1,
-                    1
-                ]
-            },
-            "biomes": [
-                {
-                    "biome": "dream:deepdeepdark",
-                    "parameters": {
-                        "altitude": -0.1,
-                        "erosion": 0.2,
-                        "depth": 0.2,
-                        "continentalness": 0.2,
-                        "humidity": 0.2,
-                        "temperature": 0.0,
-                        "weirdness": -0.1,
-                        "offset": 0.4
-                    }
-                },
-                {
-                    "biome": "dream:scarlet",
-                    "parameters": {
-                        "altitude": -0.2,
-                        "erosion": 0.2,
-                        "depth": 0.2,
-                        "continentalness": 0.2,
-                        "humidity": 0.1,
-                        "temperature": 0.2,
-                        "weirdness": -0.0,
-                        "offset": 0.5
-                    }
-                },
-                {
-                    "biome": "dream:stoneshore",
-                    "parameters": {
-                        "altitude": 0.1,
-                        "erosion": 0.2,
-                        "depth": 0.2,
-                        "continentalness": 0.2,
-                        "humidity": -0.2,
-                        "temperature": 0.1,
-                        "weirdness": -0.0,
-                        "offset": 0.5
-                    }
-                }
-            ]
-        }
+    "type": "dream:nightmare",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "dream:nightmare",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "dream:deepdeepdark",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0.2,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": -0.1,
+              "depth": 0.2,
+              "offset": 0.4
+            }
+          },
+          {
+            "biome": "dream:scarlet",
+            "parameters": {
+              "temperature": 0.2,
+              "humidity": 0.1,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0,
+              "depth": 0.2,
+              "offset": 0.5
+            }
+          },
+          {
+            "biome": "minecraft:deep_dark",
+            "parameters": {
+              "temperature": 0.1,
+              "humidity": 1,
+              "continentalness": -0.1,
+              "erosion": 0,
+              "weirdness": 0,
+              "depth": 0,
+              "offset": 0.3
+            }
+          }
+        ]
+      }
     }
-}
+  }
+  

@@ -2,8 +2,8 @@
 #进入梦境
 execute as @a if score @s dream_tpwait matches 75 run effect give @s blindness 10 0 false
 execute as @a if score @s dream_tpwait matches 94 run function dream:sleep/random02
-execute as @a at @s if score @s dream_tpwait matches 95 if entity @e[tag=defenfed_dream_bed] run scoreboard players set @s dream_bxmingming 100
-execute as @a at @s if score @s dream_tpwait matches 95 if entity @e[tag=broken_dream_bed] run scoreboard players set @s dream_bxmingming 0
+execute as @a at @s if score @s dream_tpwait matches 95 if entity @e[tag=defenfed_dream_bed,distance=..2] run scoreboard players set @s dream_bxmingming 100
+execute as @a at @s if score @s dream_tpwait matches 95 if entity @e[tag=broken_dream_bed,distance=..2] run scoreboard players set @s dream_bxmingming 0
 execute as @a if score @s dream_tpwait matches 95 run function dream:sleep/tp
 #利用梦境传送门进入梦境
 execute as @a if score @s dream_tpwait matches 100.. run scoreboard players add @s dream_tpwait 1

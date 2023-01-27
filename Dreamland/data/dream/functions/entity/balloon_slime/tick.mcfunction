@@ -4,4 +4,4 @@ execute if entity @a[distance=0..4.5] at @s run function dream:entity/balloon_sl
 effect give @s invisibility 1 0 true
 #蓝色史莱姆的寿命
 scoreboard players add @s dream_timer 1
-execute if score @s dream_timer matches 1200.. at @s run function dream:entity/balloon_slime/death
+execute if score @s dream_timer matches 600.. at @s run function dream:entity/balloon_slime/death

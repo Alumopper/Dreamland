@@ -5,6 +5,7 @@
     "temperature": 0.9,
     "temperature_modifier": "none",
     "downfall": 0.9,
+    "has_precipitation":false,
     "effects":{
         "sky_color": 16729156,
         "fog_color": 16609135,
