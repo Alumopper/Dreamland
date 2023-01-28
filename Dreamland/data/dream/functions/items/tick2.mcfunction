@@ -7,8 +7,7 @@ execute as @a[tag=!dream_effect_levitation255] if data entity @s {Inventory:[{Sl
 execute as @a[tag=dream_magic_displaying] run function dream:items/magic_display
 execute as @a[tag=!dream_magic_displaying] if data entity @s {SelectedItem:{tag:{tag:{MagicDisplay:true}}}} run tag @s add dream_magic_displaying
 execute as @a[tag=!dream_magic_displaying] if data entity @s {Inventory:[{Slot:-106b,tag:{tag:{MagicDisplay:true}}}]} run tag @s add dream_magic_displaying
-execute as @a[tag=dream_magic_displaying] unless data entity @s {SelectedItem:{tag:{tag:{MagicDisplay:true}}}} run function dream:items/remove_magic_display
-execute as @a[tag=dream_magic_displaying] unless data entity @s {Inventory:[{Slot:-106b,tag:{tag:{MagicDisplay:true}}}]} run function dream:items/remove_magic_display
+execute as @a[tag=dream_magic_displaying] unless data entity @s {SelectedItem:{tag:{tag:{MagicDisplay:true}}}} unless data entity @s {Inventory:[{Slot:-106b,tag:{tag:{MagicDisplay:true}}}]} run function dream:items/remove_magic_display
 #手持法杖开始检测玩家是否副手持有魔法水晶
 execute as @a[nbt={SelectedItem:{tag:{tag:{id:"dreamland:dream_wand"}}}}] run function dream:items/wand_insert/crystal_num
 execute as @a[nbt={SelectedItem:{tag:{tag:{id:"dreamland:choas_wand"}}}}] run function dream:items/wand_insert/crystal_num

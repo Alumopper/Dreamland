@@ -26,6 +26,7 @@
         "minecraft:zoglin",
         "minecraft:zombie_villager",
         "minecraft:ender_dragon",
-        "minecraft:wither"
+        "minecraft:wither",
+        "minecart:spider"
     ]
 }

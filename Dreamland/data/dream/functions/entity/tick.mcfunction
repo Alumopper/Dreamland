@@ -28,7 +28,7 @@ execute if entity @a[predicate=dream:if_entity/in_choas] run function dream:enti
 #追逐者
 execute as @e[tag=entity.dream.chaser] at @s run function dream:entity/chaser/tick
     #生成追逐者
-    execute as @a if entity @s[predicate=dream:if_entity/in_deepdeepdark] run scoreboard players add @s entity.dream.chaser_sm 1
+    execute as @a unless score dream_gamestage dream_counter matches -1 if entity @s[predicate=dream:if_entity/in_deepdeepdark] run scoreboard players add @s entity.dream.chaser_sm 1
     execute as @a at @s if score @s entity.dream.chaser_sm matches 1200.. if predicate dream:1in10 run function dream:entity/chaser/summon
     execute as @a if score @s entity.dream.chaser_sm matches 1200.. run scoreboard players set @s entity.dream.chaser_sm 0
 #噩梦世界的蝙蝠轰炸机

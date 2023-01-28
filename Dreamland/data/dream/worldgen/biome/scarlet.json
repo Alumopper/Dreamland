@@ -69,17 +69,24 @@
         ],
         [],
         [
-            "minecraft:spring_lava"
+          "minecraft:spring_open",
+          "minecraft:ore_magma",
+          "minecraft:spring_closed",
+          "minecraft:ore_blackstone",
+          "minecraft:ore_gold_nether",
+          "minecraft:ore_quartz_nether",
+          "minecraft:ore_ancient_debris_large",
+          "minecraft:ore_debris_small"
         ],
         [
+            "minecraft:spring_lava",
             "minecraft:patch_tall_grass_2",
             "minecraft:trees_plains",
             "minecraft:patch_grass_plain",
-            "minecraft:red_mushroom_normal"
+            "minecraft:red_mushroom_normal",
+            "minecraft:crimson_forest_vegetation"
         ],
-        [
-            "minecraft:freeze_top_layer"
-        ]
+        []
     ],
     "spawners": {
         "creature": [

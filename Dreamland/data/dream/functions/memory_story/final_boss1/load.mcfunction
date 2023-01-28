@@ -12,6 +12,7 @@
 effect give @a night_vision 123456 0 true
 gamemode adventure @a[gamemode=!creative]
 execute in dream:memory_abyss run tp @a 495 97 495
+spawnpoint @a 495 97 495
 #中央标记
 execute in dream:memory_abyss run summon marker 495 96 495 {Tags:["dream_final_boss1"]}
 #时间标记(一百tick准备时间)
