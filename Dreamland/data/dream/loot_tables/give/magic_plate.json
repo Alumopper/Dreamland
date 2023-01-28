@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.magic_plate\",\"italic\":false}]'}, tag: {id: \"dreamland:magic_plate\",isTemp: 0b}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

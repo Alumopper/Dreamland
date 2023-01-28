@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.dream_org_sword\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_org_sword\", type: 101b, infusion: 0b, defaultdamage: 6.2d,isTemp: 0b}, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 6.2d, Operation: 0, UUID: [I; 1498693494, 25562484, 1898994005, 860320107]}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: -2.5d, Operation: 0, UUID: [I; 508088, 25562484, 1898994005, 860320107]}]}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

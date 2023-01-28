@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag":"{CustomModelData: 120004, display: {Name: '[{\"translate\":\"item.fishsoup.memory_soup\",\"italic\":false}]'}, tag: {id: \"fishsoup:memory_soup\",isTemp: 0b}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

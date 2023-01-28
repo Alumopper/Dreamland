@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120030, display: {Name: '[{\"translate\":\"item.dreamland.natural_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.natural\",\"color\": \"#00FF00\"}']}, tag: {id: \"dreamland:natural_crystal\",WandEx:[2],isTemp: 0b}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

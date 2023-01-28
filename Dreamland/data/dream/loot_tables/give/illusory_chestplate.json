@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.illusory_chestplate\",\"italic\":false}]'}, tag: {id: \"dreamland:illusory_chestplate\", type: 2b, infusion: 0b, defaultarmor: 6,isTemp: 0b}, AttributeModifiers: [{Slot: \"chest\", AttributeName: \"generic.armor\", Name: \"generic.armor\", Amount: 6, Operation: 0, UUID: [I; 874818, 1076729488, 189845405, 1256454]}, {Slot: \"chest\", AttributeName: \"generic.movement_speed\", Name: \"generic.movement_speed\", Amount: 0.005d, Operation: 0, UUID: [I; 14958484, 6005898, 24480, 1256454]}]}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

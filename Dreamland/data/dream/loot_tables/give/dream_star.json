@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.dream_star\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_star\",isTemp: 0b}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

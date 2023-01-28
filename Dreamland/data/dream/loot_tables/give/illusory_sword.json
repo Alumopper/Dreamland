@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.illusory_sword\",\"italic\":false}]'}, tag: {id: \"dreamland:illusory_sword\", type: 101b, infusion: 0b, defaultdamage: 7,isTemp: 0b}, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 7, Operation: 0, UUID: [I; 484118484, 1027158888, 1898994005, 860320107]}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: -2, Operation: 0, UUID: [I; 508088, 25562484, 1898994005, 860320107]}]}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

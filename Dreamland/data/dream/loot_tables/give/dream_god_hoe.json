@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_hoe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120004, display: {Name: '[{\"translate\":\"item.dreamland.dream_god_hoe\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_god_hoe\", type: 8b, infusion: 0b,isTemp: 0b}, Unbreakable: true}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

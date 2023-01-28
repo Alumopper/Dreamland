@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_leggings\",\"italic\":false}]'}, tag: {id: \"dreamland:unnamed_leggings\", type: 3b, infusion: 0b, defaultarmor: 6,isTemp: 0b}, AttributeModifiers: [{AttributeName: \"generic.armor\", Name: \"generic.armor\", Amount: 6, Operation: 0, UUID: [I; 14958484, 1076729488, 6188, 7474251], Slot: \"legs\"}, {AttributeName: \"generic.movement_speed\", Amount: -0.005d, Operation: 0, UUID: [I; 562251, 1512166, 5184181, 77520802], Slot: \"legs\"}]}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

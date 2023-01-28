@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120004, display: {Name: '[{\"translate\":\"item.dreamland.dream_god_axe\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_god_axe\", type: 5b, infusion: 0b,isTemp: 0b}, Unbreakable: true}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120005, display: {Name: '[{\"translate\":\"item.dreamland.weather_wand\",\"italic\":false}]'}, tag: {id: \"dreamland:weather_wand\",isTemp: 0b,MagicDisplay:true}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Give",
+            "request": "launch",
+            "mainClass": "Give",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
+            "name": "Launch Give",
+            "request": "launch",
+            "mainClass": "Dreamland.data.dream.functions.creative.gui.Give",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
             "name": "Launch SReader",
             "request": "launch",
             "mainClass": "SReader",

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.illusory_boots\",\"italic\":false}]'}, tag: {id: \"dreamland:illusory_boots\", type: 4b, infusion: 0b, defaultarmor: 2,isTemp: 0b}, AttributeModifiers: [{Slot: \"feet\", AttributeName: \"generic.armor\", Name: \"generic.armor\", Amount: 2, Operation: 0, UUID: [I; 14958484, 1076729488, 25477841, 1848484]}, {Slot: \"feet\", AttributeName: \"generic.movement_speed\", Name: \"generic.movement_speed\", Amount: 0.02d, Operation: 0, UUID: [I; 68418084, 1022549488, 24480, 1256454]}]}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

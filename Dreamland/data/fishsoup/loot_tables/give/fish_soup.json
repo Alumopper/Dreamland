@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:milk_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag":"{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.fishsoup.fish_soup\",\"italic\":false}]'}, tag: {id: \"fishsoup:fish_soup\",isTemp: 0b}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120023, tag: {id: \"dreamland:cloud_gun\",isTemp: 0b}, display: {Name: '[{\"translate\":\"item.dreamland.cloud_gun\",\"italic\": false}]'}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.illusory_axe\",\"italic\":false}]'}, tag: {id: \"dreamland:illusory_axe\", type: 5b, infusion: 0b,isTemp: 0b}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

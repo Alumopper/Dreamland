@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.dream_org_chestplate\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_org_chestplate\", type: 2b, infusion: 0b, defaultarmor: 5,isTemp: 0b}, AttributeModifiers: [{AttributeName: \"generic.armor\", Name: \"generic.armor\", Slot: \"chest\", Amount: 5, Operation: 0, UUID: [I; 14958484, 1076729488, 182811115, 1253354]}]}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}
