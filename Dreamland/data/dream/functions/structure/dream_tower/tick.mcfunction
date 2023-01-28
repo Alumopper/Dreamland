@@ -23,8 +23,8 @@ execute as @e[tag=dream_boss1] at @s unless entity @a[distance=0..60] run functi
 scoreboard players set dream_if_kill_boss1 dream_counter 1
 execute as @a[tag=dream_fighting_boss1] unless entity @e[tag=dream_boss1] run function dream:structure/dream_tower/end
 #检测玩家是否进入Boss区
-execute as @p at @p if entity @a[x=-10,y=181,z=-10,dx=20,dy=3,dz=20] if score dream_dreamtowerboss_pre dream_timer matches -1 run scoreboard players set dream_dreamtowerboss_pre dream_timer 0
-execute as @p at @p if entity @a[x=-3,y=181,z=-3,dx=6,dy=3,dz=6] if score dream_dreamtowerboss_pre dream_timer matches -2 run scoreboard players set dream_dreamtowerboss_pre dream_timer 131
+execute as @p at @p if entity @a[x=-10,y=196,z=-10,dx=20,dy=3,dz=20,predicate=dream:if_entity/in_sweetdream] if score dream_dreamtowerboss_pre dream_timer matches -1 run scoreboard players set dream_dreamtowerboss_pre dream_timer 0
+execute as @p at @p if entity @a[x=-3,y=196,z=-3,dx=6,dy=3,dz=6,predicate=dream:if_entity/in_sweetdream] if score dream_dreamtowerboss_pre dream_timer matches -2 run scoreboard players set dream_dreamtowerboss_pre dream_timer 131
 #为正在释放技能的Boss添加粒子效果
 execute as @e[tag=dream_boss1_particle_marker] if score dream_boss1_skillcd2 dream_timer matches 60..180 at @s run function dream:structure/dream_tower/particle
 #设置Boss条标题以显示血量

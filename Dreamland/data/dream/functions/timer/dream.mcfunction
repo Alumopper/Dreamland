@@ -11,10 +11,10 @@ execute as @a if score @s dream_tpwait matches 100.. at @s run particle portal ~
 execute as @a if score @s dream_tpwait matches 160 at @s run function dream:dream_portal/mode/tp
 execute as @a if score @s dream_tpwait matches 163 at @s run function dream:other/platform
 #梦境计时
-execute as @a[tag=!dream_fighting_boss1] if score @s dream_sleeptime matches 0.. run scoreboard players add @s dream_sleeptime 1
-execute as @a if score @s dream_sleeptime matches 11800 run tellraw @s [{"translate": "info.dream.sleep.leave","color": "gray","italic": true}]
-execute as @a if score @s dream_sleeptime matches 12000.. run function dream:sleep/leave
-scoreboard players set @a[predicate=!dream:if_entity/in_dream,scores={dream_sleeptime=1..}] dream_sleeptime -1
+execute as @a[tag=!dream_fighting_boss1] unless score dream_gamestage dream_counter matches -1 if score @s dream_sleeptime matches 0.. run scoreboard players add @s dream_sleeptime 1
+execute as @a if score @s dream_sleeptime matches 5800 run tellraw @s [{"translate": "info.dream.sleep.leave","color": "gray","italic": true}]
+execute as @a if score @s dream_sleeptime matches 6000.. run function dream:sleep/leave
+scoreboard players set @a[predicate=!dream:if_entity/in_dream,scores={dream_sleeptime=10..}] dream_sleeptime -1
 #梦境塔生成计时
 execute if score dream_tower_generation dream_counter matches 0.. in dream:sweetdream run function dream:structure/dream_tower/place
 execute if score dream_tower_generation dream_counter matches 28 run scoreboard players set dream_tower_generation dream_counter -1

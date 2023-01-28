@@ -64,6 +64,14 @@
               {
                 "function": "set_nbt",
                 "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"item.dreamland.dreamdust\",\"italic\":false}]'},tag:{id:\"dreamland:dreamdust\"}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type":"uniform",
+                  "max": 2,
+                  "min": 1
+                }
               }
             ]
           }
@@ -74,7 +82,7 @@
           },
           {
             "condition": "minecraft:random_chance_with_looting",
-            "chance":0.5,
+            "chance":0.67,
             "looting_multiplier": 0.01
           }
         ]

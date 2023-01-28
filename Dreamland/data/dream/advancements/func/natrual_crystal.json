@@ -1,106 +1,150 @@
 {
     "criteria": {
-        "dreamland:plains":{
+        "dreamland:plains": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:plains"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:plains"
+                    }
                 }
             }
         },
-        "dreamland:desert":{
+        "dreamland:desert": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:desert"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:desert"
+                    }
                 }
             }
         },
-        "dreamland:river":{
+        "dreamland:river": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:river"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:river"
+                    }
                 }
             }
         },
-        "dreamland:ocean":{
+        "dreamland:ocean": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:ocean"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:ocean"
+                    }
                 }
             }
         },
-        "dreamland:forest":{
+        "dreamland:forest": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:forest"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:forest"
+                    }
                 }
             }
         },
-        "dreamland:beach":{
+        "dreamland:beach": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:beach"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:beach"
+                    }
                 }
             }
         },
-        "dreamland:badlands":{
+        "dreamland:badlands": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:badlands"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:badlands"
+                    }
                 }
             }
         },
-        "dreamland:jungle":{
+        "dreamland:jungle": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:jungle"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:jungle"
+                    }
                 }
             }
         },
-        "dreamland:taiga":{
+        "dreamland:taiga": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:taiga"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:taiga"
+                    }
                 }
             }
         },
-        "dreamland:mountains":{
+        "dreamland:snowy_slopes": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:mountains"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:snowy_slopes"
+                    }
                 }
             }
         },
-        "dreamland:savanna":{
+        "dreamland:savanna": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:savanna"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:savanna"
+                    }
                 }
             }
         }
     },
     "requirements": [
-        ["dreamland:plains"],
-        ["dreamland:desert"],
-        ["dreamland:river"],
-        ["dreamland:ocean"],
-        ["dreamland:forest"],
-        ["dreamland:beach"],
-        ["dreamland:badlands"],
-        ["dreamland:jungle"],
-        ["dreamland:taiga"],
-        ["dreamland:mountains"],
-        ["dreamland:savanna"]
+        [
+            "dreamland:plains"
+        ],
+        [
+            "dreamland:desert"
+        ],
+        [
+            "dreamland:river"
+        ],
+        [
+            "dreamland:ocean"
+        ],
+        [
+            "dreamland:forest"
+        ],
+        [
+            "dreamland:beach"
+        ],
+        [
+            "dreamland:badlands"
+        ],
+        [
+            "dreamland:jungle"
+        ],
+        [
+            "dreamland:taiga"
+        ],
+        [
+            "dreamland:mountains"
+        ],
+        [
+            "dreamland:savanna"
+        ]
     ],
     "rewards": {
         "function": "dream:other/getnaturalcrystal"

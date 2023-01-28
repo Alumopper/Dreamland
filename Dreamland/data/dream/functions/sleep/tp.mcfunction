@@ -15,9 +15,8 @@ execute if score sleep_tp_tempvar_x dream_counter matches -5000..-1 if score sle
 execute if score sleep_tp_tempvar_x dream_counter matches 0..5000 if score sleep_tp_tempvar_z dream_counter matches -5000..-1 at @s run tp @s ~500 ~ ~-500
 execute if score sleep_tp_tempvar_x dream_counter matches -5000..-1 if score sleep_tp_tempvar_z dream_counter matches -5000..-1 at @s run tp @s ~-500 ~ ~-500
 execute if score @s dream_bxmingming >= @s dream_likelihood at @s in dream:sweetdream run tp ~ ~ ~
-execute if score @s dream_bxmingming < @s dream_likelihood at @s in dream:nightmare run tp ~ ~ ~
+execute if score @s dream_bxmingming < @s dream_likelihood at @s in dream:nightmare run tp ~ ~-30 ~
 scoreboard players set @s dream_sleeptime 0
-execute unless entity @a[predicate=!dream:if_entity/in_dream] run time set day
 #平台
 execute if score @s dream_bxmingming >= @s dream_likelihood in dream:sweetdream at @s run fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 quartz_block
 execute if score @s dream_bxmingming >= @s dream_likelihood in dream:sweetdream at @s run fill ~2 ~ ~2 ~-2 ~3 ~-2 air

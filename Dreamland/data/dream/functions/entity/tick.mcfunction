@@ -1,7 +1,9 @@
 #气球史莱姆
-    execute as @a[tag=entity.dream.balloon_slime] run function dream:entity/balloon_slime/tick
+    execute as @e[tag=entity.dream.balloon_slime] run function dream:entity/balloon_slime/tick
     #生成气球史莱姆
     execute as @e[type=slime,predicate=dream:if_entity/in_slimeland,tag=!entity.dream.balloon_slime,tag=!dream_unable_to_summon_slime] at @s run function dream:entity/balloon_slime/summon
+    #模型消失
+    execute as @e[tag=entity.dream.balloon_slime_model] at @s unless entity @e[tag=entity.dream.balloon_slime,distance=0..2.5] run kill @s
 #随机修改噩梦世界中僵尸和骷髅的战利品表来掉落噩梦精华
 execute as @e[type=zombie,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare,tag=!entity.dream.block_ghost] run function dream:entity/zombie/loot
 execute as @e[type=skeleton,tag=!dream_has_tested,predicate=dream:if_entity/in_nightmare] run function dream:entity/skeleton/loot
