@@ -1,0 +1,157 @@
+{
+    "type": "dream:chaos",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "dream:chaos",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "minecraft:plains",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0.2,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0.2,
+              "depth": 0,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "minecraft:forest",
+            "parameters": {
+              "temperature": -0.1,
+              "humidity": 0.2,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0.2,
+              "depth": 0,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "minecraft:desert",
+            "parameters": {
+              "temperature": 0.3,
+              "humidity": 0.2,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": -0.3,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "minecraft:badlands",
+            "parameters": {
+              "temperature": -0.4,
+              "humidity": 0.5,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0.4,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "minecraft:end_highlands",
+            "parameters": {
+              "temperature": 0.07,
+              "humidity": -0.1,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "minecraft:nether_wastes",
+            "parameters": {
+              "temperature": -0.3,
+              "humidity": -0.12,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": -0.2,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "minecraft:warped_forest",
+            "parameters": {
+              "temperature": 0.08,
+              "humidity": -0.25,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0.1,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "dream:deepdeepdark",
+            "parameters": {
+              "temperature": -0.4,
+              "humidity": -0.35,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "dream:scarlet",
+            "parameters": {
+              "temperature": 0.24,
+              "humidity": 0.26,
+              "continentalness": -0.1,
+              "erosion": -0.2,
+              "weirdness": 0.27,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "dream:pinkplain",
+            "parameters": {
+              "temperature": -0.5,
+              "humidity": 0,
+              "continentalness": -0.1,
+              "erosion": 0.1,
+              "weirdness": 0.5,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "dream:slimeland",
+            "parameters": {
+              "temperature": 0.35,
+              "humidity": 0.48,
+              "continentalness": 0.3,
+              "erosion": 0.2,
+              "weirdness": 0,
+              "depth": 0.2,
+              "offset": 1
+            }
+          },
+          {
+            "biome": "dream:sweetdream",
+            "parameters": {
+              "temperature": 0,
+              "humidity": -0.2,
+              "continentalness": 0.2,
+              "erosion": 0.2,
+              "weirdness": 0,
+              "depth": 0.2,
+              "offset": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+  

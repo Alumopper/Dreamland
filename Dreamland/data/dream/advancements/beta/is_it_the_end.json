@@ -13,7 +13,7 @@
         "a":{
             "trigger": "minecraft:changed_dimension",
             "conditions": {
-                "from": "dream:choas",
+                "from": "dream:chaos",
                 "to": "dream:the_end_of_dream"
             }
         }

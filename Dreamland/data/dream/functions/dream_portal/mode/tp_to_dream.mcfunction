@@ -21,8 +21,11 @@ execute if score sleep_tp_tempvar_x dream_counter matches -5000..-1 if score sle
 execute as @e[tag=dream_portal,limit=1,sort=nearest,distance=0..1.5] if entity @s[tag=dream_portal_sweetdream] at @a[tag=dream_will_tp] in dream:sweetdream run tp @a[tag=dream_will_tp] ~ ~ ~
 execute as @e[tag=dream_portal,limit=1,sort=nearest,distance=0..1.5] if entity @s[tag=dream_portal_nightmare] at @a[tag=dream_will_tp] in dream:nightmare run tp @a[tag=dream_will_tp] ~ ~ ~
 tag @s remove dream_will_tp
+execute at @s run summon marker ~ ~ ~ {Tags:["dream_portal_pointer"]}
 #如果第一次进入，启用崩毁倒计时
 execute if score dream_world_collapse dream_timer matches -1 run scoreboard players set dream_world_collapse dream_timer 0
 execute if score dream_world_collapse dream_timer matches -2 run scoreboard players set dream_world_collapse dream_timer 120001
 #反复进入减少时长
 execute if score dream_world_collapse dream_timer matches 0.. run scoreboard players add dream_world_collapse dream_timer 5000
+#再传送冷却
+scoreboard players set @s dream_tp_cd 200

@@ -11,6 +11,6 @@ execute as @a if score @s block.dream.cloudcd matches 2000 run scoreboard player
 #混沌前计时器
 function dream:timer/dream
 #混沌后计时器
-function dream:timer/choas
+function dream:timer/chaos
 #法杖cd
 execute as @a[scores={dream_wanduse_cd=..200}] run scoreboard players add @s dream_wanduse_cd 1

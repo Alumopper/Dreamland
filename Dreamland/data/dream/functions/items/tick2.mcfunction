@@ -10,7 +10,7 @@ execute as @a[tag=!dream_magic_displaying] if data entity @s {Inventory:[{Slot:-
 execute as @a[tag=dream_magic_displaying] unless data entity @s {SelectedItem:{tag:{tag:{MagicDisplay:true}}}} unless data entity @s {Inventory:[{Slot:-106b,tag:{tag:{MagicDisplay:true}}}]} run function dream:items/remove_magic_display
 #手持法杖开始检测玩家是否副手持有魔法水晶
 execute as @a[nbt={SelectedItem:{tag:{tag:{id:"dreamland:dream_wand"}}}}] run function dream:items/wand_insert/crystal_num
-execute as @a[nbt={SelectedItem:{tag:{tag:{id:"dreamland:choas_wand"}}}}] run function dream:items/wand_insert/crystal_num
+execute as @a[nbt={SelectedItem:{tag:{tag:{id:"dreamland:chaos_wand"}}}}] run function dream:items/wand_insert/crystal_num
 #手持沙漏显示做梦时间
 execute as @a[nbt={SelectedItem:{tag:{tag:{id:"dreamland:dream_timer"}}}}] run function dream:items/time_display
 execute as @a[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:dream_timer"}}}]}] run function dream:items/time_display

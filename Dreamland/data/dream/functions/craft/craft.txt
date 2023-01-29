@@ -481,9 +481,9 @@ null	dreamland:dream_org_ingot	null
 dreamland:wand_blueprint	null	dreamland:dream_org_ingot	
 null	
 
-#choas_wand
+#chaos_wand
 dreamland:unnamed_ingot	dreamland:chaotic_crystallization	dreamland:illusory_ingot	
 dreamland:chaotic_crystallization	dreamland:dream_org_ingot	dreamland:chaotic_crystallization	
 null	dreamland:dream_wand	null	
-out>>dreamland:choas_wand	
+out>>dreamland:chaos_wand	
 

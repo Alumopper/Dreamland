@@ -1,3 +1,3 @@
 scoreboard players add @s dream_timer 1
-fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air
-execute if score @s dream_timer matches 400.. run kill @s
+execute if score @s dream_timer matches ..200 run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace #dream:fireball_destory
+execute if score @s dream_timer matches 250.. run kill @s

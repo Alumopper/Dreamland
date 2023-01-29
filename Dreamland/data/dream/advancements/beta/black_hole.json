@@ -12,5 +12,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dream:beta/choas"
+    "parent": "dream:beta/chaos"
 }

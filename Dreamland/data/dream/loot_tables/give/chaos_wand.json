@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120020, display: {Name: '[{\"translate\":\"item.dreamland.choas_wand\",\"italic\":false}]'}, tag: {id: \"dreamland:choas_wand\", type: 11b, CrystalNum: 0b, WandEx: [],isTemp: 0b,MagicDisplay:true}}"
+                            "tag": "{CustomModelData: 120020, display: {Name: '[{\"translate\":\"item.dreamland.chaos_wand\",\"italic\":false}]'}, tag: {id: \"dreamland:chaos_wand\", type: 11b, CrystalNum: 0b, WandEx: [],isTemp: 0b,MagicDisplay:true}}"
                         }
                     ]
                 }

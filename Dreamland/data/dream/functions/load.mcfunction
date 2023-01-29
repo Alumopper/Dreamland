@@ -107,6 +107,8 @@ scoreboard objectives add dream_wanduse_cd dummy
 #玩家魔法回复cd
 scoreboard objectives add dream_magic_regeneration dummy
     execute as @a unless score @s dream_magic_regeneration matches -2147483648..2147483647 run scoreboard players set @s dream_magic_regeneration 0
+#玩家再传送延迟
+scoreboard objectives add dream_tp_cd dummy
 
 #bossbar区
 #经验池，全部玩家通用
@@ -119,11 +121,12 @@ bossbar add dream:boss ""
 bossbar add dream:boss_sheild ""
 
 #强制加载
-execute in dream:choas run forceload add -10 -10 10 10
+execute in dream:chaos run forceload add -10 -10 10 10
 
 #结构区
 #黑洞生成
-execute unless entity @e[tag=dream_black_hole] in dream:choas run function dream:structure/black_hole/load
+execute unless score dream_is_blackhole_generated dream_counter matches -2147483648..2147483647 run function dream:structure/black_hole/load
+    scoreboard players set dream_is_blackhole_generated dream_counter 1
 #功能区
 #检测维度是否生成
 execute store success score dream_dimtest dream_counter in dream:sweetdream run summon pig 0 0 0 

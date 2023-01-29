@@ -7,3 +7,7 @@ execute if entity @s[tag=dream_portal_sweetdream] run particle dust 0.047 0.765 
 execute if entity @s[tag=dream_portal_nightmare] run particle dust 0.584 0.047 0.945 1 ~ ~1 ~ 0.2 0.2 0.2 0.1 5
 execute if entity @s[tag=!dream_portal_disable,tag=!dream_portal_empty] run scoreboard players set @a[distance=0..1.5,scores={dream_tpwait=-1}] dream_tpwait 100
 #注：tp在timer/dream函数中被调用
+#返回用
+execute as @a[scores={dream_tp_cd=..-1}] at @s if entity @e[tag=dream_portal_pointer,distance=0..4] run function dream:dream_portal/back_wait 
+execute as @a[scores={dream_tp_cd=..-1}] at @s unless entity @e[tag=dream_portal_pointer,distance=0..4] run scoreboard players set @s dream_tp_cd -1
+scoreboard players remove @a[scores={dream_tp_cd=0..}] dream_tp_cd 1

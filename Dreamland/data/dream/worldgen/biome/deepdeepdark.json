@@ -74,6 +74,12 @@
                 "maxCount": 3,
                 "minCount": 2,
                 "weight": 60
+            },
+            {
+                "type": "minecraft:witch",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 10
             }
         ],
         "creature": [

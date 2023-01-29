@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
         "location": {
-            "dimension": "dream:choas"
+            "dimension": "dream:chaos"
         }
     }
 }
