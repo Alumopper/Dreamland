@@ -6,24 +6,24 @@ import javax.swing.*;
 import java.io.*;
 
 //Encode GB 2312
-//锟斤拷锟斤拷锟斤拷锟斤拷by Alumopper
+//��������by Alumopper
 
 public class help {
-	//锟斤拷锟芥范锟斤拷锟斤拷锟斤拷
+	//���淶������
 	public static void main(String[] args) {
-		//锟斤拷锟斤拷锟斤拷锟斤拷
+		//��������
 		JFrame jf = new JFrame("Helper v1.2.5        by Alumopper");
 		jf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jf.setSize(500, 400);
         jf.setLocationRelativeTo(null);
         
-        //锟芥划锟斤拷锟�
+        //�滮���?
         SpringLayout layout = new SpringLayout();
         JPanel jp = new JPanel(layout);
         jf.setContentPane(jp);
         
-        JButton btn = new JButton("锟斤拷锟斤拷");
-        //锟较筹拷台
+        JButton btn = new JButton("����");
+        //�ϳ�̨
         JTextField tf1 = new JTextField(10);
         JTextField tf2 = new JTextField(10);
         JTextField tf3 = new JTextField(10);
@@ -32,19 +32,19 @@ public class help {
         JTextField tf6 = new JTextField(10);
         JTextField tf7 = new JTextField(10);
         JTextField tf8 = new JTextField(10);
-        JTextField tf9 = new JTextField(10);//1~9锟斤拷锟斤拷台
+        JTextField tf9 = new JTextField(10);//1~9����̨
         JTextField tf10 = new JTextField(10);//
         JTextField tf11 = new JTextField(10);//
         JTextField tf12 = new JTextField(10);//
         JTextField tf13 = new JTextField(10);//
-        JTextField tf14 = new JTextField(10);//锟斤拷锟斤拷锟秸硷拷
+        JTextField tf14 = new JTextField(10);//�����ռ�
         
-        JLabel l1 = new JLabel("锟斤拷品原锟斤拷");
-        JLabel l2 = new JLabel("魔锟斤拷id");
-        JLabel l3 = new JLabel("锟斤拷锟秸合筹拷台锟斤拷式锟斤拷锟斤拷魔锟斤拷id(注:原锟斤拷锟斤拷品锟斤拷锟斤拷前锟斤拷锟�0)");
-        JLabel l4 = new JLabel("锟斤拷品锟斤拷锟斤拷");
-        JLabel l5 = new JLabel("锟皆讹拷锟斤拷锟斤拷什锟斤拷锟�");
-        JLabel l6 = new JLabel("锟斤拷锟斤拷锟秸硷拷");
+        JLabel l1 = new JLabel("��Ʒԭ��");
+        JLabel l2 = new JLabel("ħ��id");
+        JLabel l3 = new JLabel("���պϳ�̨��ʽ����ħ��id(ע:ԭ����Ʒ����ǰ���?0)");
+        JLabel l4 = new JLabel("��Ʒ����");
+        JLabel l5 = new JLabel("�Զ�����ʲ���?");
+        JLabel l6 = new JLabel("�����ռ�");
         
         jp.add(btn);
         jp.add(tf1);
@@ -161,7 +161,7 @@ public class help {
 		FileOutputStream fos = new FileOutputStream("D:\\.minecraft\\saves\\Dreamlandstudio\\datapacks\\Dreamland\\data\\dream\\functions\\craft\\craft.mcfunction",true);
 		
 		String str = "execute ";
-		//锟斤拷锟较成癸拷式
+		//���ϳɹ�ʽ
 		for(int i = 0;i<=10;i++) {
 			//1  2	3
 			//10 11 12 15 16
@@ -203,7 +203,7 @@ public class help {
 				}
 			}
 		}
-		//replaceitem block ~ ~-2 ~ container.0 minecraft:carrot_on_a_stick{CustomModelData:120003,display:{Name:'[{"text":"锟轿撅拷锟较筹拷台","italic":false}]'},tag:{id:"dreamland:crafting_table"}}
+		//replaceitem block ~ ~-2 ~ container.0 minecraft:carrot_on_a_stick{CustomModelData:120003,display:{Name:'[{"text":"�ξ��ϳ�̨","italic":false}]'},tag:{id:"dreamland:crafting_table"}}
 		//str += ("unless block ~ ~ ~ minecraft:chest{Items:[{Slot:15b}]} run replaceitem block ~ ~ ~ container.16 minecraft:" + strs[9] + "{CustomModelData:1200" + strs[12] + ",display:{Name:'[{\"text\":\"" + strs[11] + "\",\"italic\":false}]'},tag:{id:\"" + strs[10] + "\"}}");
 		str += ("run replaceitem block ~ ~ ~ container.16 minecraft:" + strs[9] + "{");
 		if (!strs[12].isEmpty()) str += ("CustomModelData:1200" + strs[12] + ",");
@@ -223,6 +223,6 @@ public class help {
 
 }
 
-//qwq锟斤拷太锟斤拷锟斤拷  -----Alumopper(2020.3)
-//awa锟斤拷锟斤拷写锟斤拷锟斤拷 -----Alumopper(2020.4)
-//wtf锟斤拷锟斤拷锟斤拷么锟斤拷锟斤拷锟斤拷锟剿ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟叫憋拷锟捷ｏ拷锟斤拷锟解不锟斤拷全 锟斤拷 锟斤拷 锟斤拷-----Alumopper(2021.6.19)
+//qwq��̫����  -----Alumopper(2020.3)
+//awa����д���� -----Alumopper(2020.4)
+//wtf������ô�������ˣ������������б��ݣ����ⲻ��ȫ �� �� ��-----Alumopper(2021.6.19)

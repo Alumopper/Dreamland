@@ -23,7 +23,7 @@ execute at @e[tag=entity.dream.magicball.pure] as @e[type=#dream:enemy,distance=
 execute at @e[tag=entity.dream.magicball.end] as @e[type=#dream:undead_mobs,distance=0..1.5] run effect give @s instant_health 1 0 false
 execute at @e[tag=entity.dream.magicball.end] as @e[type=#dream:enemy,distance=0..1.5] if entity @s[type=!#dream:undead_mobs] run effect give @s instant_damage 1 0 false
 execute at @e[tag=entity.dream.magicball.chaos] as @e[type=#dream:undead_mobs,distance=0..2] run effect give @s instant_health 1 1 false
-execute at @e[tag=entity.dream.magicball.chaos] as @e[type=#dream:enemy,distance=0..2] if entity @s[type=!#dream:undead_mobs] run effect give @s instant_damage 1 1 false
+execute at @e[tag=entity.dream.magicball.chaos] as @e[type=!#dream:undead_mobs,type=!minecraft:player,distance=0..2] run effect give @s instant_damage 1 1 false
 execute at @e[tag=entity.dream.magicball.boss] as @a[distance=0..2.0] run effect give @s instant_damage 1 1 false
 execute at @e[tag=entity.dream.magicball.weak,tag=dream_player_friendly] as @e[distance=0..2.0,type=#dream:enemy] run effect give @s poison 3 2 false
 execute at @e[tag=entity.dream.magicball.weak,tag=!dream_player_friendly] as @a[distance=0..2.0] run effect give @s poison 3 2 false

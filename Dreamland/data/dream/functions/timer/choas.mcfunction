@@ -15,8 +15,3 @@ scoreboard players add @e[tag=entity.dream.nightmare_defend_tower] dream_timer 1
 execute if score dream_pre_tp_to_ted dream_timer matches 0.. run scoreboard players add dream_pre_tp_to_ted dream_timer 1
 execute if score dream_pre_tp_to_ted dream_timer matches 0.. at @a run particle portal ~ ~ ~ 3 3 3 0.1 50
 execute if score dream_pre_tp_to_ted dream_timer matches 200.. run function dream:entity/nightmare/tp
-#梦之边境剧情
-execute if score dream_tec_story dream_timer matches 0.. run scoreboard players add dream_tec_story dream_timer 1
-execute if score dream_tec_story dream_timer matches 0.. run function dream:structure/the_edge_cabin/story
-execute if score dream_tec_story dream_timer matches 2074 run function dream:structure/the_edge_cabin/exit
-execute if score dream_tec_story dream_timer matches 2074 run scoreboard players set dream_tec_story dream_timer -1

@@ -20,7 +20,8 @@ scoreboard players add @e[type=phantom,predicate=dream:if_entity/in_choas] dream
 execute as @e[scores={dream_phire=200..}] at @s run function dream:entity/phantom/fire
 #混沌世界的幻翼
 execute at @a as @e[type=!player,type=!armor_stand,type=!phantom,type=!fireball,type=!item,type=!falling_block,type=!area_effect_cloud,tag=!dream_unable_to_summon_phantom,predicate=dream:if_entity/in_choas,distance=0..50] at @s positioned ~ ~30 ~ run function dream:entity/phantom/summon
-execute as @e[tag=dream_phantom_fireball] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air
+#幻翼火球
+execute as @e[tag=dream_phantom_fireball] at @s run function dream:entity/phantom/fireball_tick
 #梦魇
 execute if entity @e[tag=entity.dream.nightmare] run function dream:entity/nightmare/tick
 #生成梦魇

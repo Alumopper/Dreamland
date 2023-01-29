@@ -1,4 +1,5 @@
 summon fireball ~ ~-2 ~ {ExplosionPower:3,Tags:[dream_phantom_fireball]}
+execute positioned ~ ~-2 ~ run scoreboard players set @e[tag=dream_phantom_fireball,distance=0..1,limit=1,sort=nearest] dream_timer 0
 #速度
 execute positioned ~ ~-2 ~ run tag @e[distance=0,tag=dream_phantom_fireball] add math_vector_a
 tag @p add math_vector_b

@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Sreader",
+            "request": "launch",
+            "mainClass": "help.Sreader",
+            "projectName": "datapacks_d6e55931"
+        },
+        {
+            "type": "java",
             "name": "Launch Give",
             "request": "launch",
             "mainClass": "Give",
