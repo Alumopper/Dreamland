@@ -14,4 +14,4 @@ execute if score dream_infuse_tool_type dream_counter matches 8 run function dre
 execute if score dream_infuse_tool_type dream_counter matches 9 run function dream:infuse/each/elytra
 execute if score dream_infuse_tool_type dream_counter matches 10 run function dream:infuse/each/shield
 execute if score dream_infuse_tool_type dream_counter matches 11 run function dream:infuse/each/wand
-execute if score dream_infuse_tool_type dream_counter matches 12 run function dream:infuse/each/tailsman
+execute if score dream_infuse_tool_type dream_counter matches 12 run function dream:infuse/each/talisman

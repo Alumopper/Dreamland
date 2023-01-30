@@ -13,7 +13,7 @@ function finalboss_ani:uninstall
 effect clear @a regeneration
 kill @e[tag=dream_playerpos_tracker]
 tellraw @a {"translate": "word.dream.memory_abyss.sys5","color": "gray","italic": true}
-schedule function dream:memory_story/final_boss2/1 2s
-schedule function dream:memory_story/final_boss2/next 5s
+#schedule function dream:memory_story/final_boss2/1 2s
+#schedule function dream:memory_story/final_boss2/next 5s
 scoreboard players set dream_finalstorystage dream_counter -1
 worldborder set 29999984

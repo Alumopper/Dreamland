@@ -14,5 +14,3 @@ execute if score @e[tag=dream_final_boss1,limit=1] dream_counter matches 13 run 
 execute if score @e[tag=dream_final_boss1,limit=1] dream_counter matches 14 run function dream:memory_story/final_boss1/skills/1_14/load
 execute if score @e[tag=dream_final_boss1,limit=1] dream_counter matches 15 run function dream:memory_story/final_boss1/skills/1_15/schedule
 execute if score @e[tag=dream_final_boss1,limit=1] dream_counter matches 16 run function dream:memory_story/final_boss1/skills/2_4/tick
-#TODO
-tellraw @a [{"text": "[DreamOS.Defender/INFO]Current strategy is "},{"score":{"name": "@e[tag=dream_final_boss1,limit=1]","objective": "dream_counter"}}]

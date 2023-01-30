@@ -13,8 +13,6 @@ execute as @e[type=slime,tag=!dream_has_tested,tag=!entity.dream.balloon_slime,p
 execute as @e[type=zombie,tag=!dream_unable_to_turn_block,predicate=dream:if_entity/in_stoneshore] at @s run function dream:entity/block_ghost/summon
 #触发方块鬼魂
 execute as @e[tag=entity.dream.block_ghost.trigger] at @s if entity @a[distance=0..5] run function dream:entity/block_ghost/trigger
-#TODO 方块鬼魂的模型
-#execute as @e[tag=entity.dream.block_ghost] at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:diamond_ore"},Time:599,DropItem:false,NoGravity:true}
 #幻翼火球
 scoreboard players add @e[type=phantom,predicate=dream:if_entity/in_chaos] dream_phire 1
 execute as @e[scores={dream_phire=200..}] at @s run function dream:entity/phantom/fire

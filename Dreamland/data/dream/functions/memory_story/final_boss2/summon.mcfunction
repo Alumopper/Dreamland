@@ -4,7 +4,7 @@
 execute as @a at @s run function dream:memory_story/final_boss1/tracker
 #生成实体
 summon zombie ~ ~ ~ {NoAI:true,Silent:true,Tags:["entity.dream.finalboss2"],Attributes:[{Name:"minecraft:generic.max_health",Base:150.0},{Name:"minecraft:generic.armor",Base:5.0}],Health:150.0f}
-#TODO
+#隐身
 effect give @e[tag=entity.dream.finalboss2] invisibility 114514 0 true
 #模型
 function finalboss_ani:summon/default

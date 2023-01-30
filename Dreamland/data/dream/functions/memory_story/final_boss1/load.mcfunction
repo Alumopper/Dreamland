@@ -1,11 +1,11 @@
 #region 弃用命令片段
 #生成战斗场地
-#execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~-60 ~-60 ~30 ~-60 minecraft:gray_concrete
-#execute in dream:memory_abyss positioned 525 96 525 run fill ~-60 ~ ~ ~-60 ~30 ~-60 minecraft:gray_concrete
-#execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~30 ~ ~-60 ~30 ~-60 minecraft:gray_concrete
-#execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~-60 ~30 ~ minecraft:gray_concrete
-#execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~ ~30 ~-60 minecraft:gray_concrete
-#execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~-60 ~ ~-60 minecraft:gray_concrete
+execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~-60 ~-60 ~30 ~-60 minecraft:gray_concrete
+execute in dream:memory_abyss positioned 525 96 525 run fill ~-60 ~ ~ ~-60 ~30 ~-60 minecraft:gray_concrete
+execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~30 ~ ~-60 ~30 ~-60 minecraft:gray_concrete
+execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~-60 ~30 ~ minecraft:gray_concrete
+execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~ ~30 ~-60 minecraft:gray_concrete
+execute in dream:memory_abyss positioned 525 96 525 run fill ~ ~ ~ ~-60 ~ ~-60 minecraft:gray_concrete
 #endregion
 
 #alias vector finalbosspos 495 96 495 

@@ -12,9 +12,9 @@ execute as @a[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:xp_extract_nee
 #矿物探测器高频
 execute as @e[type=area_effect_cloud,tag=dream_mineral_detector] run function dream:items/mineral_detector_tick
 #检测玩家身上是否有梦境护符
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:dream_tailsman"}}}]}] run tag @s add dream_magic_protected
-execute as @a[tag=dream_magic_protected] at @s run function dream:items/dream_tailsman
-execute as @a[nbt=!{Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:dream_tailsman"}}}]}] run tag @s remove dream_magic_protected
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:dream_talisman"}}}]}] run tag @s add dream_magic_protected
+execute as @a[tag=dream_magic_protected] at @s run function dream:items/dream_talisman
+execute as @a[nbt=!{Inventory:[{Slot:-106b,tag:{tag:{id:"dreamland:dream_talisman"}}}]}] run tag @s remove dream_magic_protected
 #云的消散
 execute as @e[tag=block.dream.cloud,scores={block.dream.clouddrt=1200}] at @s run particle cloud ~ ~ ~ 0.5 0.5 0.5 0.1 10
 execute as @e[tag=block.dream.cloud,scores={block.dream.clouddrt=1200}] at @s run kill @s

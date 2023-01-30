@@ -459,15 +459,15 @@ out>>dream_timer
 
 #elytra
 minecraft:phantom_membrane	null	minecraft:phantom_membrane	
-minecraft:phantom_membrane	dreamland:phantom_skelecton	minecraft:phantom_membrane	
+minecraft:phantom_membrane	dreamland:phantom_skeleton	minecraft:phantom_membrane	
 minecraft:phantom_membrane	null	minecraft:phantom_membrane	
 out>>minecraft:elytra	
 
-#dream_tailsman
+#dream_talisman
 null	dreamland:dream_power_core	null	
 dreamland:illusory_ingot	null	dreamland:unnamed_ingot	
 dreamland:nightmare_essence	dreamland:dream_org_ingot	dreamland:sweetdream_essence	
-out>>dream_tailsman	
+out>>dream_talisman	
 
 #magic_plate
 minecraft:diamond	dreamland:dream_essence	minecraft:diamond	

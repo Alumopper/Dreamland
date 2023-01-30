@@ -3,7 +3,7 @@ tag @s add dream_will_tp
 scoreboard players set @s dream_tpwait 161
 effect give @s resistance 10 5 false
 #成就
-advancement grant @s only dream:beta/dimension_traveller
+advancement grant @s only dream:beta/dimension_traveler
 #生成标记
 execute at @s run summon armor_stand ~ ~ ~ {Tags:["dream_just","dream_bed_id"],Invisible:true,NoGravity:true,Marker:true}
 scoreboard players operation @s dream_bed_id = dream_static_bed_id dream_bed_id

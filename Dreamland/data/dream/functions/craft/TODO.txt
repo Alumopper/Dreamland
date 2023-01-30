@@ -28,7 +28,7 @@ out>>wtf_soup
 
 #elytra
 minecraft:phantom_membrane	null	minecraft:phantom_membrane	
-minecraft:phantom_membrane	dreamland:phantom_skelecton	minecraft:phantom_membrane	
+minecraft:phantom_membrane	dreamland:phantom_skeleton	minecraft:phantom_membrane	
 minecraft:phantom_membrane	null	minecraft:phantom_membrane	
 out>>minecraft:elytra	
 
