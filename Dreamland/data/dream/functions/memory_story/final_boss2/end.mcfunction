@@ -16,4 +16,7 @@ tellraw @a {"translate": "word.dream.memory_abyss.sys5","color": "gray","italic"
 #schedule function dream:memory_story/final_boss2/1 2s
 #schedule function dream:memory_story/final_boss2/next 5s
 scoreboard players set dream_finalstorystage dream_counter -1
+scoreboard players set dream_finalboss2_timer dream_timer -1
 worldborder set 29999984
+execute as @a run attribute @s generic.max_health base set 20
+stopsound @a

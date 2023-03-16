@@ -11,4 +11,4 @@ execute at @e[tag=entity.dream.finalboss2] run summon drowned ~1 ~ ~-2 {Tags:["d
 scoreboard players set @e[type=drowned,limit=6] dream_timer 0
 particle falling_water ~ ~ ~ 2 2 2 1.0 50
 #技能计时
-schedule function dream:memory_story/final_boss2/skills/schedule 6s
+schedule function dream:memory_story/final_boss2/skills/schedule 5s

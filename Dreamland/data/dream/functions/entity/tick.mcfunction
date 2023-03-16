@@ -38,4 +38,4 @@ execute as @e[type=bat] if entity @s[predicate=dream:if_entity/in_nightmare] at 
 execute as @e[tag=entity.dream.healing_crystal] run function dream:entity/healing_crystal/tick
 execute as @e[tag=entity.dream.healing_crystal_model] at @s unless entity @e[tag=entity.dream.healing_crystal,distance=0..1.5] run kill @s
 #魔法球
-function dream:entity/magic_ball/tick
+execute as @e[tag=entity.dream.magicball] at @s run function dream:entity/magic_ball/tick

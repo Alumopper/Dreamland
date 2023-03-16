@@ -2,6 +2,8 @@
 function dream:memory_story/final_boss2/skills/2_4/tick
 execute as @e[type=drowned] at @s facing entity @e[tag=dream_playerpos_tracker] eyes run tp @s ^ ^ ^0.1 
 execute if score dream_temp.ma.fb2_temp.stage dream_counter matches 1 at @e[type=drowned] run effect give @a[distance=0..2] regeneration 1 2
+#2-5    治疗炸弹
+function dream:memory_story/final_boss2/skills/2_5/tick
 #2-6    冲刺
 execute if score dream_temp.ma.fb2_temp.stage dream_counter matches 1 if score dream_m_f_s_2_6_temp.timer dream_timer matches 0.. run function dream:memory_story/final_boss2/skills/2_6/tick
 #b-1    治疗立场

@@ -13,7 +13,7 @@
     #define tag entity.dream.magicball.weak 弱小魔法球
     #define tag entity.dream.magicball.speed 加速魔法球
     #define tag entity.dream.magicball.end 终末魔法球
-    #define tag entity.dream.magicball_poison 毒魔法球
+    #define tag entity.dream.magicball.poison 毒魔法球
     #define tag entity.dream.magicball.cryst.fire 火加成魔法球
     #define tag entity.dream.magicball.cryst.natural 自然魔法球
     #define tag entity.dream.magicball.cryst.water 水加成魔法球

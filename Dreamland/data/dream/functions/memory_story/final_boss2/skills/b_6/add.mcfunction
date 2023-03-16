@@ -1,7 +1,7 @@
 kill @e[tag=entity.dream.healing_crystal,limit=6]
 #护盾血量
-scoreboard players add dream_finalboss_shieldhp dream_boss_hp 30
-execute if score dream_finalboss_shieldhp dream_boss_hp matches 70.. run scoreboard players set dream_finalboss_shieldhp dream_boss_hp 70
+scoreboard players add dream_finalboss_shieldhp dream_boss_hp 40
+execute if score dream_finalboss_shieldhp dream_boss_hp matches 120.. run scoreboard players set dream_finalboss_shieldhp dream_boss_hp 120
 #提高防御
 execute as @a[tag=entity.dream.finalboss2] run effect give @e[tag=entity.dream.finalboss2] resistance 114514 3
 #bossbar

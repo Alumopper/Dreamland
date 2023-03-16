@@ -385,11 +385,11 @@ dreamland:slime_tear	dreamland:illusory_ingot	dreamland:slime_tear
 null	dreamland:illusory_ingot	null	
 out>>dreamland:weather_wand	
 
-#dream_portal
+#block.dream.dream_portal
 dreamland:nightmare_essence	minecraft:diamond	dreamland:sweetdream_essence	
 dreamland:dream_essence	dreamland:dimension_core	dreamland:dream_essence	
 dreamland:sweetdream_essence	minecraft:redstone	dreamland:nightmare_essence	
-out>>dream_portal	
+out>>block.dream.dream_portal	
 
 #mineral_detector
 null	minecraft:diamond	null	

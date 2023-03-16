@@ -5,4 +5,4 @@ execute as @e[tag=dream_playerpos_tracker,limit=1] at @s run summon marker ~ ~ ~
 #停止镜像移动
 scoreboard players set dream_finalboss_mirror_on dream_counter 0
 #技能计时
-schedule function dream:memory_story/final_boss2/skills/schedule 10s
+schedule function dream:memory_story/final_boss2/skills/schedule 9s

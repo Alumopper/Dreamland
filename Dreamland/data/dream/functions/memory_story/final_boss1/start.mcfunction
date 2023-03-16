@@ -1,4 +1,4 @@
-execute at @p run playsound dreamland:entity.finalboss.bgm master @a ~ ~ ~
+execute as @a at @s run playsound dreamland:entity.finalboss.bgm master @s ~ ~ ~
 #玩家跟踪器
 execute as @a at @s run function dream:memory_story/final_boss1/tracker
 #boss条

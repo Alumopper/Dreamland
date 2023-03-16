@@ -2,38 +2,48 @@
 ####bold|aqua
 -----{梦境}-----
 ####bold|aqua
-Dreamland
+-----{Dreamland}-----
 
-####bold
--制作-
+
+####bold|light_purple
+--制作--
 Alumopper
 
-####bold
--材质-
+####bold|light_purple
+--材质--
 Alumopper
 
-####bold
--剧本-
+####bold|light_purple
+--剧本--
 Alumopper
 
-####bold
--建筑-
+####bold|light_purple
+--建筑--
 Alumopper
 
-####bold
--建模-
+####bold|light_purple
+--建模--
 Alumopper
+
+####bold|light_purple
+--音效--
+
+####bold
+Clocks Of Destiny
+Michael Maas
+
+####bold
+蘭
+Feryquitous
+
+####bold
+Paradigm Shift
+Fractal Dreamers
 
 ####bold
 -使用工具-
 VS code
 BlockBench
-
-####bold|blue
--早期测试者-
-72200
-yinwenr
-CR_019
 
 ####bold|aqua
 -BiliBili ID-
@@ -43,15 +53,26 @@ Alumopper
 -MCBBS ID-
 Alumopper
 
-####bold|gold
--鸣谢-
+####bold|blue
+-早期测试者-
 72200
 yinwenr
 CR_019
 
+####bold|gold
+-特别感谢-
+72200
+yinwenr
+CR_019
+阡溟晓雪
 shenglin
 所有在mcbbs帮助过我的人
 沙雕群友们
+
+
+
+
+
 
 ####bold
 <-以及你->

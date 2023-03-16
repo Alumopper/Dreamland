@@ -109,6 +109,10 @@ scoreboard objectives add dream_magic_regeneration dummy
     execute as @a unless score @s dream_magic_regeneration matches -2147483648..2147483647 run scoreboard players set @s dream_magic_regeneration 0
 #玩家再传送延迟
 scoreboard objectives add dream_tp_cd dummy
+#注魔台注魔
+scoreboard objectives add dream_infuse_stage dummy
+#魔法球的能量记录
+scoreboard objectives add dream_magicball_energy dummy "魔法球寿命"
 
 #bossbar区
 #经验池，全部玩家通用

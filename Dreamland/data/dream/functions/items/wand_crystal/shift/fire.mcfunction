@@ -11,4 +11,4 @@ execute positioned ^ ^3 ^ store result entity @e[distance=0,tag=dream_firecrysta
 execute positioned ^ ^3 ^ store result entity @e[distance=0,tag=dream_firecrystal_fireball,limit=1] Motion[2] double 0.001 run scoreboard players get math_r_vector3_getab_z math_output
 #消耗
 scoreboard players remove @s[gamemode=!creative] dream_magic 30
-scoreboard players set #magic_time dream_timer -60
+scoreboard players set @s dream_wanduse_cd 0

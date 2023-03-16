@@ -5,4 +5,4 @@ scoreboard players set dream_finalboss_mirror_on dream_counter 0
 execute as @e[tag=aj.finalboss_ani.root] run function finalboss_ani:animations/animation.finalboss2.handup/play
 schedule function dream:memory_story/final_boss2/skills/2_3/end_ani 14t
 #技能计时
-schedule function dream:memory_story/final_boss2/skills/schedule 4s
+schedule function dream:memory_story/final_boss2/skills/schedule 3s

@@ -16,4 +16,5 @@ execute at @s as @e[tag=entity.dream.magicball,distance=0..3] at @s facing entit
 #受伤
 execute at @s if entity @e[tag=entity.dream.magicball.chaos,distance=0..2.3] run function dream:entity/healing_crystal/kill
 execute at @s if entity @e[tag=entity.dream.magicball.pure,distance=0..2] run function dream:entity/healing_crystal/kill
+execute at @s if entity @e[tag=entity.dream.magicball.end,distance=0..2] run function dream:entity/healing_crystal/kill
 execute at @s if entity @e[type=arrow,distance=0..1.5] run function dream:entity/healing_crystal/kill

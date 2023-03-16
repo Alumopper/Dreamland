@@ -8,4 +8,4 @@ effect give @e[type=#dream:nether_enemy,distance=0..5,type=!#dream:undead_mobs] 
 effect give @e[distance=0..5,type=wither_skeleton] instant_health 1 1 false 
 #消耗
 scoreboard players remove @s[gamemode=!creative] dream_magic 30
-scoreboard players set #magic_time dream_timer -60
+scoreboard players set @s dream_wanduse_cd 0

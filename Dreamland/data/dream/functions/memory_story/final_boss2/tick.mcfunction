@@ -17,3 +17,9 @@ execute as @e[tag=dream_playerpos_tracker] at @s run function dream:memory_story
 function dream:memory_story/final_boss2/skills/tick
 #boss栏
 execute store result bossbar dream:boss value run scoreboard players get dream_finalbosshealth dream_boss_hp
+#计时
+scoreboard players add dream_finalboss2_timer dream_timer 1
+#重新播放bgm
+execute if score dream_finalboss2_timer dream_timer matches 4800 as @a at @s run playsound dreamland:entity.finalboss2.bgm master @s ~ ~ ~
+#如果增益则增加魔法
+execute if score dream_finalboss_buff dream_counter matches 1 run scoreboard players add @a dream_magic 1
