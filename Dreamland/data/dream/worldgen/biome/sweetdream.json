@@ -1,11 +1,9 @@
 {
     "precipitation": "rain",
-    "depth": 0.1,
-    "scale": 0.2,
     "temperature": 0.65,
     "temperature_modifier": "none",
     "downfall": 0.2,
-    "has_precipitation":true,
+    "has_precipitation":false,
     "effects":{
         "sky_color": 8900331,
         "fog_color": 15792383,
@@ -46,7 +44,6 @@
             "minecraft:ore_iron_small",
             "minecraft:ore_gold",
             "minecraft:ore_gold_lower",
-            "minecraft:ore_diamond",
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
             "minecraft:underwater_magma",

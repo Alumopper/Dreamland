@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dream:sweetdream/peach_orchard",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 10,
+        "separation": 5,
+        "salt": 2037537754
+    }
+}

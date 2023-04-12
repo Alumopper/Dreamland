@@ -1,17 +1,50 @@
 {
-    "precipitation": "rain",
-    "temperature": 0.65,
-    "temperature_modifier": "none",
+    "temperature": 0.3,
     "downfall": 0.2,
-    "has_precipitation":false,
-    "effects":{
-        "sky_color": 16497629,
-        "fog_color": 16764904,
-        "foliage_color": 16614350,
-        "grass_color": 16755400,
-        "water_color":16751554,
-        "water_fog_color": 16741290
+    "has_precipitation": false,
+    "precipitation": "none",
+    "temperature_modifier": "none",
+    "creature_spawn_probability": 1,
+    "effects": {
+      "sky_color": 12451826,
+      "fog_color": 14745593,
+      "water_color": 3125737,
+      "water_fog_color": 4426960,
+      "grass_color": 8251519,
+      "foliage_color": 2741830,
+      "grass_color_modifier": "none",
+      "particle": {
+        "options": {
+          "type": "minecraft:dust",
+          "color":[0.9,1.0,0.9],
+          "scale": 1.0
+        },
+        "probability": 0
+      }
     },
+    "spawners": {
+        "creature": [
+            {
+                "type": "minecraft:sheep",
+                "weight": 3,
+                "maxCount": 2,
+                "minCount": 1
+            },
+            {
+                "type": "minecraft:shulker",
+                "weight": 1,
+                "maxCount": 2,
+                "minCount": 1
+            },
+            {
+                "type":"minecraft:allay",
+                "weight": 1,
+                "maxCount": 2,
+                "minCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {},
     "carvers": {
         "air": [
             "minecraft:cave"
@@ -23,9 +56,7 @@
     "features": [
         [],
         [],
-        [
-            "minecraft:amethyst_geode"
-        ],
+        [],
         [],
         [],
         [],
@@ -44,11 +75,10 @@
             "minecraft:ore_iron_upper",
             "minecraft:ore_iron_middle",
             "minecraft:ore_iron_small",
-            "minecraft:ore_redstone",
-            "minecraft:ore_redstone_lower",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
-            "minecraft:ore_copper",
             "minecraft:underwater_magma",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
@@ -73,41 +103,6 @@
         [
             "minecraft:freeze_top_layer"
         ]
-    ],
-    "starts": [
-        
-    ],
-    "creature_spawn_probability": 0.3,
-    "spawners": {
-        "creature": [
-            {
-                "type": "sheep",
-                "weight": 10,
-                "maxCount": 4,
-                "minCount": 4
-            },
-            {
-                "type": "pig",
-                "weight": 10,
-                "maxCount": 4,
-                "minCount": 4
-            },
-            {
-                "type": "mooshroom",
-                "weight": 9,
-                "maxCount": 4,
-                "minCount": 4
-            }
-        ],
-        "water_ambient": [],
-        "monster": [
-            {
-                "type": "minecraft:slime",
-                "weight": 2,
-                "maxCount": 2,
-                "minCount": 1
-            }
-        ]
-    },
-    "spawn_costs": {}
-}
+    ]
+  }
+  

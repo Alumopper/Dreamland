@@ -1,7 +1,5 @@
 {
     "precipitation": "rain",
-    "depth": 0.1,
-    "scale": 0.2,
     "temperature": 0.9,
     "temperature_modifier": "none",
     "downfall": 0.9,

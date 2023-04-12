@@ -1,12 +1,9 @@
 {
     "precipitation": "rain",
-    "category": "forest",
-    "depth": 0.1,
-    "scale": 0.2,
     "temperature": 0.65,
     "temperature_modifier": "none",
     "downfall": 0.2,
-    "has_precipitation":true,
+    "has_precipitation":false,
     "effects":{
         "sky_color": 4714721,
         "fog_color": 9696749,
@@ -15,7 +12,6 @@
         "water_color":2421463,
         "water_fog_color": 2085861
     },
-    "surface_builder": "dream:dream",
     "carvers": {
         "air": [
             "minecraft:cave"
