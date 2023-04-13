@@ -53,7 +53,7 @@ public class CReader {
 	static ArrayList<String> split(String s) {
 		//锟斤拷一锟斤拷锟叫凤拷,锟斤拷取锟斤拷锟斤拷锟皆硷拷锟斤拷锟斤拷
 		s = s.substring(45);
-		//if block ~ ~ ~ minecraft:chest{Items:[{Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:2b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:3b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:10b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:11b,Count:1b,tag:{tag:{id:"dreamland:dream_org_ingot"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:12b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:19b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:20b}]} if block ~ ~ ~ minecraft:chest{Items:[{Slot:21b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} run replaceitem block ~ ~ ~ container.16 minecraft:iron_ingot{CustomModelData:120002,display:{Name:'[{"translate":"item.dreamland.illusory_ingot","italic":false}]'},tag:{id:"dreamland:illusory_ingot",isTemp:1b}}
+		//if data storage dream:crafting_table {Items:[{Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:2b}]} if data storage dream:crafting_table {Items:[{Slot:3b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:10b}]} if data storage dream:crafting_table {Items:[{Slot:11b,Count:1b,tag:{tag:{id:"dreamland:dream_org_ingot"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:12b}]} if data storage dream:crafting_table {Items:[{Slot:19b,Count:1b,tag:{tag:{id:"dreamland:sweetdream_essence"}}}]} unless block ~ ~ ~ minecraft:chest{Items:[{Slot:20b}]} if data storage dream:crafting_table {Items:[{Slot:21b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]} run replaceitem block ~ ~ ~ container.16 minecraft:iron_ingot{CustomModelData:120002,display:{Name:'[{"translate":"item.dreamland.illusory_ingot","italic":false}]'},tag:{id:"dreamland:illusory_ingot",isTemp:1b}}
 		ArrayList<String> inputs = new ArrayList<String>();//锟斤拷锟斤拷
 		//锟街凤拷锟斤拷锟斤拷锟�
 		String output = s.substring(s.indexOf("run") + 41);
@@ -67,8 +67,8 @@ public class CReader {
 		ArrayList<String> inputs2 = new ArrayList<String>();
 		for(String input : inputs) {
 			if(input.indexOf("if")!=-1) {
-				//if block ~ ~ ~ minecraft:chest{Items:[{Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]}
-				//if block ~ ~ ~ minecraft:chest{Items:[{Slot:11b,Count:1b,id:"minecraft:diamond"}]}
+				//if data storage dream:crafting_table {Items:[{Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}]}
+				//if data storage dream:crafting_table {Items:[{Slot:11b,Count:1b,id:"minecraft:diamond"}]}
 				String t = input.substring(input.indexOf("id:\"") + 4, input.indexOf("\"}"));
 				inputs2.add(t);
 			}else {

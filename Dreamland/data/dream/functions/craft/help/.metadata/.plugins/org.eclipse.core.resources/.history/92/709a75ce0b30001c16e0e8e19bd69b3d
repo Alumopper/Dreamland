@@ -176,9 +176,9 @@ public class help {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":" + strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":" + strs[i] + "\"}}}]} ";
 					}
 				}
 			}else if (i <= 5 && i >= 3) {
@@ -186,9 +186,9 @@ public class help {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 7) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 7) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 7) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
 					}
 				}
 			}else if (i >= 6 && i <= 8) {
@@ -196,9 +196,9 @@ public class help {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 13) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 13) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 13) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
 					}
 				}
 			}

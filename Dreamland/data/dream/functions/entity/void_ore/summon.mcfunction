@@ -1,2 +1,2 @@
 #生成
-summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Small:1b,NoGravity:1b,Pose:{LeftArm:[0.0f,0.0f,0.0f]},Tags:["block.dream.void_ore"]}
+summon item_display ~ ~ ~ {Tags:["block.dream.void_ore"],item:{id:"minecraft:light_blue_dye",Count:1b,tag:{CustomModelData: 120032}},view_range:0,shadow_radius:0}

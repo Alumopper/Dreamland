@@ -7,7 +7,7 @@ scoreboard players set dream_tower_generation dream_counter 0
 #生成基岩
 setblock 0 68 0 bedrock
 #标记
-summon armor_stand 0 68 0 {Invisible:true,Marker:true,Tags:[dream_tower]}
+summon marker 0 68 0 {Tags:[dream_tower]}
 #生成战利品
 #一楼
 execute positioned -8 72 -9 run function dream:structure/dream_tower/loot2

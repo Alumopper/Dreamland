@@ -1,7 +1,7 @@
 effect give @s resistance 10 5 false
 scoreboard players set @s dream_tpwait 161
 #生成标记
-execute at @s run summon armor_stand ~ ~ ~ {Tags:["dream_just","dream_bed_id"],Invisible:true,NoGravity:true,Marker:true}
+execute at @s run summon marker ~ ~ ~ {Tags:["dream_just","dream_bed_id"],NoGravity:true}
 scoreboard players operation @s dream_bed_id = dream_static_bed_id dream_bed_id
 scoreboard players operation @e[tag=dream_bed_id] dream_bed_id = dream_static_bed_id dream_bed_id
 scoreboard players add dream_static_bed_id dream_bed_id 1

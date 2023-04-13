@@ -5,9 +5,9 @@ execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:0b,tag:{CustomModelDa
 item replace entity @e[tag=dream_item_temp] container.9 with air
 item replace entity @e[tag=dream_item_temp] container.10 with air
 item replace entity @e[tag=dream_item_temp] container.23 with air
-execute if block ~ ~ ~ chest{Items:[{Slot:4b,tag:{tag:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.4 with air
-execute if block ~ ~ ~ chest{Items:[{Slot:6b,tag:{tag:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.6 with air
-execute if block ~ ~ ~ chest{Items:[{Slot:8b,tag:{tag:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.8 with air
+execute if block ~ ~ ~ barrel{Items:[{Slot:4b,tag:{tag:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.4 with air
+execute if block ~ ~ ~ barrel{Items:[{Slot:6b,tag:{tag:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.6 with air
+execute if block ~ ~ ~ barrel{Items:[{Slot:8b,tag:{tag:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.8 with air
 item replace block ~ ~ ~ container.0 with light_blue_dye{tag: {id: "dreamland:index"}, CustomModelData: 120020, display: {Name: '[{"text":"注魔台","italic": false}]'}}
 item replace block ~ ~ ~ container.1 with air
 item replace block ~ ~ ~ container.2 with air

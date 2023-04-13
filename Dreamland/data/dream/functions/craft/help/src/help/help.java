@@ -17,7 +17,7 @@ public class help {
         jf.setSize(500, 400);
         jf.setLocationRelativeTo(null);
         
-        //�滮���?
+        //�滮���?
         SpringLayout layout = new SpringLayout();
         JPanel jp = new JPanel(layout);
         jf.setContentPane(jp);
@@ -41,9 +41,9 @@ public class help {
         
         JLabel l1 = new JLabel("��Ʒԭ��");
         JLabel l2 = new JLabel("ħ��id");
-        JLabel l3 = new JLabel("���պϳ�̨��ʽ����ħ��id(ע:ԭ����Ʒ����ǰ���?0)");
+        JLabel l3 = new JLabel("���պϳ�̨��ʽ����ħ��id(ע:ԭ����Ʒ����ǰ���?0)");
         JLabel l4 = new JLabel("��Ʒ����");
-        JLabel l5 = new JLabel("�Զ�����ʲ���?");
+        JLabel l5 = new JLabel("�Զ�����ʲ���?");
         JLabel l6 = new JLabel("�����ռ�");
         
         jp.add(btn);
@@ -176,9 +176,9 @@ public class help {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":" + strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":" + strs[i] + "\"}}}]} ";
 					}
 				}
 			}else if (i <= 5 && i >= 3) {
@@ -186,9 +186,9 @@ public class help {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 7) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 7) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 7) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
 					}
 				}
 			}else if (i >= 6 && i <= 8) {
@@ -196,9 +196,9 @@ public class help {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 13) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 13) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 13) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
 					}
 				}
 			}

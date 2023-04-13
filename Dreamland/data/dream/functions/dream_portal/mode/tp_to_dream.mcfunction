@@ -5,7 +5,7 @@ effect give @s resistance 10 5 false
 #成就
 advancement grant @s only dream:beta/dimension_traveler
 #生成标记
-execute at @s run summon armor_stand ~ ~ ~ {Tags:["dream_just","dream_bed_id"],Invisible:true,NoGravity:true,Marker:true}
+execute at @s run summon marker ~ ~ ~ {Tags:["dream_just","dream_bed_id"]}
 scoreboard players operation @s dream_bed_id = dream_static_bed_id dream_bed_id
 scoreboard players operation @e[tag=dream_bed_id] dream_bed_id = dream_static_bed_id dream_bed_id
 scoreboard players add dream_static_bed_id dream_bed_id 1

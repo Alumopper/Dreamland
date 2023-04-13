@@ -1,4 +1,4 @@
-execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ chest{CustomName:'"注魔台"'}
-execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Small:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:120004}}],Pose:{LeftArm:[0.0f,0.0f,0.0f]},Tags:["block.dream.infusetable","dream_block"]}
-execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run scoreboard players set @e[tag=block.dream.infusetable,limit=1,distance=0..0.1,sort=nearest] dream_infuse_stage 0
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ barrel{CustomName:'"注魔台"'}
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {shadow_radius:0,item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:120004}},brightness:{sky:15,block:15},item_display:"head",Tags:["block.dream.infusetable","dream_block"]}
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~0.5 ~0.5 run scoreboard players set @e[tag=block.dream.infusetable,limit=1,distance=0..0.1,sort=nearest] dream_infuse_stage 0
 tag @s remove block.dream.infusetable

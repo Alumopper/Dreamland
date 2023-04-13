@@ -1,11 +1,11 @@
 #合成梦境工作台
 execute as @e[type=item,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] at @s if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:glowstone_dust",Count:1b,tag:{tag:{id:"dreamland:dreamdust"}}}}] run function dream:craft/crafting_table
 #方块挖掘//临时
-execute as @e[tag=dream_block] at @s unless block ~ ~ ~ chest run function dream:break
+execute as @e[tag=dream_block] at @s unless block ~ ~ ~ barrel run function dream:break
 #工作台合成
-execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] unless block ~ ~ ~ minecraft:chest{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/craft
-execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] if block ~ ~ ~ minecraft:chest{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/magic_craft
-execute as @e[tag=dream_craftingtable] if entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] unless block ~ ~ ~ minecraft:chest{Items:[{Slot:16b}]} run tag @s remove dream_crafting
+execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] unless block ~ ~ ~ minecraft:barrel{Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/craft
+execute as @e[tag=dream_craftingtable] unless entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] if data storage dream:crafting_table {Items:[{Slot:9b,tag:{tag:{id:"dreamland:magic_plate"}}}]} run function dream:craft/magic_craft
+execute as @e[tag=dream_craftingtable] if entity @s[tag=dream_crafting] at @s if entity @a[distance=0..4] unless block ~ ~ ~ minecraft:barrel{Items:[{Slot:16b}]} run tag @s remove dream_crafting
 #清除玩家身上不应该有的物品
 clear @a #dream:clear{tag:{isTemp:1b}}
 clear @a light_blue_dye{tag:{id:"dreamland:index"}}
@@ -24,9 +24,6 @@ execute as @e[tag=block.dream.infusetable] at @s run function dream:infuse/tick
 execute as @a run function dream:effect
 #清除临时物品
 kill @e[nbt={Item:{tag:{tag:{isTemp:1b}}}}]
-#检测玩家的潜行
-tag @a remove dream_sneaking
-execute as @a[scores={dream_shift=1..}] run function dream:other/sneak
 #记录玩家钓鱼行为
 execute as @a[scores={dream_fishing=1..}] run function dream:other/fishing
 #

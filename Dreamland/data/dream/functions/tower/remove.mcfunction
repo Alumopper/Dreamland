@@ -2,8 +2,8 @@
 summon chest_minecart ~ ~1 ~ {Tags:[dream_item_temp],Invulnerable:1b}
 data modify entity @e[tag=dream_item_temp,limit=1] Items set from block ~ ~ ~ Items
 execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:0b,tag:{CustomModelData:120021}}]}] run item replace entity @e[tag=dream_item_temp] container.0 with air
-execute if block ~ ~ ~ chest{Items:[{Slot:4b,tag:{tag:"dreamland:sweetdream_essence"}}]} run item replace entity @e[tag=dream_item_temp] container.13 with air
-execute if block ~ ~ ~ chest{Items:[{Slot:4b,tag:{tag:"dreamland:nightmare_essence"}}]} run item replace entity @e[tag=dream_item_temp] container.13 with air
+execute if block ~ ~ ~ barrel{Items:[{Slot:4b,tag:{tag:"dreamland:sweetdream_essence"}}]} run item replace entity @e[tag=dream_item_temp] container.13 with air
+execute if block ~ ~ ~ barrel{Items:[{Slot:4b,tag:{tag:"dreamland:nightmare_essence"}}]} run item replace entity @e[tag=dream_item_temp] container.13 with air
 execute if entity @s[tag=dream_defender] run item replace block ~ ~ ~ container.0 with light_blue_dye{tag: {id: "dreamland:index"}, CustomModelData: 120021, display: {Name: '[{"text":"梦守卫塔","italic": false}]'}}
 execute if entity @s[tag=dream_breaker] run item replace block ~ ~ ~ container.0 with light_blue_dye{tag: {id: "dreamland:index"}, CustomModelData: 120021, display: {Name: '[{"text":"梦崩毁塔","italic": false}]'}}
 item replace block ~ ~ ~ container.1 with air
