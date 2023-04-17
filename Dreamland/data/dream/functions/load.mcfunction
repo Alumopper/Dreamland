@@ -92,8 +92,8 @@ scoreboard objectives add dream_playerno dummy "玩家编号"
     scoreboard players set $static_no dream_playerno 0
     execute as @a unless score @s dream_playerno matches -2147483648..2147483647 run function dream:other/playerno
 #生成追逐者的延时
-scoreboard objectives add entity.dream.chaser_sm dummy "追逐者生成延时"
-    execute as @a unless score @s entity.dream.chaser_sm matches -2147483648..2147483647 run scoreboard players set @s entity.dream.chaser_sm 0
+scoreboard objectives add dream_chaser_sm dummy "追逐者生成延时"
+    execute as @a unless score @s dream_chaser_sm matches -2147483648..2147483647 run scoreboard players set @s dream_chaser_sm 0
 #粒子圆的半径(*0.1倍率，即一位小数)
 scoreboard objectives add dream_par_rad dummy "圆半径"
 #粒子扩散圆的标号

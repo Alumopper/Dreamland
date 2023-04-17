@@ -2,11 +2,11 @@ execute unless block ~ ~ ~ barrel{Items:[{Slot:0b,tag:{CustomModelData:120020}}]
 execute if block ~ ~ ~ barrel{Items:[{Slot:1b}]} run function dream:infuse/remove 
 execute if block ~ ~ ~ barrel{Items:[{Slot:2b}]} run function dream:infuse/remove 
 execute if block ~ ~ ~ barrel{Items:[{Slot:3b}]} run function dream:infuse/remove 
-execute if block ~ ~ ~ barrel{Items:[{Slot:4b}]} unless block ~ ~ ~ barrel{Items:[{Slot:4b,tag:{tag:{isTemp:1b}}}]} run function dream:infuse/remove
+execute if block ~ ~ ~ barrel{Items:[{Slot:4b}]} unless block ~ ~ ~ barrel{Items:[{Slot:4b,tag:{dreamland:{isTemp:1b}}}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:5b}]} run function dream:infuse/remove 
-execute if block ~ ~ ~ barrel{Items:[{Slot:6b}]} unless block ~ ~ ~ barrel{Items:[{Slot:6b,tag:{tag:{isTemp:1b}}}]} run function dream:infuse/remove
+execute if block ~ ~ ~ barrel{Items:[{Slot:6b}]} unless block ~ ~ ~ barrel{Items:[{Slot:6b,tag:{dreamland:{isTemp:1b}}}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:7b}]} run function dream:infuse/remove
-execute if block ~ ~ ~ barrel{Items:[{Slot:8b}]} unless block ~ ~ ~ barrel{Items:[{Slot:8b,tag:{tag:{isTemp:1b}}}]} run function dream:infuse/remove
+execute if block ~ ~ ~ barrel{Items:[{Slot:8b}]} unless block ~ ~ ~ barrel{Items:[{Slot:8b,tag:{dreamland:{isTemp:1b}}}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:11b}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:12b}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:13b}]} run function dream:infuse/remove

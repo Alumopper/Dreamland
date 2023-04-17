@@ -1,0 +1,47 @@
+{
+    "type": "random_patch",
+    "config": {
+        "feature": {
+            "feature": {
+                "type":"simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "weighted_state_provider",
+                        "entries": [
+                            {
+                                "data": {
+                                    "Name": "crimson_fungus"
+                                },
+                                "weight": 14
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:grass"
+                                },
+                                "weight": 80
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:red_mushroom"
+                                },
+                                "weight": 6
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type":"block_predicate_filter",
+                    "predicate": {
+                        "type": "matching_blocks",
+                        "blocks": "air"
+                    }
+                }
+            ]
+        },
+        "tries": 64,
+        "xz_spread": 6,
+        "y_spread": 2
+    }
+}

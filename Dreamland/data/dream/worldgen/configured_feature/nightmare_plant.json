@@ -1,0 +1,53 @@
+{
+    "type": "random_patch",
+    "config": {
+        "feature": {
+            "feature": {
+                "type":"simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "weighted_state_provider",
+                        "entries": [
+                            {
+                                "data": {
+                                    "Name": "warped_fungus"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:grass"
+                                },
+                                "weight": 75
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:brown_mushroom"
+                                },
+                                "weight": 6
+                            },
+                            {
+                                "data": {
+                                    "Name": "minecraft:wither_rose"
+                                },
+                                "weight": 9
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type":"block_predicate_filter",
+                    "predicate": {
+                        "type": "matching_blocks",
+                        "blocks": "air"
+                    }
+                }
+            ]
+        },
+        "tries": 64,
+        "xz_spread": 6,
+        "y_spread": 2
+    }
+}

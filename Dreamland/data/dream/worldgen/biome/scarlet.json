@@ -6,7 +6,7 @@
     "has_precipitation":false,
     "effects":{
         "sky_color": 16729156,
-        "fog_color": 16609135,
+        "fog_color": 2164744,
         "foliage_color": 10557207,
         "grass_color": 11804447,
         "water_color":14755109,
@@ -26,7 +26,8 @@
         [],
         [
             "minecraft:lake_lava_underground",
-            "minecraft:lake_lava_surface"
+            "minecraft:lake_lava_surface",
+            "dream:blood_lake"
         ],
         [],
         [
@@ -78,11 +79,10 @@
         ],
         [
             "minecraft:spring_lava",
-            "minecraft:patch_tall_grass_2",
-            "minecraft:trees_plains",
-            "minecraft:patch_grass_plain",
-            "minecraft:red_mushroom_normal",
-            "minecraft:crimson_forest_vegetation"
+            "dream:blood_lake",
+            "dream:scalet_tree",
+            "dream:wart_colomn",
+            "dream:scarlet_plant"
         ],
         []
     ],

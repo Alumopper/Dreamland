@@ -20,5 +20,5 @@ execute if score rand_output math_output matches 80..89 run scoreboard players a
 execute if score rand_output math_output matches 80..89 run execute store result block ~ ~ ~ Items[4].tag.AttributeModifiers[0].Amount float 0.1 run scoreboard players get older_value dream_counter
 execute if score rand_output math_output matches 90..99 run data modify block ~ ~ ~ Items[4].tag.tag.infusion set value 4b
 execute if score rand_output math_output matches 90..99 run data modify block ~ ~ ~ Items[4].tag.display.Lore set value ['{"translate":"dream.item.infuse.name.thick","italic":false}']
-execute if score rand_output math_output matches 90..99 if block ~ ~ ~ barrel{Items:[{tag:{tag:{infusion:4b}}}]} run data modify block ~ ~ ~ Items[4].tag.AttributeModifiers append value {Amount:4b,AttributeName:"generic.max_health",Operation:0,UUID:[I;223232,4325443,70054044,323],Slot:"legs"}
+execute if score rand_output math_output matches 90..99 if block ~ ~ ~ barrel{Items:[{tag:{dreamland:{infusion:4b}}}]} run data modify block ~ ~ ~ Items[4].tag.AttributeModifiers append value {Amount:4b,AttributeName:"generic.max_health",Operation:0,UUID:[I;223232,4325443,70054044,323],Slot:"legs"}
 function dream:infuse/infuse3

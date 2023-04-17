@@ -11,7 +11,7 @@ item replace entity @e[tag=dream_item_temp] container.11 with air
 item replace entity @e[tag=dream_item_temp] container.12 with air
 item replace entity @e[tag=dream_item_temp] container.13 with air
 item replace entity @e[tag=dream_item_temp] container.15 with air
-execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:16b,tag:{tag:{isTemp:1b}}}]}] run item replace entity @e[tag=dream_item_temp] container.16 with air
+execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:16b,tag:{dreamland:{isTemp:1b}}}]}] run item replace entity @e[tag=dream_item_temp] container.16 with air
 item replace entity @e[tag=dream_item_temp] container.19 with air
 item replace entity @e[tag=dream_item_temp] container.20 with air
 item replace entity @e[tag=dream_item_temp] container.21 with air

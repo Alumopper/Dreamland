@@ -6,7 +6,7 @@
     "has_precipitation":false,
     "effects":{
         "sky_color": 13075199,
-        "fog_color": 14000895,
+        "fog_color": 918295,
         "foliage_color": 6434026,
         "grass_color": 10235114,
         "water_color":11226107,
@@ -46,11 +46,7 @@
         ],
         [],
         [
-            "minecraft:patch_tall_grass_2",
-            "minecraft:trees_plains",
-            "minecraft:patch_grass_plain",
-            "minecraft:patch_pumpkin",
-            "minecraft:brown_mushroom_normal"
+            "dream:nightmare_plant"
         ],
         []
     ],

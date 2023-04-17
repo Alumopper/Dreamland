@@ -1,0 +1,12 @@
+{
+    "type": "random_selector",
+    "config": {
+        "features":[
+            {
+                "feature": "dream:scalet_tree_l",
+                "chance": 0.05
+            }
+        ],
+        "default": "dream:scalet_tree_d"
+    }
+}

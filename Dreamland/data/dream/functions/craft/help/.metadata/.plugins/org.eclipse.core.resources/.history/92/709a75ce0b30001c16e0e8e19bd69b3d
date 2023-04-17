@@ -171,14 +171,14 @@ public class help {
 			//3 4 5 x 9(10)
 			//6 7 8
 			if (i <= 2) {
-				//execute if block ~ ~ ~ chest{Items:[{id:"minecraft:iron_ingot",Slot:1b,Count:1b,tag:{tag:{id:"dreamland:dream_org_ingot"}}}]}
+				//execute if block ~ ~ ~ chest{Items:[{id:"minecraft:iron_ingot",Slot:1b,Count:1b,tag:{dreamland:{id:"dreamland:dream_org_ingot"}}}]}
 				if(strs[i].isEmpty()) {
 					str += "unless block ~ ~ ~ minecraft:chest{Items:[{Slot:" + (i + 1) + "b}]} ";
 				}else {
 					if(strs[i].charAt(0) == '0') {
 						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":" + strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 1) + "b,Count:1b,tag:{dreamland:{id:\""+ strs[13] + ":" + strs[i] + "\"}}}]} ";
 					}
 				}
 			}else if (i <= 5 && i >= 3) {
@@ -188,7 +188,7 @@ public class help {
 					if(strs[i].charAt(0) == '0') {
 						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 7) + "b,Count:1b,tag:{dreamland:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
 					}
 				}
 			}else if (i >= 6 && i <= 8) {
@@ -198,7 +198,7 @@ public class help {
 					if(strs[i].charAt(0) == '0') {
 						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,id:\"minecraft:" + strs[i].substring(1) + "\"}]} ";
 					}else {
-						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,tag:{tag:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
+						str += "if data storage dream:crafting_table {Items:[{Slot:" + (i + 13) + "b,Count:1b,tag:{dreamland:{id:\""+ strs[13] + ":"+ strs[i] + "\"}}}]} ";
 					}
 				}
 			}

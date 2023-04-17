@@ -5,7 +5,7 @@ execute if block ~ ~ ~ barrel{Items:[{Slot:6b}]} run function dream:craft/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:7b}]} run function dream:craft/remove 
 execute if block ~ ~ ~ barrel{Items:[{Slot:8b}]} run function dream:craft/remove 
 execute if block ~ ~ ~ barrel{Items:[{Slot:14b}]} run function dream:craft/remove
-execute if block ~ ~ ~ barrel{Items:[{Slot:16b}]} unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{tag:{isTemp:1b}}}]} unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{tag:{isTemp:0b}}}]} run function dream:craft/remove
+execute if block ~ ~ ~ barrel{Items:[{Slot:16b}]} unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{dreamland:{isTemp:1b}}}]} unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{dreamland:{isTemp:0b}}}]} run function dream:craft/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:17b}]} run function dream:craft/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:18b}]} run function dream:craft/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:22b}]} run function dream:craft/remove

@@ -21,9 +21,9 @@ item replace entity @s container.11 with minecraft:light_blue_dye{CustomModelDat
 item replace entity @s container.12 with minecraft:light_blue_dye{CustomModelData: 120033, display: {Name: '[{"translate":"item.dreamland.void_energy","italic":false}]'}, tag: {id: "dreamland:void_energy",isTemp: 0b}}
 item replace entity @s container.13 with minecraft:light_blue_dye{CustomModelData: 120034, display: {Name: '[{"translate":"item.dreamland.memory_fragment","italic":false}]'}, tag: {id: "dreamland:memory_fragment",isTemp: 0b}}
 item replace entity @s container.14 with minecraft:light_blue_dye{CustomModelData: 120035, display: {Name: '[{"translate":"item.dreamland.memory_crystal","italic":false}]'}, tag: {id: "dreamland:memory_crystal",isTemp: 0b}}
-item replace entity @s container.15 with air
-item replace entity @s container.16 with air
-item replace entity @s container.17 with air
+item replace entity @s container.15 with minecraft:ender_pearl{CustomModelData: 120001, display: {Name: '[{"translate":"item.dreamland.dark_pearl","italic":false}]'}, tag: {id: "dreamland:dark_pearl",isTemp: 0b}}
+item replace entity @s container.16 with minecraft:ender_eye{CustomModelData: 120001, display: {Name: '[{"translate":"item.dreamland.dark_eye","italic":false}]'}, tag: {id: "dreamland:dark_eye",isTemp: 0b}}
+item replace entity @s container.17 with minecraft:light_blue_dye{CustomModelData: 120036, display: {Name: '[{"translate":"item.dreamland.dark_crystal","italic":false}]'}, tag: {id: "dreamland:dark_crystal",isTemp: 0b}}
 item replace entity @s container.18 with air
 item replace entity @s container.19 with air
 item replace entity @s container.20 with air

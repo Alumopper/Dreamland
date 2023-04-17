@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dream:nightmare/witch_hut",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 18,
+        "separation": 14,
+        "salt": 1118191848
+    }
+}

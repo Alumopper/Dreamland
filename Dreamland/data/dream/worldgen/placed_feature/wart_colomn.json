@@ -1,0 +1,16 @@
+{
+    "feature": "dream:wart_column",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 1
+      },
+      {
+        "type": "biome"
+      },
+      {
+        "type": "minecraft:in_square"
+      }
+    ]
+  }
+  

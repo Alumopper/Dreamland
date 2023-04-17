@@ -29,10 +29,10 @@ execute if entity @a[predicate=dream:if_entity/in_chaos] run function dream:enti
 #追逐者
 execute as @e[tag=entity.dream.chaser] at @s run function dream:entity/chaser/tick
     #生成追逐者
-    execute as @a unless score dream_gamestage dream_counter matches -1 if entity @s[predicate=dream:if_entity/in_deepdeepdark,predicate=dream:if_entity/at_dark] run scoreboard players add @s entity.dream.chaser_sm 1
-    execute as @a if score dream_gamestage dream_counter matches 1.. unless entity @s[predicate=dream:if_entity/in_deepdeepdark,predicate=dream:if_entity/at_dark] run scoreboard players remove @s entity.dream.chaser_sm 1
-    execute as @a at @s if score @s entity.dream.chaser_sm matches 1200.. run function dream:entity/chaser/summon
-    execute as @a if score @s entity.dream.chaser_sm matches 1200.. run scoreboard players set @s entity.dream.chaser_sm 0
+    execute as @a unless score dream_gamestage dream_counter matches -1 if entity @s[predicate=dream:if_entity/in_deepdeepdark,predicate=dream:if_entity/at_dark] at @s unless entity @e[tag=entity.dream.chaser,distance=0..5] run scoreboard players add @s dream_chaser_sm 1
+    execute as @a unless score dream_gamestage dream_counter matches -1 unless entity @s[predicate=dream:if_entity/in_deepdeepdark,predicate=!dream:if_entity/at_light] if score @s dream_chaser_sm matches 1.. run scoreboard players remove @s dream_chaser_sm 1
+    execute as @a at @s if score @s dream_chaser_sm matches 1200.. run function dream:entity/chaser/summon
+    execute as @a if score @s dream_chaser_sm matches 1200.. run scoreboard players set @s dream_chaser_sm 0
 #噩梦世界的蝙蝠轰炸机
 execute as @e[type=bat] if entity @s[predicate=dream:if_entity/in_nightmare] at @s positioned ~-1 ~-10 ~-1 if entity @a[dx=3,dy=10,dz=3] run function dream:entity/nightmare_bat/bat
 #治疗水晶

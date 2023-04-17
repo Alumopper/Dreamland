@@ -6,9 +6,9 @@ execute as @e[tag=dream_db] at @s if entity @a[distance=0..10] run function drea
 execute as @e[tag=dream_beacon] at @s run function dream:beacon/tick
 execute as @e[tag=dream_creative] at @s if entity @a[distance=0..5] run function dream:creative/tick
     execute as @e[tag=dream_creative_marker] at @s unless entity @e[tag=dream_creative,distance=0..1] run function dream:creative/kill
-execute as @e[tag=block.dream.dream_portal] at @s if entity @a[distance=0..20] run function dream:block.dream.dream_portal/tick
+execute as @e[tag=block.dream.dream_portal] at @s if entity @a[distance=0..20] run function dream:dream_portal/tick
     execute as @a[scores={dream_tpwait=100..160}] at @s unless entity @e[distance=0..1.5,tag=block.dream.dream_portal,tag=!block.dream.dream_portal_disable,tag=!block.dream.dream_portal_empty] run scoreboard players set @s dream_tpwait -1
-execute if score dream_gamestage dream_counter matches 0 if entity @a[predicate=dream:if_entity/in_nightmare] run function dream:biome/nightmare/orginal_point
+execute if score dream_gamestage dream_counter matches 0 as @e[type=item,predicate=dream:if_entity/at_illusion_altar] at @s run function dream:structure/illusion_altar/trigger
 execute if score dream_gamestage dream_counter matches -1 run function dream:entity/dark_illusioner/tick
 execute if score dream_finalstorystage dream_counter matches 0.. run function dream:memory_story/tick
 #混沌世界

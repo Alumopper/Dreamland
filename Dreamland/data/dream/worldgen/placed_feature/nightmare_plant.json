@@ -1,0 +1,17 @@
+{
+  "feature": "dream:nightmare_plant",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 6
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "WORLD_SURFACE_WG",
+      "max_inclusive": -70
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

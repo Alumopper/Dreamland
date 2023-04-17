@@ -1,0 +1,23 @@
+{
+    "type": "huge_fungus",
+    "config": {
+        "valid_base_block": {
+            "Name": "grass_block",
+            "Properties": {
+                "snowy": "false"
+            }
+        },
+        "stem_state": {
+            "Name": "minecraft:crimson_stem",
+            "Properties": {
+                "axis": "y"
+            }
+        },
+        "hat_state": {
+            "Name": "minecraft:nether_wart_block"
+        },
+        "decor_state": {
+            "Name": "minecraft:air"
+        }
+    }
+}

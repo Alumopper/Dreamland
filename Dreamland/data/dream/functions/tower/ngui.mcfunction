@@ -12,7 +12,7 @@ execute if block ~ ~ ~ barrel{Items:[{Slot:9b}]} run function dream:tower/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:10b}]} run function dream:tower/remove 
 execute if block ~ ~ ~ barrel{Items:[{Slot:11b}]} run function dream:tower/remove 
 execute if block ~ ~ ~ barrel{Items:[{Slot:12b}]} run function dream:tower/remove 
-execute if block ~ ~ ~ barrel{Items:[{Slot:13b}]} unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{tag:{id:"dreamland:nightmare_essence"}}}]} run function dream:tower/remove
+execute if block ~ ~ ~ barrel{Items:[{Slot:13b}]} unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{dreamland:{id:"dreamland:nightmare_essence"}}}]} run function dream:tower/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:14b}]} run function dream:tower/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:15b}]} run function dream:tower/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:16b}]} run function dream:tower/remove

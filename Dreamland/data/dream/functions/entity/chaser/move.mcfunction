@@ -5,6 +5,6 @@ execute facing entity @p[tag=dream_chased_player] eyes run tp @s ^ ^ ^0.26 facin
 #若玩家距离过远
 execute if entity @p[tag=dream_chased_player,distance=10..] at @p[tag=dream_chased_player] facing entity @s eyes positioned ^ ^ ^3 run tp @s ~ ~ ~ facing entity @p[tag=dream_chased_player]
 #伤害玩家
-effect give @p[tag=dream_chased_player,distance=0..2.3] instant_damage 1 1
+damage @p[tag=dream_chased_player,distance=0..2.3] 2 mob_attack
 effect give @p[tag=dream_chased_player,distance=0..2.9] poison 2 1 
 tag @a remove dream_chased_player
