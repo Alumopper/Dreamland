@@ -29,15 +29,6 @@
             }
         },
         {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "dream:vi_cloud",
-                "location": "dream:vi/side_buildings/hole"
-            }
-        },
-        {
             "weight": 15,
             "element": {
                 "element_type": "minecraft:single_pool_element",

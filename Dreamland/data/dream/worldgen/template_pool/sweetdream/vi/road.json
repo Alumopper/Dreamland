@@ -2,7 +2,7 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 3,
+            "weight": 6,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -16,7 +16,16 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "dream:vi/road_turn"
+                "location": "dream:vi/road_turn_left"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "dream:vi/road_turn_right"
             }
         }
     ]

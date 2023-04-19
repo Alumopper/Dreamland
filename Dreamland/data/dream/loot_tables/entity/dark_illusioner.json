@@ -1,0 +1,24 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{title:'',author:\"Kavein\",pages:['{\"translate\":\"book.dream.introduction\"}'],display:{Name:'{\"translate\":\"item.dreamland.game_introduction\",\"italic\":true}'},generation:0,resolved:0b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -7,3 +7,5 @@ execute store result entity @e[tag=temp,limit=1] Pos[2] double 1.0 run scoreboar
 tp @s @e[tag=temp,limit=1]
 #删除
 kill @e[tag=temp]
+
+

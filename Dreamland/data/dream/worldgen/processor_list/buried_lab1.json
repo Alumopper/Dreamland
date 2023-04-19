@@ -1,0 +1,14 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:block_rot",
+            "rottable_blocks": [
+                "quartz_block",
+                "quartz_slab",
+                "tinted_glass",
+                "bookshelf"
+            ],
+            "integrity": 0.9
+        }
+    ]
+}

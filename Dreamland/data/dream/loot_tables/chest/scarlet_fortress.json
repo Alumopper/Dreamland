@@ -50,7 +50,7 @@
                             "enchantments": ["fire_protection","flame"]
                         }
                     ],
-                    "name": "minecraft:enchanted_book",
+                    "name": "minecraft:book",
                     "conditions":[
                         {
                             "condition": "minecraft:random_chance",

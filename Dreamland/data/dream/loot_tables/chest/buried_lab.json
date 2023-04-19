@@ -1,0 +1,127 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.15
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.05
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.15
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions":[
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.15
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ],
+                    "conditions":[
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

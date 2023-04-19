@@ -17,12 +17,13 @@ execute as @e[distance=0..60,tag=!dream_black_hole,type=!item] at @s facing enti
 execute as @e[distance=0..20,tag=!dream_black_hole,type=!item] at @s facing entity @e[tag=dream_black_hole] eyes run tp @s ^ ^ ^0.5
 execute as @e[distance=0..100,tag=!dream_black_hole,type=!item] run effect give @s levitation 2 255 false
 execute as @e[distance=0..100,tag=!dream_black_hole,type=!item] run effect give @s slowness 1 127 false
-#TODO 黑洞模型
-#execute if score dream_blackhole_radius dream_counter matches 5..20 run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 black_concrete
-#execute if score dream_blackhole_radius dream_counter matches 21..40 run fill ~4 ~4 ~4 ~-4 ~-4 ~-4 black_concrete
-#execute if score dream_blackhole_radius dream_counter matches 41..60 run fill ~6 ~6 ~6 ~-6 ~-6 ~-6 black_concrete
-#execute if score dream_blackhole_radius dream_counter matches 61..90 run fill ~10 ~10 ~10 ~-10 ~-10 ~-01 black_concrete
-#execute if score dream_blackhole_radius dream_counter matches 91.. run fill ~15 ~15 ~15 ~-15 ~-15 ~-15 black_concrete
+#黑洞模型
+execute as @e[tag=dream_black_hole] if score @s dream_counter matches 0 if score dream_blackhole_radius dream_counter matches 5..20 run function dream:structure/black_hole/model/size_1
+execute as @e[tag=dream_black_hole] if score @s dream_counter matches 1 if score dream_blackhole_radius dream_counter matches 21..40 run function dream:structure/black_hole/model/size_2
+execute as @e[tag=dream_black_hole] if score @s dream_counter matches 2 if score dream_blackhole_radius dream_counter matches 41..60 run function dream:structure/black_hole/model/size_3
+execute as @e[tag=dream_black_hole] if score @s dream_counter matches 3 if score dream_blackhole_radius dream_counter matches 61..90 run function dream:structure/black_hole/model/size_4
+execute as @e[tag=dream_black_hole] if score @s dream_counter matches 4 if score dream_blackhole_radius dream_counter matches 91.. run function dream:structure/black_hole/model/size_5
+#黑洞事件视界
 execute if score dream_blackhole_radius dream_counter matches 5..20 run kill @e[type=!player,tag=!dream_black_hole,distance=0..3]
 execute if score dream_blackhole_radius dream_counter matches 21..40 run kill @e[type=!player,tag=!dream_black_hole,distance=0..4]
 execute if score dream_blackhole_radius dream_counter matches 41..60 run kill @e[type=!player,tag=!dream_black_hole,distance=0..6]
