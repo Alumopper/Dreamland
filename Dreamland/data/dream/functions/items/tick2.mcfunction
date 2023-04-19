@@ -1,3 +1,4 @@
+#as/at @a
 #手持暗影之眼让周围的小黑发光
 execute if data storage dream:player_data {SelectedItem:{tag:{id:"dreamland:dark_eye"}}} run effect give @e[type=enderman,distance=0..30] glowing 1 1 false
 #手持云伞让玩家缓降
@@ -7,10 +8,10 @@ execute if entity @s[tag=!dream_effect_levitation255] if data storage dream:play
 execute if entity @s[tag=dream_magic_displaying] run function dream:items/magic_display
 execute if entity @s[tag=!dream_magic_displaying] if data storage dream:player_data {SelectedItem:{tag:{dreamland:{MagicDisplay:true}}}} run tag @s add dream_magic_displaying
 execute if entity @s[tag=!dream_magic_displaying] if data storage dream:player_data {SelectedItem2:{tag:{dreamland:{MagicDisplay:true}}}} run tag @s add dream_magic_displaying
-execute if entity @s[tag=dream_magic_displaying] unless data storage dream:player_data {SelectedItem:{tag:{dreamland:{MagicDisplay:true}}},SelectedItem2:{tag:{dreamland:{MagicDisplay:true}}}} run function dream:items/remove_magic_display
+execute if entity @s[tag=dream_magic_displaying] unless data storage dream:player_data {SelectedItem:{tag:{dreamland:{MagicDisplay:true}}}} unless data storage dream:player_data {SelectedItem2:{tag:{dreamland:{MagicDisplay:true}}}} run function dream:items/remove_magic_display
 #手持法杖开始检测玩家是否副手持有魔法水晶
 execute if data storage dream:player_data {SelectedItem:{tag:{id:"dreamland:dream_wand"}}} run function dream:items/wand_insert/crystal_num
-execute if data storage dream:player_data {SelectedItem:{tag:{id:"dreamland:choas_wand"}}} run function dream:items/wand_insert/crystal_num
+execute if data storage dream:player_data {SelectedItem:{tag:{id:"dreamland:chaos_wand"}}} run function dream:items/wand_insert/crystal_num
 #手持沙漏显示做梦时间
 execute if data storage dream:player_data {SelectedItem:{tag:{id:"dreamland:dream_timer"}}} run function dream:items/time_display
 execute if data storage dream:player_data {SelectedItem2:{tag:{id:"dreamland:dream_timer"}}} run function dream:items/time_display

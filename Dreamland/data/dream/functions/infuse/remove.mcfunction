@@ -8,7 +8,7 @@ item replace entity @e[tag=dream_item_temp] container.23 with air
 execute if block ~ ~ ~ barrel{Items:[{Slot:4b,tag:{dreamland:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.4 with air
 execute if block ~ ~ ~ barrel{Items:[{Slot:6b,tag:{dreamland:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.6 with air
 execute if block ~ ~ ~ barrel{Items:[{Slot:8b,tag:{dreamland:{isTemp:1b}}}]} run item replace entity @e[tag=dream_item_temp] container.8 with air
-item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120020, display: {Name: '[{"text":"注魔台","italic": false}]'}}
+item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120020, display: {Name: '[{"translate":"item.dreamland.infuse_table","italic": false}]'}}
 item replace block ~ ~ ~ container.1 with air
 item replace block ~ ~ ~ container.2 with air
 item replace block ~ ~ ~ container.3 with air

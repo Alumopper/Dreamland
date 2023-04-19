@@ -22,7 +22,7 @@
 #为魔法球添加伤害效果
     execute if entity @s[tag=entity.dream.magicball.pure] if entity @e[type=#dream:enemy,distance=0..1.5] run function dream:entity/magic_ball/damage/pure
     execute if entity @s[tag=entity.dream.magicball.end] if entity @e[type=#dream:enemy,distance=0..1.3] run function dream:entity/magic_ball/damage/end
-    execute if entity @s[tag=entity.dream.magicball.chaos] if entity @e[type=!minecraft:player,distance=0.1..2] run function dream:entity/magic_ball/damage/choas
+    execute if entity @s[tag=entity.dream.magicball.chaos] if entity @e[type=!minecraft:player,distance=..2,tag=!entity.dream.magicball.chaos] run function dream:entity/magic_ball/damage/chaos
     execute if entity @s[tag=entity.dream.magicball.boss] if entity @a[distance=0..1.9] run function dream:entity/magic_ball/damage/boss
     execute if entity @s[tag=entity.dream.magicball.weak,tag=dream_player_friendly] as @e[distance=0..2.0,type=#dream:enemy] run effect give @s poison 3 1 false
     execute if entity @s[tag=entity.dream.magicball.weak,tag=!dream_player_friendly] as @a[distance=0..2.0] run damage @s 2.0 minecraft:magic

@@ -22,4 +22,4 @@ execute if block ~ ~ ~ barrel{Items:[{Slot:22b}]} run function dream:dream_porta
 execute if block ~ ~ ~ barrel{Items:[{Slot:23b}]} run function dream:dream_portal/mode/empty/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:25b}]} run function dream:dream_portal/mode/empty/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:26b}]} run function dream:dream_portal/mode/empty/remove
-item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120024, display: {Name: '[{"text":"梦境传送门","italic": false}]'}}
+item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120024, display: {Name: '[{"translate":"item.dreamland.dream_portal","italic": false}]'}}

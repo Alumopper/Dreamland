@@ -15,7 +15,7 @@ execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:16b,tag:{dreamland:{i
 item replace entity @e[tag=dream_item_temp] container.19 with air
 item replace entity @e[tag=dream_item_temp] container.20 with air
 item replace entity @e[tag=dream_item_temp] container.21 with air
-item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120018, display: {Name: '[{"text":"梦境合成台","italic": false}]'}}
+item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120018, display: {Name: '[{"translate":"item.dreamland.craftingtable","italic": false}]'}}
 item replace block ~ ~ ~ container.4 with air
 item replace block ~ ~ ~ container.5 with air
 item replace block ~ ~ ~ container.6 with air

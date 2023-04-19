@@ -14,4 +14,4 @@ scoreboard players set dream_finalboss_mirror_on dream_counter 1
 scoreboard players set dream_finalboss2_timer dream_timer 0
 execute as @a at @s run playsound dreamland:entity.finalboss2.bgm master @s ~ ~ ~
 #增益倒计时
-schedule function dream:memory_story/final_boss2/skill/x_x/load 420s
+#schedule function dream:memory_story/final_boss2/skill/x_x/load 420s

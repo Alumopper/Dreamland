@@ -22,4 +22,4 @@ execute if block ~ ~ ~ barrel{Items:[{Slot:22b}]} run function dream:infuse/remo
 execute if block ~ ~ ~ barrel{Items:[{Slot:23b}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:25b}]} run function dream:infuse/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:26b}]} run function dream:infuse/remove
-item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120020, display: {Name: '[{"text":"注魔台","italic": false}]'}}
+item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120020, display: {Name: '[{"translate":"item.dreamland.infuse_table","italic": false}]'}}
