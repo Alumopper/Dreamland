@@ -6,7 +6,7 @@ execute as @a if score @s dream_magic_regeneration matches 15.. run scoreboard p
 #获得云
 execute as @a[tag=!bool.HasCloudGun] run scoreboard players set @s block.dream.cloudcd 0
 execute as @a[tag=bool.HasCloudGun] run scoreboard players add @s block.dream.cloudcd 1
-execute as @a if score @s block.dream.cloudcd matches 2000 run give @s light_blue_dye{CustomModelData:120022,tag:{id:"dreamland:cloud"},display:{Name:'[{"translate":"item.dreamland.cloud","italic": false}]'}}
+execute as @a if score @s block.dream.cloudcd matches 2000 run give @s light_blue_dye{CustomModelData:120022,id:"dreamland:cloud",display:{Name:'[{"translate":"item.dreamland.cloud","italic": false}]'}}
 execute as @a if score @s block.dream.cloudcd matches 2000 run scoreboard players set @s block.dream.cloudcd 0
 #混沌前计时器
 function dream:timer/dream

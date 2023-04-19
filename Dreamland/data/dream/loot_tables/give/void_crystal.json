@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120029, display: {Name: '[{\"translate\":\"item.dreamland.void_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.void\",\"color\": \"#E6E6E6\"}']}, tag: {id: \"dreamland:void_crystal\",WandEx:[4],isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120029, display: {Name: '[{\"translate\":\"item.dreamland.void_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"item.dream.wand.name.void\",\"color\": \"#E6E6E6\"}']}, id: \"dreamland:void_crystal\",dreamland: {WandEx:[4],isTemp: 0b}}"
                         }
                     ]
                 }

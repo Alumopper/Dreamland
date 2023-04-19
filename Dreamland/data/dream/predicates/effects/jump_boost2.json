@@ -6,7 +6,7 @@
             "jump_boost":{
                 "amplifier": 1,
                 "duration": {
-                    "max":20
+                    "min":1000000
                 }
             }
         }

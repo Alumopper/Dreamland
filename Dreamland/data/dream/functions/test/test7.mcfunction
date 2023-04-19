@@ -1,3 +1,3 @@
-execute if entity @s[nbt={Inventory:[{Slot: -106b,tag: {display: {Lore: ['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}] run say hi
-execute if entity @s[nbt={Inventory:[{Slot: -106b,tag: {display: {Lore: ['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}]
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"color":"white","translate":"dream.item.wand.name.invalid"}']}}}]}]
+execute if entity @s[nbt={Inventory:[{Slot: -106b,tag: {display: {Lore: ['{"color":"white","translate":"item.dream.wand.name.invalid"}']}}}]}] run say hi
+execute if entity @s[nbt={Inventory:[{Slot: -106b,tag: {display: {Lore: ['{"color":"white","translate":"item.dream.wand.name.invalid"}']}}}]}]
+execute if entity @s[nbt={Inventory:[{Slot: -106b,tag: {display:{Lore:['{"color":"white","translate":"item.dream.wand.name.invalid"}']}}}]}]

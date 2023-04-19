@@ -32,6 +32,6 @@ execute if score @s dream_beacon matches 9 run effect give @a water_breathing 30
 execute if score @s dream_beacon matches 10 run particle dust 0.9686274509803922 0.8352941176470589 0.2549019607843137 1 ~ ~1.5 ~ 0.1 0.1 0.1 0 5
 execute if score @s dream_beacon matches 10 run effect give @a haste 30 2 false
 #检测上方是否有激活物品（梦能核心）
-execute if entity @e[type=item,distance=..1.5,nbt={Item:{tag:{dreamland:{id:"dreamland:dream_power_core"}}}}] run function dream:beacon/gui
+execute if entity @e[type=item,distance=..1.5,nbt={Item:{tag:{id:"dreamland:dream_power_core"}}}] run function dream:beacon/gui
 #挖掘梦境信标
 execute unless block ~ ~ ~ barrier run kill @s

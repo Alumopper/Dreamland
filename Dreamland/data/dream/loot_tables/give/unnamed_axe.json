@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_axe\",\"italic\":false}]'}, tag: {id: \"dreamland:unnamed_axe\", type: 5b, infusion: 0b,isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_axe\",\"italic\":false}]'},id: \"dreamland:unnamed_axe\", dreamland: { type: 5b, infusion: 0b,isTemp: 0b}}"
                         }
                     ]
                 }

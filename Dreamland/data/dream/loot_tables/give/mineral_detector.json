@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120007, display: {Name: '[{\"translate\":\"item.dreamland.mineral_detector\",\"italic\":false}]'}, tag: {id: \"dreamland:mineral_detector\",isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120007, display: {Name: '[{\"translate\":\"item.dreamland.mineral_detector\",\"italic\":false}]'}, id: \"dreamland:mineral_detector\",dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

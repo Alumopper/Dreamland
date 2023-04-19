@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.xp_extract_needle\",\"italic\":false}]'}, tag: {id: \"dreamland:xp_extract_needle\",isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.xp_extract_needle\",\"italic\":false}]'}, id: \"dreamland:xp_extract_needle\",dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

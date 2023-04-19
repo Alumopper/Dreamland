@@ -1,11 +1,11 @@
 #将玩家意外放入GUI的物品以实体的形式返还给玩家
 summon chest_minecart ~ ~1 ~ {Tags:[dream_item_temp],Invulnerable:1b}
 data modify entity @e[tag=dream_item_temp,limit=1] Items set from block ~ ~ ~ Items
-execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:0b,tag:{dreamland:{id:"dreamland:index"}}}]}] run item replace entity @e[tag=dream_item_temp] container.0 with air
+execute if entity @e[tag=dream_item_temp,nbt={Items:[{Slot:0b,tag:{id:"dreamland:index"}}]}] run item replace entity @e[tag=dream_item_temp] container.0 with air
 item replace entity @e[tag=dream_item_temp] container.10 with air
 item replace entity @e[tag=dream_item_temp] container.16 with air
 #GUI复位
-item replace block ~ ~ ~ container.0 with light_blue_dye{tag: {id: "dreamland:index"}, CustomModelData: 120026, display: {Name: '[{"text":"梦境传送门","italic": false}]'}}
+item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120026, display: {Name: '[{"text":"梦境传送门","italic": false}]'}}
 item replace block ~ ~ ~ container.1 with air
 item replace block ~ ~ ~ container.2 with air
 item replace block ~ ~ ~ container.3 with air

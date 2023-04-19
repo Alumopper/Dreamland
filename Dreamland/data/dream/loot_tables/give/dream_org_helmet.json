@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.dream_org_helmet\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_org_helmet\", type: 1b, infusion: 0b, defaultarmor: 3,isTemp: 0b}, AttributeModifiers: [{AttributeName: \"generic.armor\", Slot: \"head\", Name: \"generic.armor\", Amount: 3, Operation: 0, UUID: [I; 14959984, 1076729488, 189845405, 1256454]}]}"
+                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.dream_org_helmet\",\"italic\":false}]'},id: \"dreamland:dream_org_helmet\", dreamland: { type: 1b, infusion: 0b, defaultarmor: 3,isTemp: 0b}, AttributeModifiers: [{AttributeName: \"generic.armor\", Slot: \"head\", Name: \"generic.armor\", Amount: 3, Operation: 0, UUID: [I; 14959984, 1076729488, 189845405, 1256454]}]}"
                         }
                     ]
                 }

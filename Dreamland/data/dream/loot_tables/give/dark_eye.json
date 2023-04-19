@@ -4,11 +4,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_blue_dye",
+                    "name": "minecraft:ender_eye",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120010, display: {Name: '[{\"translate\":\"item.dreamland.dream_talisman\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_talisman\",isTemp: 0b,MagicDisplay:true}}"
+                            "tag": "{CustomModelData: 120001, display: {Name: '[{\"translate\":\"item.dreamland.dark_eye\",\"italic\":false}]'}, id: \"dreamland:dark_eye\",dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

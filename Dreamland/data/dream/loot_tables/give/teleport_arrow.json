@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120025, display: {Name: '[{\"translate\":\"item.dreamland.teleport_arrow\",\"italic\":false}]'}, tag: {id: \"dreamland:teleport_arrow\",isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120025, display: {Name: '[{\"translate\":\"item.dreamland.teleport_arrow\",\"italic\":false}]'}, id: \"dreamland:teleport_arrow\",dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

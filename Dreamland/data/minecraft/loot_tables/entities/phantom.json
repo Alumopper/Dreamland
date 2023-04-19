@@ -30,7 +30,7 @@
               "functions":[
                   {
                       "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:120009,display:{Name:'[{\"translate\":\"item.dreamland.phantom_skeleton\",\"italic\":false}]'},tag:{id:\"dreamland:phantom_skeleton\"}}"
+                      "tag": "{CustomModelData:120009,display:{Name:'[{\"translate\":\"item.dreamland.phantom_skeleton\",\"italic\":false}]'},id:\"dreamland:phantom_skeleton\"}"
                   }
               ],
               "name": "minecraft:light_blue_dye",

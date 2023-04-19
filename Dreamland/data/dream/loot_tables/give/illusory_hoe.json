@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.illusory_hoe\",\"italic\":false}]'}, tag: {id: \"dreamland:illusory_hoe\", type: 8b, infusion: 0b,isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120002, display: {Name: '[{\"translate\":\"item.dreamland.illusory_hoe\",\"italic\":false}]'},id: \"dreamland:illusory_hoe\", dreamland: { type: 8b, infusion: 0b,isTemp: 0b}}"
                         }
                     ]
                 }

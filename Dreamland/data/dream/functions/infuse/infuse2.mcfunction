@@ -1,6 +1,6 @@
 #获取注魔工具类型
 #剑-101，头盔-1，胸甲-2，护腿-3，靴子-4，斧子-5，镐子-6，铲子-7，锄头-8，鞘翅-9，盾牌-10，法杖-11，梦境护符-12
-execute store result score dream_infuse_tool_type dream_counter run data get block ~ ~ ~ Items[4].tag.tag.type
+execute store result score dream_infuse_tool_type dream_counter run data get block ~ ~ ~ Items[4].tag.dreamland.type
 #TODO 注魔装备
 execute if score dream_infuse_tool_type dream_counter matches 101 run function dream:infuse/each/sword
 execute if score dream_infuse_tool_type dream_counter matches 1 run function dream:infuse/each/helmet

@@ -1,6 +1,9 @@
 {
-    "condition": "location_check",
+    "condition": "entity_properties",
     "predicate": {
-        "structure": "dream:nightmare/illusion_altar"
-    }
+        "location": {
+            "structure": "dream:nightmare/illusion_altar"
+        }
+    },
+    "entity": "this"
 }

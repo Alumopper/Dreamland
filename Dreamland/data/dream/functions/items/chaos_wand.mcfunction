@@ -13,7 +13,7 @@ scoreboard players set @e[tag=entity.dream.magicball.chaos,tag=dream_just] dream
 execute if data storage dream:player_data {SelectedItem:{tag:{dreamland:{infusion:1b}}}} run tag @e[tag=entity.dream.magicball.chaos,tag=dream_just] add entity.dream.magicball.speed
 execute if data storage dream:player_data {SelectedItem:{tag:{dreamland:{infusion:2b}}}} run tag @e[tag=entity.dream.magicball.chaos,tag=dream_just] add entity.dream.magicball.poison
 #水晶
-execute store result score dream_temp_i_chswand dream_counter run data get entity @s SelectedItem.tag.tag.WandEx[0][0]
+execute store result score dream_temp_i_chswand dream_counter run data get entity @s SelectedItem.tag.dreamland.WandEx[0][0]
 execute if score dream_temp_i_chswand dream_counter matches 1 run tag @e[tag=entity.dream.magicball.chaos,tag=dream_just] add entity.dream.magicball.cryst.fire
 execute if score dream_temp_i_chswand dream_counter matches 2 run tag @e[tag=entity.dream.magicball.chaos,tag=dream_just] add entity.dream.magicball.cryst.natural
 execute if score dream_temp_i_chswand dream_counter matches 3 run tag @e[tag=entity.dream.magicball.chaos,tag=dream_just] add entity.dream.magicball.cryst.water

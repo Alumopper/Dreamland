@@ -3,6 +3,6 @@
     "replace": false,
     "entity": "this",
     "lore": [
-        {"translate": "dream.item.wand.name.teleport","color": "#9A2EFE"}
+        {"translate": "item.dream.wand.name.teleport","color": "#9A2EFE"}
     ]
 }

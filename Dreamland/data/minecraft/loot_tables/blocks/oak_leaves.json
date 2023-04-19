@@ -159,7 +159,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"item.fishsoup.peach\",\"italic\":false}]'},tag:{id:\"fishsoup:peach\"}}"
+                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"item.fishsoup.peach\",\"italic\":false}]'},id:\"fishsoup:peach\"}"
                         }
                     ]
                 },

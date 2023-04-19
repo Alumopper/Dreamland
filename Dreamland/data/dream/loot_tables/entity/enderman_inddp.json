@@ -16,7 +16,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"item.dreamland.dark_pearl\",\"italic\":false}]'},tag:{id:\"dreamland:dark_pearl\",isTemp: 0b}}"
+                            "tag": "{CustomModelData:120001,display:{Name:'[{\"translate\":\"item.dreamland.dark_pearl\",\"italic\":false}]'},id:\"dreamland:dark_pearl\",dreamland:{isTemp: 0b}}"
                         }
                     ]
                 },

@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_pickaxe\",\"italic\":false}]'}, tag: {id: \"dreamland:unnamed_pickaxe\", type: 6b, infusion: 0b,isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_pickaxe\",\"italic\":false}]'},id: \"dreamland:unnamed_pickaxe\", dreamland: { type: 6b, infusion: 0b,isTemp: 0b}}"
                         }
                     ]
                 }

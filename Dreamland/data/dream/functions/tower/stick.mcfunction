@@ -1,6 +1,6 @@
 particle dust 0 0.7176470588235294 1 1 ~ ~1.5 ~ 0.2 0.4 0.2 0.0 5
 #激活
-execute if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{dreamland:{id:"dreamland:sweetdream_essence"}}}]} run tag @s add dream_activated
+execute if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{id:"dreamland:sweetdream_essence"}}]} run tag @s add dream_activated
 #GUI
 execute if entity @a[distance=..5.5] run function dream:tower/sgui
 #面对半径为2以内的梦境床发出粒子效果

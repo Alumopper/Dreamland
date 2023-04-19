@@ -6,7 +6,7 @@
             "water_breathing":{
                 "amplifier": 0,
                 "duration": {
-                    "max":20
+                    "min":1000000
                 }
             }
         }

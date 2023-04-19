@@ -16,7 +16,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{tag:{id:\"dreamland:dream_essence\",isTemp: 0b},CustomModelData:120001,display:{Name:'[{\"translate\":\"item.dreamland.dream_essence\",\"italic\": false}]'}}"
+                            "tag": "{id:\"dreamland:dream_essence\",dreamland:{isTemp: 0b},CustomModelData:120001,display:{Name:'[{\"translate\":\"item.dreamland.dream_essence\",\"italic\": false}]'}}"
                         }
                     ]
                 }

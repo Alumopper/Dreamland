@@ -10,7 +10,7 @@
 							"entity": "this",
 							"predicate": {
 								"tag": "dream:shovel",
-								"nbt": "{tag:{infusion:5b}}"
+								"nbt": "{dreamland:{infusion:5b}}"
 							}
 					}
 				}
@@ -80,7 +80,7 @@
 					"entity": "this",
 					"predicate": {
 						"tag": "dream:shovel",
-						"nbt": "{tag:{infusion:5b}}"
+						"nbt": "{dreamland:{infusion:5b}}"
 					}
 			},
 			"rolls":1,
@@ -91,7 +91,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tag:{isTemp:1b}}"
+							"tag": "{dreamland:{isTemp:1b}}"
 						}
 					]
 				}

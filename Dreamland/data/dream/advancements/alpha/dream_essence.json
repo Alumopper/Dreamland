@@ -15,7 +15,7 @@
                 "items": [
                     {
                         "items": ["minecraft:light_blue_dye"],
-                        "nbt": "{tag:{id:\"dreamland:dream_essence\"}}"
+                        "nbt": "{id:\"dreamland:dream_essence\"}"
                     }
                 ]
             }

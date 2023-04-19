@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_shovel\",\"italic\":false}]'}, tag: {id: \"dreamland:unnamed_shovel\", type: 7b, infusion: 0b,isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_shovel\",\"italic\":false}]'},id: \"dreamland:unnamed_shovel\", dreamland: { type: 7b, infusion: 0b,isTemp: 0b}}"
                         }
                     ]
                 }

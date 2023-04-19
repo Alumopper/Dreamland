@@ -6,7 +6,7 @@
             "haste":{
                 "amplifier": 2,
                 "duration": {
-                    "max":20
+                    "min":1000000
                 }
             }
         }

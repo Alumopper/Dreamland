@@ -1,6 +1,9 @@
 {
-    "condition": "location_check",
+    "condition": "entity_properties",
     "predicate": {
-        "structure": "dream:sweetdream/monument"
-    }
+        "location": {
+            "structure": "dream:sweetdream/monument"
+        }
+    },
+    "entity": "this"
 }

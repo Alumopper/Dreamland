@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120017, display: {Name: '[{\"translate\":\"item.dreamland.dream_medicine\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_medicine\",isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120017, display: {Name: '[{\"translate\":\"item.dreamland.dream_medicine\",\"italic\":false}]'}, id: \"dreamland:dream_medicine\",dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

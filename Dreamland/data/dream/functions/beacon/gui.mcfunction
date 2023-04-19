@@ -1,5 +1,5 @@
 #没错，又是熟悉的我最爱的（划去）tellraw界面awa
-kill @e[type=item,nbt={Item:{tag:{dreamland:{id:"dreamland:dream_power_core"}}}},distance=..1.5]
+kill @e[type=item,nbt={Item:{tag:{id:"dreamland:dream_power_core"}}},distance=..1.5]
 tag @s add dream_under_using
 #好中二的话233
 tellraw @p [{"text":"神秘的力量正听从你的召唤......","color":"gray","italic": true},{"text":"\n选择你需要的属性:"}]

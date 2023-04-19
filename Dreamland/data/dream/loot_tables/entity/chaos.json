@@ -15,7 +15,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:120011,display:{Name:'[{\"translate\":\"item.dreamland.chaotic_crystallization\",\"italic\":false}]'},tag:{id:\"dreamland:chaotic_crystallization\",isTemp: 0b}}"
+                            "tag": "{CustomModelData:120011,display:{Name:'[{\"translate\":\"item.dreamland.chaotic_crystallization\",\"italic\":false}]'},id:\"dreamland:chaotic_crystallization\",dreamland:{isTemp: 0b}}"
                         }
                     ]
                 }

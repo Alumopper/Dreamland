@@ -1,6 +1,9 @@
 {
-    "condition": "location_check",
+    "condition": "entity_properties",
     "predicate": {
-        "structure": "dream:sweetdream/peach_orchard"
-    }
+        "location": {
+            "structure": "dream:sweetdream/peach_orchard"
+        }
+    },
+    "entity": "this"
 }

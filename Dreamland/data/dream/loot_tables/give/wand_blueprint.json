@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120014, display: {Name: '[{\"translate\":\"item.dreamland.wand_blueprint\",\"italic\":false}]'}, tag: {id: \"dreamland:wand_blueprint\",isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120014, display: {Name: '[{\"translate\":\"item.dreamland.wand_blueprint\",\"italic\":false}]'},id: \"dreamland:wand_blueprint\", dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

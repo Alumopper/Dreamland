@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120013, display: {Name: '[{\"translate\":\"item.dreamland.dream_beacon\",\"italic\":false}]'}, tag: {id: \"dreamland:dream_beacon\",isTemp: 0b}}"
+                            "tag": "{CustomModelData: 120013, display: {Name: '[{\"translate\":\"item.dreamland.dream_beacon\",\"italic\":false}]'},id: \"dreamland:dream_beacon\", dreamland: {isTemp: 0b}}"
                         }
                     ]
                 }

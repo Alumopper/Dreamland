@@ -51,7 +51,7 @@ public class Givepp{
         }
     }
 
-    //give @s red_dye{CustomModelData: 120003, display: {Name: '{"translate":"gui.dream.creative.nextpage"}'}, tag: {isTemp: 1b}}
+    //give @s red_dye{CustomModelData: 120003, display: {Name: '{"translate":"gui.dream.creative.nextpage"}'}, dreamland: {isTemp: 1b}}
     public static String[] resolveCommand(String command){
         String[] re = new String[2];
         re = command.split("\\s+", 3)[2].split("\\{", 2);

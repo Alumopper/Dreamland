@@ -7,7 +7,7 @@ public class Give{
         ids.add("red_dye");
         ids.add("air");
         for (String string : filenames) {
-            Scanner sc = new Scanner(new FileReader("D:\\.minecraft\\saves\\Dreamland Studio 1_19_1\\datapacks\\Dreamland\\data\\dream\\functions\\creative\\gui\\" + string + ".mcfunction"));
+            Scanner sc = new Scanner(new FileReader("D:\\.minecraft\\saves\\Dreamland Studio 1_19_4\\datapacks\\Dreamland\\data\\dream\\functions\\creative\\gui\\" + string + ".mcfunction"));
             while(sc.hasNextLine()){
                 String line = sc.nextLine();
                 if(!line.startsWith("item")){
@@ -22,7 +22,8 @@ public class Give{
                 //{CustomModelData: 120003, display: {Name: '[{"translate":"item.dreamland.unnamed_helmet","italic":false}]'}, tag: {id: "dreamland:unnamed_helmet", type: 1b, infusion: 0b, defaultarmor: 4,isTemp: 0b}, AttributeModifiers: [{AttributeName: "generic.armor", Name: "generic.armor", Amount: 4, Operation: 0, UUID: [I; 14958484, 1076729488, 189845405, 125006454], Slot: "head"}, {AttributeName: "generic.movement_speed", Amount: -0.005d, Operation: 0, UUID: [I; 562251, 1512166, 5184181, 84185165], Slot: "head"}]}
                 String fileName = re[1].substring(re[1].indexOf("land:") + 5).substring(0, re[1].substring(re[1].indexOf("land:") + 5).indexOf("\\\""));
                 System.out.println(fileName + " in " + string);
-                String path = "D:\\.minecraft\\saves\\Dreamland Studio 1_19_1\\datapacks\\Dreamland\\data\\dream\\loot_tables\\give\\" + fileName + ".json";
+                System.out.println( "\t" + nbt);
+                String path = "D:\\.minecraft\\saves\\Dreamland Studio 1_19_4\\datapacks\\Dreamland\\data\\dream\\loot_tables\\give\\" + fileName + ".json";
                 String content = String.format(file, item, nbt);
                 try {
                     File file = new File(path);
@@ -74,6 +75,6 @@ public class Give{
             "    ]\n" +
             "}";
 
-    public static String[] filenames = new String[]{"101","102","201","202","301","401","501"};
+    public static String[] filenames = new String[]{"101","102","201","202","301","401"};
     public static ArrayList<String> ids = new ArrayList<>();
 }

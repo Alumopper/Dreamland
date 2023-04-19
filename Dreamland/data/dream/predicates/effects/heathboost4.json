@@ -6,7 +6,7 @@
             "minecraft:health_boost":{
                 "amplifier": 4,
                 "duration": {
-                    "min":0
+                    "min":1000000
                 }
             }
         }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 120010, display: {Name: '[{\"translate\":\"item.dreamland.dream_talisman\",\"italic\":false}]'}, id: \"dreamland:dream_talisman\",dreamland: {isTemp: 0b,MagicDisplay:true}}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

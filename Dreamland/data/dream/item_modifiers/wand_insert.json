@@ -5,7 +5,7 @@
         {
             "op": "append",
             "target": "tag.WandEx",
-            "source": "Inventory[-1].tag.tag.WandEx"
+            "source": "Inventory[-1].tag.dreamland.WandEx"
         }
     ]
 }

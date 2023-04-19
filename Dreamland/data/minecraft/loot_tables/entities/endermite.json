@@ -16,7 +16,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 120031, display: {Name: '[{\"translate\":\"item.dreamland.ender_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"dream.item.wand.name.teleport\",\"color\": \"#9A2EFE\"}']}, tag: {id: \"dreamland:ender_crystal\",WandEx:[5]}}"
+							"tag": "{CustomModelData: 120031, display: {Name: '[{\"translate\":\"item.dreamland.ender_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"item.dream.wand.name.teleport\",\"color\": \"#9A2EFE\"}']}, tag: {id: \"dreamland:ender_crystal\",WandEx:[5]}}"
 						}
 					]
 				}

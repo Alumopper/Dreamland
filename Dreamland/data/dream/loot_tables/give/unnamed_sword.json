@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_sword\",\"italic\":false}]'}, tag: {id: \"dreamland:unnamed_sword\", type: 101b, infusion: 0b, defaultdamage: 8.3d,isTemp: 0b}, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 8.3d, Operation: 0, UUID: [I; 98441, 1027158888, 1898994005, 860320107]}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: -2.8d, Operation: 0, UUID: [I; 508088, 25562484, 1898994005, 860320107]}]}"
+                            "tag": "{CustomModelData: 120003, display: {Name: '[{\"translate\":\"item.dreamland.unnamed_sword\",\"italic\":false}]'},id: \"dreamland:unnamed_sword\", dreamland: { type: 101b, infusion: 0b, defaultdamage: 8.3d,isTemp: 0b}, AttributeModifiers: [{Slot: \"mainhand\", AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 8.3d, Operation: 0, UUID: [I; 98441, 1027158888, 1898994005, 860320107]}, {Slot: \"mainhand\", AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: -2.8d, Operation: 0, UUID: [I; 508088, 25562484, 1898994005, 860320107]}]}"
                         }
                     ]
                 }
