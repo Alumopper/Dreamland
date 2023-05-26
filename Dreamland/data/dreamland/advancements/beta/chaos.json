@@ -4,8 +4,8 @@
             "item": "minecraft:light_blue_dye",
             "nbt": "{CustomModelData:120011}"
         },
-        "title": {"translate":"advancements.dream.beta.chaos.title"},
-        "description": {"translate":"advancements.dream.beta.chaos.disc"},
+        "title": {"translate":"advancements.dreamland.beta.chaos.title"},
+        "description": {"translate":"advancements.dreamland.beta.chaos.disc"},
         "frame": "task",
         "hidden": true
     },

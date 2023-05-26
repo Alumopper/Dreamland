@@ -4,8 +4,8 @@
             "item": "minecraft:iron_ingot",
             "nbt": "{CustomModelData:120003}"
         },
-        "title": {"translate":"advancements.dream.alpha.the_unnamed_one.title"},
-        "description": {"translate":"advancements.dream.alpha.the_unnamed_one.disc"},
+        "title": {"translate":"advancements.dreamland.alpha.the_unnamed_one.title"},
+        "description": {"translate":"advancements.dreamland.alpha.the_unnamed_one.disc"},
         "frame": "task"
     },
     "criteria": {

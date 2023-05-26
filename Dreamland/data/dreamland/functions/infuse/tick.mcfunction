@@ -1,4 +1,4 @@
-#as @e[tag=block.dream.infusetable] at @s
+#as @e[tag=block.dreamland.infusetable] at @s
 
 #保证注魔台界面正常
 function dreamland:infuse/gui

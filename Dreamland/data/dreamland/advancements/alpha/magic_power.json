@@ -4,8 +4,8 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120019}"
         },
-        "title": {"translate":"advancements.dream.alpha.magic_power.title"},
-        "description": {"translate":"advancements.dream.alpha.magic_power.disc"},
+        "title": {"translate":"advancements.dreamland.alpha.magic_power.title"},
+        "description": {"translate":"advancements.dreamland.alpha.magic_power.disc"},
         "frame": "task"
     },
     "criteria": {

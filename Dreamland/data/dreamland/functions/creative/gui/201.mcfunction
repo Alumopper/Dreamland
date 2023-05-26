@@ -6,9 +6,9 @@
 execute if entity @s[nbt=!{Items:[{Slot:0b}]}] run scoreboard players set @s dream_c_page 1
 execute if entity @s[nbt=!{Items:[{Slot:2b}]}] run scoreboard players set @s dream_c_page 202
 #维持界面正常
-item replace entity @s container.0 with red_dye{CustomModelData: 120002, display: {Name: '{"translate":"gui.dream.creative.back"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.1 with red_dye{CustomModelData: 120005, display: {Name: '{"translate":"gui.dream.creative.nolast"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.2 with red_dye{CustomModelData: 120003, display: {Name: '{"translate":"gui.dream.creative.nextpage"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.0 with red_dye{CustomModelData: 120002, display: {Name: '{"translate":"gui.dreamland.creative.back"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.1 with red_dye{CustomModelData: 120005, display: {Name: '{"translate":"gui.dreamland.creative.nolast"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.2 with red_dye{CustomModelData: 120003, display: {Name: '{"translate":"gui.dreamland.creative.nextpage"}'}, dreamland: {isTemp: 1b}}
 item replace entity @s container.3 with air
 item replace entity @s container.4 with air
 item replace entity @s container.5 with air
@@ -31,5 +31,5 @@ item replace entity @s container.21 with minecraft:iron_ingot{CustomModelData: 1
 item replace entity @s container.22 with minecraft:iron_ingot{CustomModelData: 120002, display: {Name: '[{"translate":"item.dreamland.illusory_ingot","italic":false}]'},id: "dreamland:illusory_ingot", dreamland: {isTemp: 0b}}
 item replace entity @s container.23 with minecraft:iron_ingot{CustomModelData: 120003, display: {Name: '[{"translate":"item.dreamland.illusory_ingot","italic":false}]'},id: "dreamland:unnamed_ingot", dreamland: {isTemp: 0b}}
 item replace entity @s container.24 with minecraft:nether_star{CustomModelData: 120001, display: {Name: '[{"translate":"item.dreamland.dream_star","italic":false}]'},id: "dreamland:dream_star", dreamland: {isTemp: 0b}}
-item replace entity @s container.25 with minecraft:light_blue_dye{CustomModelData: 120027, display: {Name: '[{"translate":"item.dreamland.fire_crystal","italic":false}]',Lore:['{"translate": "item.dream.wand.name.blazing","color": "#FF0000"}']},id: "dreamland:fire_crystal", dreamland: {WandEx:[1],isTemp: 0b}}
-item replace entity @s container.26 with minecraft:light_blue_dye{CustomModelData: 120030, display: {Name: '[{"translate":"item.dreamland.natural_crystal","italic":false}]',Lore:['{"translate": "item.dream.wand.name.natural","color": "#00FF00"}']},id: "dreamland:natural_crystal", dreamland: {WandEx:[2],isTemp: 0b}}
+item replace entity @s container.25 with minecraft:light_blue_dye{CustomModelData: 120027, display: {Name: '[{"translate":"item.dreamland.fire_crystal","italic":false}]',Lore:['{"translate": "item.dreamland.wand.name.blazing","color": "#FF0000"}']},id: "dreamland:fire_crystal", dreamland: {WandEx:[1],isTemp: 0b}}
+item replace entity @s container.26 with minecraft:light_blue_dye{CustomModelData: 120030, display: {Name: '[{"translate":"item.dreamland.natural_crystal","italic":false}]',Lore:['{"translate": "item.dreamland.wand.name.natural","color": "#00FF00"}']},id: "dreamland:natural_crystal", dreamland: {WandEx:[2],isTemp: 0b}}

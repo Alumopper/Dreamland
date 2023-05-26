@@ -1,2 +1,2 @@
-summon armor_stand ~ ~ ~ {Tags:["entity.dream.nightmare_lightning_summon","entity.dream.nightmare_p"],NoGravity:1b,Invisible:1b,Marker:1b}
-tp @e[tag=entity.dream.nightmare_lightning_summon,limit=1,distance=0..0.1] ~ ~ ~ facing entity @s
+summon armor_stand ~ ~ ~ {Tags:["entity.dreamland.nightmare_lightning_summon","entity.dreamland.nightmare_p"],NoGravity:1b,Invisible:1b,Marker:1b}
+tp @e[tag=entity.dreamland.nightmare_lightning_summon,limit=1,distance=0..0.1] ~ ~ ~ facing entity @s

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:quartz_block"
         },
-        "title": {"translate":"advancements.dream.alpha.above_the_cloud.title"},
-        "description": {"translate":"advancements.dream.alpha.above_the_cloud.disc"},
+        "title": {"translate":"advancements.dreamland.alpha.above_the_cloud.title"},
+        "description": {"translate":"advancements.dreamland.alpha.above_the_cloud.disc"},
         "frame": "task"
     },
     "criteria": {

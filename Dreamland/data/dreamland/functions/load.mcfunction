@@ -68,9 +68,9 @@ scoreboard objectives add dream_boss_hp dummy "Boss血量"
 #记录玩家是否使用梦境护符
 scoreboard objectives add dream_tm_use dummy "使用梦境护符"
 #记录玩家能获得云的间隔时间
-scoreboard objectives add block.dream.cloudcd dummy "获得云"
+scoreboard objectives add block.dreamland.cloudcd dummy "获得云"
 #云消散的时间
-scoreboard objectives add block.dream.clouddrt dummy "云消散"
+scoreboard objectives add block.dreamland.clouddrt dummy "云消散"
 #创造模式物品栏的页面
 scoreboard objectives add dream_c_page dummy "物品栏页数"
 #传送标记
@@ -134,4 +134,4 @@ execute unless score dream_is_blackhole_generated dream_counter matches -2147483
 #功能区
 #检测维度是否生成
 execute store success score dream_dimtest dream_counter in dreamland:sweetdream run summon pig 0 0 0 
-execute if score dream_dimtest dream_counter matches 0 run tellraw @a [{"translate":"info.dream.load.dimwarn","color": "yellow"}]
+execute if score dream_dimtest dream_counter matches 0 run tellraw @a [{"translate":"info.dreamland.load.dimwarn","color": "yellow"}]

@@ -4,8 +4,8 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120013}"
         },
-        "title": {"translate":"advancements.dream.beta.dream_beacon.title"},
-        "description": {"translate":"advancements.dream.beta.dream_beacon.disc"},
+        "title": {"translate":"advancements.dreamland.beta.dream_beacon.title"},
+        "description": {"translate":"advancements.dreamland.beta.dream_beacon.disc"},
         "frame": "task",
         "hidden": true
     },

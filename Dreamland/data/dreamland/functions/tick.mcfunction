@@ -19,7 +19,7 @@ execute as @e[tag=broken_dream_bed] at @s unless entity @e[tag=dream_breaker,tag
 #注魔效果
 execute as @a run function dreamland:infuse/effects
 #注魔台
-execute as @e[tag=block.dream.infusetable] at @s run function dreamland:infuse/tick
+execute as @e[tag=block.dreamland.infusetable] at @s run function dreamland:infuse/tick
 #药水效果
 execute as @a run function dreamland:effect
 #清除临时物品

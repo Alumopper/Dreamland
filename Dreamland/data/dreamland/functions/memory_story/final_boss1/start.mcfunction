@@ -5,7 +5,7 @@ execute as @a at @s run function dreamland:memory_story/final_boss1/tracker
 bossbar set dreamland:boss color purple
 bossbar set dreamland:boss max 3919
 bossbar set dreamland:boss value 3919
-bossbar set dreamland:boss name {"translate":"dream.name.boss.dream"}
+bossbar set dreamland:boss name {"translate":"dreamland.name.boss.dream"}
 bossbar set dreamland:boss visible true
 bossbar set dreamland:boss players @a
 #技能计时器启动

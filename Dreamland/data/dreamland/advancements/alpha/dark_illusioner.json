@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:ender_eye"
         },
-        "title": {"translate":"advancements.dream.alpha.dark_illusioner.title"},
-        "description": {"translate":"advancements.dream.alpha.dark_illusioner.disc"},
+        "title": {"translate":"advancements.dreamland.alpha.dark_illusioner.title"},
+        "description": {"translate":"advancements.dreamland.alpha.dark_illusioner.disc"},
         "frame": "task"
     },
     "criteria": {

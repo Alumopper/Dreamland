@@ -41,7 +41,7 @@ public class Give{
         }
     }
 
-    //item replace entity @s container.2 with red_dye{CustomModelData: 120003, display: {Name: '{"translate":"gui.dream.creative.nextpage"}'}, tag: {isTemp: 1b}}
+    //item replace entity @s container.2 with red_dye{CustomModelData: 120003, display: {Name: '{"translate":"gui.dreamland.creative.nextpage"}'}, tag: {isTemp: 1b}}
     //item replace entity @s container.3 with air
     public static String[] resolveCommand(String command){
         String[] re = new String[2];

@@ -18,6 +18,7 @@ execute if data storage dreamland:player_data {SelectedItem2:{tag:{id:"dreamland
 #给予有整套装备的玩家药水效果
 execute if data entity @s {Inventory:[{Slot: 100b,tag: {id: "dreamland:illusory_boots"}}, {Slot: 101b,tag: {id: "dreamland:illusory_leggings"}}, {Slot: 102b,tag: {id: "dreamland:illusory_chestplate"}},{Slot: 103b,tag: {id: "dreamland:illusory_helmet"}}]} run tag @s add dream_effect_strength1
 execute if data entity @s {Inventory:[{Slot: 100b,tag: {id: "dreamland:unnamed_boots"}}, {Slot: 101b,tag: {id: "dreamland:unnamed_leggings"}}, {Slot: 102b,tag: {id: "dreamland:unnamed_chestplate"}},{Slot: 103b,tag: {id: "dreamland:unnamed_helmet"}}]} run tag @s add dream_effect_regeneration1
-execute if data entity @s {Inventory:[{Slot: 100b,tag: {id: "dreamland:dream_god_boots"}}, {Slot: 101b,tag: {id: "dreamland:dream_god_leggings"}}, {Slot: 102b,tag: {id: "dreamland:dream_god_chestplate"}},{Slot: 103b,tag: {id: "dreamland:dream_god_helmet"}}]} run tag @s add dream_effect_heathboost4
-execute if data entity @s {Inventory:[{Slot: 100b,tag: {id: "dreamland:dream_god_boots"}}, {Slot: 101b,tag: {id: "dreamland:dream_god_leggings"}}, {Slot: 102b,tag: {id: "dreamland:dream_god_chestplate"}},{Slot: 103b,tag: {id: "dreamland:dream_god_helmet"}}]} run advancement grant @s only dreamland:beta/dream_god
-execute unless data entity @s {Inventory:[{Slot: 100b,tag: {tagid: "dreamland:dream_god_boots"}}, {Slot: 101b,tag: {id: "dreamland:dream_god_leggings"}}, {Slot: 102b,tag: {id: "dreamland:dream_god_chestplate"}},{Slot: 103b,tag: {id: "dreamland:dream_god_helmet"}}]} run tag @s remove dream_effect_heathboost4
+tag @s[tag=predicate.dreamland.has_dream_god_armor] add dream_effect_heathboost4
+advancement grant @s[tag=predicate.dreamland.has_dream_god_armor] only dreamland:beta/dream_god
+tag @s[tag=!predicate.dreamland.has_dream_god_armor] remove dream_effect_heathboost4
+#虚幻装备的显示

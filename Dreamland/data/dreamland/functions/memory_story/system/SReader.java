@@ -24,7 +24,7 @@ public class SReader {
 	public static void output(String s,FileWriter w) throws IOException {
 		//System.out.println(sc.nextLine());
 		//execute if score dream_tec_story dream_timer matches 0 run tellraw @a {"text":"[锟斤拷]...","color": "white"}
-		String out = "execute if score dream_tec_story dream_timer matches "+t+" run tellraw @a {\"translate\":\"word.dream.system.log.text"+ k++ +"\",\"color\": \"white\"}\n";
+		String out = "execute if score dream_tec_story dream_timer matches "+t+" run tellraw @a {\"translate\":\"word.dreamland.system.log.text"+ k++ +"\",\"color\": \"white\"}\n";
 		w.write(out);
 		t += (s.length()*3+1);
 	}

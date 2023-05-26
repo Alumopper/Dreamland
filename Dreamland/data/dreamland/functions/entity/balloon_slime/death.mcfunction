@@ -3,4 +3,4 @@ tp @s ~ -100 ~
 scoreboard players reset @s dream_timer
 kill @s
 #删除模型
-kill @e[tag=entity.dream.balloon_slime_model,distance=0..2,limit=1,sort=nearest]
+kill @e[tag=entity.dreamland.balloon_slime_model,distance=0..2,limit=1,sort=nearest]

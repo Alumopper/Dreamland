@@ -28,7 +28,7 @@ execute as @p at @p if entity @a[x=-3,y=196,z=-3,dx=6,dy=3,dz=6,predicate=dreaml
 #为正在释放技能的Boss添加粒子效果
 execute as @e[tag=dream_boss1_particle_marker] if score dream_boss1_skillcd2 dream_timer matches 60..180 at @s run function dreamland:structure/dream_tower/particle
 #设置Boss条标题以显示血量
-execute as @e[tag=dream_boss1] run bossbar set dreamland:boss name ["---<",{"translate":"dream.name.dream_tower.boss"},"     HP:",{"score":{"objective": "dream_boss_hp","name": "@s"}},">---"]
+execute as @e[tag=dream_boss1] run bossbar set dreamland:boss name ["---<",{"translate":"dreamland.name.dream_tower.boss"},"     HP:",{"score":{"objective": "dream_boss_hp","name": "@s"}},">---"]
 #当凋零骷髅存在时给予Boss抗性提升的效果
 execute as @e[tag=dream_boss1] if entity @e[type=wither_skeleton] run effect give @s resistance 1 1
 #漂浮

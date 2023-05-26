@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:black_concrete"
         },
-        "title": {"translate":"advancements.dream.beta.black_hole.title"},
-        "description": {"translate":"advancements.dream.beta.black_hole.disc"},
+        "title": {"translate":"advancements.dreamland.beta.black_hole.title"},
+        "description": {"translate":"advancements.dreamland.beta.black_hole.disc"},
         "frame": "task"
     },
     "criteria": {

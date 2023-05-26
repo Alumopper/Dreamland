@@ -1,2 +1,2 @@
 #虚空矿再生
-kill @e[tag=block.dream.void_ore]
+kill @e[tag=block.dreamland.void_ore]

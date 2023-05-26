@@ -12,7 +12,7 @@ execute as @a if score @s dream_tpwait matches 160 at @s run function dreamland:
 execute as @a if score @s dream_tpwait matches 163 at @s run function dreamland:other/platform
 #梦境计时
 execute as @a[tag=!dream_fighting_boss1] unless score dream_gamestage dream_counter matches -1 if score @s dream_sleeptime matches 0.. run scoreboard players add @s dream_sleeptime 1
-execute as @a if score @s dream_sleeptime matches 7800 run tellraw @s [{"translate": "info.dream.sleep.leave","color": "gray","italic": true}]
+execute as @a if score @s dream_sleeptime matches 7800 run tellraw @s [{"translate": "info.dreamland.sleep.leave","color": "gray","italic": true}]
 execute as @a if score @s dream_sleeptime matches 8000.. run function dreamland:sleep/leave
 scoreboard players set @a[predicate=!dreamland:if_entity/in_dream,scores={dream_sleeptime=10..}] dream_sleeptime -1
 #梦境塔生成计时

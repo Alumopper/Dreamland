@@ -1,3 +1,3 @@
 execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ barrel{CustomName:'"梦境传送门"'}
-execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {shadow_radius:0,item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:120006}},brightness:{block:15,sky:15},item_display:"head",Tags:["block.dream.dream_portal","dream_block"]}
-tag @s remove block.dream.dream_portal
+execute positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {shadow_radius:0,item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:120006}},brightness:{block:15,sky:15},item_display:"head",Tags:["block.dreamland.dream_portal","dream_block"]}
+tag @s remove block.dreamland.dream_portal

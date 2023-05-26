@@ -1,3 +1,3 @@
 execute unless entity @s[distance=5..] if block ~ ~ ~ air positioned ^ ^ ^0.1 run function dreamland:put/put
 execute unless entity @s[tag=dream_hasput] if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} unless block ~ ~ ~ air run function dreamland:put/put2
-execute unless entity @s[tag=dream_hasput] if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} unless block ~ ~ ~ air unless entity @e[tag=block.dream.cloud,distance=0..0.5] run function dreamland:items/cloud_gun
+execute unless entity @s[tag=dream_hasput] if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} unless block ~ ~ ~ air unless entity @e[tag=block.dreamland.cloud,distance=0..0.5] run function dreamland:items/cloud_gun

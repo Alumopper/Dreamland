@@ -1,12 +1,12 @@
 #游戏是否结束
-execute unless entity @e[tag=entity.dream.finalboss2] run function dreamland:memory_story/final_boss2/end 
+execute unless entity @e[tag=entity.dreamland.finalboss2] run function dreamland:memory_story/final_boss2/end 
 #镜面实体投射
 execute if score dream_finalboss_mirror_on dream_counter matches 1 run function dreamland:memory_story/final_boss2/mirror
 #玩家跟踪器
 execute as @e[tag=dream_playerpos_tracker] at @s run function dreamland:memory_story/final_boss1/tracker_chase
 #region 血量绑定
 #获取boss血量
-    execute store result score dream_finalbosshealth dream_boss_hp run data get entity @e[tag=entity.dream.finalboss2,limit=1] Health
+    execute store result score dream_finalbosshealth dream_boss_hp run data get entity @e[tag=entity.dreamland.finalboss2,limit=1] Health
     #获取玩家最大血量
     scoreboard players set dream_players_maxhealth dream_counter 0
     execute as @a if score @s dream_player_health > dream_players_maxhealth dream_counter run scoreboard players operation dream_players_maxhealth dream_counter = @s dream_player_health

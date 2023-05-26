@@ -1,2 +1,2 @@
-tellraw @a {"translate":"word.dream.memory_story.spacestaion.notouchfish"}
+tellraw @a {"translate":"word.dreamland.memory_story.spacestaion.notouchfish"}
 scoreboard players set st_notouchfish dream_counter 1

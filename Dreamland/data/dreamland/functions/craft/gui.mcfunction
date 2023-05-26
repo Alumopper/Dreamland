@@ -14,4 +14,4 @@ execute if block ~ ~ ~ barrel{Items:[{Slot:24b}]} run function dreamland:craft/r
 execute if block ~ ~ ~ barrel{Items:[{Slot:25b}]} run function dreamland:craft/remove
 execute if block ~ ~ ~ barrel{Items:[{Slot:26b}]} run function dreamland:craft/remove
 item replace block ~ ~ ~ container.0 with light_blue_dye{id: "dreamland:index", CustomModelData: 120018, display: {Name: '[{"translate":"item.dreamland.craftingtable","italic": false}]'}}
-item replace block ~ ~ ~ container.15 with light_blue_dye{id: "dreamland:index", CustomModelData: 120015, display: {Name: '[{"translate":"gui.dream.crafting_table.confirm"}]'}}
+item replace block ~ ~ ~ container.15 with light_blue_dye{id: "dreamland:index", CustomModelData: 120015, display: {Name: '[{"translate":"gui.dreamland.crafting_table.confirm"}]'}}

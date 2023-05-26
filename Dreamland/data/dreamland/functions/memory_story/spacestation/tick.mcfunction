@@ -4,4 +4,4 @@ execute if score st_worldend dream_counter matches 0 in dreamland:memory_abyss p
 execute if score st_next dream_counter matches 0 if score st_worldend dream_counter matches 1 if score st_energylack dream_counter matches 1 run schedule function dreamland:memory_story/spacestation/next 5s
 execute if score st_next dream_counter matches 0 if score st_worldend dream_counter matches 1 if score st_energylack dream_counter matches 1 run scoreboard players set st_next dream_counter 1
 #梦境传送门（剧情特供版）
-execute at @e[tag=block.dream.dream_portal] if block ~ ~ ~ barrel{Items:[{tag:{id:"dreamland:dimension_core"}}]} run function dreamland:memory_story/spacestation/dream_portal
+execute at @e[tag=block.dreamland.dream_portal] if block ~ ~ ~ barrel{Items:[{tag:{id:"dreamland:dimension_core"}}]} run function dreamland:memory_story/spacestation/dream_portal

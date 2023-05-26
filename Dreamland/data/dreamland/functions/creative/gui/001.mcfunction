@@ -16,9 +16,9 @@ execute if entity @s[nbt=!{Items:[{Slot:12b}]},tag=!dream_just] run scoreboard p
 execute if entity @s[nbt=!{Items:[{Slot:13b}]},tag=!dream_just] run scoreboard players set @s dream_c_page 401
 execute if entity @s[nbt=!{Items:[{Slot:14b}]},tag=!dream_just] run scoreboard players set @s dream_c_page 501
 #维持界面正常
-item replace entity @s container.0 with red_dye{CustomModelData: 120001, display: {Name: '{"translate":"gui.dream.creative.close"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.1 with red_dye{CustomModelData: 120005, display: {Name: '{"translate":"gui.dream.creative.nolast"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.2 with red_dye{CustomModelData: 120006, display: {Name: '{"translate":"gui.dream.creative.nonext"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.0 with red_dye{CustomModelData: 120001, display: {Name: '{"translate":"gui.dreamland.creative.close"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.1 with red_dye{CustomModelData: 120005, display: {Name: '{"translate":"gui.dreamland.creative.nolast"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.2 with red_dye{CustomModelData: 120006, display: {Name: '{"translate":"gui.dreamland.creative.nonext"}'}, dreamland: {isTemp: 1b}}
 item replace entity @s container.3 with air
 item replace entity @s container.4 with air
 item replace entity @s container.5 with air
@@ -26,11 +26,11 @@ item replace entity @s container.6 with air
 item replace entity @s container.7 with air
 item replace entity @s container.8 with air
 item replace entity @s container.9 with air
-item replace entity @s container.10 with diamond_chestplate{display: {Name: '{"translate":"gui.dream.creative.armor"}'}, dreamland: {isTemp: 1b}} 
-item replace entity @s container.11 with light_blue_dye{CustomModelData: 120001, display: {Name: '{"translate":"gui.dream.creative.material"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.12 with carrot_on_a_stick{CustomModelData: 120003, display: {Name: '{"translate":"gui.dream.creative.block"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.13 with carrot_on_a_stick{display: {Name: '{"translate":"gui.dream.creative.tool"}'}, dreamland: {isTemp: 1b}}
-item replace entity @s container.14 with milk_bucket{CustomModelData: 120001, display: {Name: '{"translate":"gui.dream.creative.fishsoup"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.10 with diamond_chestplate{display: {Name: '{"translate":"gui.dreamland.creative.armor"}'}, dreamland: {isTemp: 1b}} 
+item replace entity @s container.11 with light_blue_dye{CustomModelData: 120001, display: {Name: '{"translate":"gui.dreamland.creative.material"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.12 with carrot_on_a_stick{CustomModelData: 120003, display: {Name: '{"translate":"gui.dreamland.creative.block"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.13 with carrot_on_a_stick{display: {Name: '{"translate":"gui.dreamland.creative.tool"}'}, dreamland: {isTemp: 1b}}
+item replace entity @s container.14 with milk_bucket{CustomModelData: 120001, display: {Name: '{"translate":"gui.dreamland.creative.fishsoup"}'}, dreamland: {isTemp: 1b}}
 item replace entity @s container.15 with air
 item replace entity @s container.16 with air
 item replace entity @s container.17 with air

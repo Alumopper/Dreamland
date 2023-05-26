@@ -1,2 +1,2 @@
-execute as @e[tag=entity.dream.magicball.pure,distance=0..5] facing entity @e[tag=entity.dream.finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.1
-execute as @e[tag=entity.dream.magicball.chaos,distance=0..5] facing entity @e[tag=entity.dream.finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.08
+execute as @e[tag=entity.dreamland.magicball.pure,distance=0..5] facing entity @e[tag=entity.dreamland.finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.1
+execute as @e[tag=entity.dreamland.magicball.chaos,distance=0..5] facing entity @e[tag=entity.dreamland.finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.08

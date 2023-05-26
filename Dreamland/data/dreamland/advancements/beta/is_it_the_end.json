@@ -4,8 +4,8 @@
             "item": "minecraft:nether_star",
             "nbt": "{CustomModelData:120001}"
         },
-        "title": {"translate":"advancements.dream.beta.is_it_the_end.title"},
-        "description": {"translate":"advancements.dream.beta.is_it_the_end.disc"},
+        "title": {"translate":"advancements.dreamland.beta.is_it_the_end.title"},
+        "description": {"translate":"advancements.dreamland.beta.is_it_the_end.disc"},
         "frame": "task",
         "hidden": true
     },

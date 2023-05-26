@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:glass_pane"
         },
-        "title": {"translate":"advancements.dream.gamma.break_the_mirror.title"},
-        "description": {"translate":"advancements.dream.gamma.break_the_mirror.disc"},
+        "title": {"translate":"advancements.dreamland.gamma.break_the_mirror.title"},
+        "description": {"translate":"advancements.dreamland.gamma.break_the_mirror.disc"},
         "frame": "task",
         "hidden": true
     },

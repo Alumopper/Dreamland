@@ -1,1 +1,1 @@
-execute as @e[tag=entity.dream.finalboss2_shell] at @s unless block ~ ~-1.5 ~ air run function dreamland:memory_story/final_boss2/skills/2_5/fall
+execute as @e[tag=entity.dreamland.finalboss2_shell] at @s unless block ~ ~-1.5 ~ air run function dreamland:memory_story/final_boss2/skills/2_5/fall

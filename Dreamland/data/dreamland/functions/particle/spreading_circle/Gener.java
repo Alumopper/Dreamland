@@ -1,4 +1,4 @@
-package Dreamland.data.dream.functions.particle.spreading_circle;
+package Dreamland.data.dreamland.functions.particle.spreading_circle;
 
 import java.util.ArrayList;
 import java.io.*;

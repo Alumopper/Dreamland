@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{title:'',author:\"Kavein\",pages:['{\"translate\":\"book.dream.introduction\"}'],display:{Name:'{\"translate\":\"item.dreamland.game_introduction\",\"italic\":true}'},generation:0,resolved:0b}"
+                            "tag": "{title:'',author:\"Kavein\",pages:['{\"translate\":\"book.dreamland.introduction\"}'],display:{Name:'{\"translate\":\"item.dreamland.game_introduction\",\"italic\":true}'},generation:0,resolved:0b}"
                         }
                     ]
                 }

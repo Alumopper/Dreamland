@@ -1,5 +1,5 @@
 #好中二的话233
-tellraw @p [{"translate":"gui.dream.dream_beacon.title","color":"gray","italic": true}]
+tellraw @p [{"translate":"gui.dreamland.dream_beacon.title","color":"gray","italic": true}]
 #生命恢复
 execute if entity @e[type=item,nbt={Item:{id:"minecraft:glistering_melon_slice",Count:9b}},distance=..1.5] run function dreamland:beacon/each/regeneration
 #力量

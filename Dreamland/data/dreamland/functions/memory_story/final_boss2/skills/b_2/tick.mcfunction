@@ -1,1 +1,1 @@
-execute as @e[type=arrow,distance=0..10] facing entity @e[tag=entity.dream.finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.1
+execute as @e[type=arrow,distance=0..10] facing entity @e[tag=entity.dreamland.finalboss2,limit=1] eyes run tp @s ^ ^ ^-0.1
