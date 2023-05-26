@@ -23,7 +23,7 @@
                   },
                   {
                     "condition": "minecraft:reference",
-                    "name": "dream:if_entity/in_dream"
+                    "name": "dreamland:if_entity/in_dream"
                   }
                 ]
               },

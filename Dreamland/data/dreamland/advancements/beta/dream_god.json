@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120005}"
+        },
+        "title": {"translate":"advancements.dream.beta.dream_god.title"},
+        "description": {"translate":"advancements.dream.beta.dream_god.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dreamland:beta/chaos"
+}

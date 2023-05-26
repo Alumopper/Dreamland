@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:120006}"
+        },
+        "title": {"translate":"advancements.dream.beta.dimension_traveler.title"},
+        "description": {"translate":"advancements.dream.beta.dimension_traveler.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dreamland:alpha/head_in_the_cloud"
+}

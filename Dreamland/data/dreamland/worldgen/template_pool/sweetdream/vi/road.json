@@ -1,0 +1,32 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "dreamland:vi/road_line"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "dreamland:vi/road_turn_left"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "dreamland:vi/road_turn_right"
+            }
+        }
+    ]
+}

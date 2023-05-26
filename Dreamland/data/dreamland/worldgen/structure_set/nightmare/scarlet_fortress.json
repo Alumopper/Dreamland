@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dreamland:nightmare/scarlet_fortress",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 12,
+        "salt": 4848100907
+    }
+}

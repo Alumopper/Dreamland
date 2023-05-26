@@ -1,0 +1,1 @@
+execute at @e[tag=entity.dream.finalboss2] as @e[tag=dream_playerpos_tracker] facing entity @s eyes run function dreamland:memory_story/final_boss2/skills/2_2/line

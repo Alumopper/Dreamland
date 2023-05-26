@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"advancements.dream.alpha.head_in_the_cloud.title"},
+        "description": {"translate":"advancements.dream.alpha.head_in_the_cloud.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dreamland:alpha/above_the_cloud"
+}

@@ -1,9 +1,0 @@
-{
-    "condition": "entity_properties",
-    "predicate": {
-        "location": {
-            "structure": "dream:sweetdream/peach_orchard"
-        }
-    },
-    "entity": "this"
-}

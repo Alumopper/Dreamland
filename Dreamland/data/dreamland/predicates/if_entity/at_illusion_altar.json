@@ -1,0 +1,9 @@
+{
+    "condition": "entity_properties",
+    "predicate": {
+        "location": {
+            "structure": "dreamland:nightmare/illusion_altar"
+        }
+    },
+    "entity": "this"
+}

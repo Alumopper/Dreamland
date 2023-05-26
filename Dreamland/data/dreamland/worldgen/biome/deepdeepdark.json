@@ -1,0 +1,88 @@
+{
+    "precipitation": "rain",
+    "temperature": 0.65,
+    "temperature_modifier": "none",
+    "downfall": 0.2,
+    "has_precipitation":false,
+    "effects":{
+        "sky_color": 13075199,
+        "fog_color": 918295,
+        "foliage_color": 6434026,
+        "grass_color": 10235114,
+        "water_color":11226107,
+        "water_fog_color": 6564756
+    },
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:canyon"
+        ],
+        "liquid": [
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_lapis",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "dreamland:nightmare_plant"
+        ],
+        []
+    ],
+    "starts": [
+        
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:spider",
+                "maxCount": 3,
+                "minCount": 1,
+                "weight":30
+            },
+            {
+                "type":"minecraft:enderman",
+                "maxCount": 3,
+                "minCount": 2,
+                "weight": 60
+            },
+            {
+                "type": "minecraft:witch",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 10
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:bat",
+                "weight": 100,
+                "maxCount": 3,
+                "minCount": 3
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "creature_spawn_probability": 1
+}

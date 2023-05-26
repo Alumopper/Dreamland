@@ -1,42 +1,42 @@
 {
-	"dream:timer":{
-        "dream:timer/dream":{},
-        "dream:timer/chaos":{
-            "dream:entity/nightmare/skills/timer":{}
+	"dreamland:timer":{
+        "dreamland:timer/dream":{},
+        "dreamland:timer/chaos":{
+            "dreamland:entity/nightmare/skills/timer":{}
         }
     },
-	"dream:tickmanager":{
-        "dream:item_check_tick":{
-            "dream:items/tick":{},
-            "dream:items/tick2":{},
-            "dream:coas_test":{}
+	"dreamland:tickmanager":{
+        "dreamland:item_check_tick":{
+            "dreamland:items/tick":{},
+            "dreamland:items/tick2":{},
+            "dreamland:coas_test":{}
         },
-        "dream:tower/tick":{
-            "dream:tower/stick":{},
-            "dream:tower/ntick":{}
+        "dreamland:tower/tick":{
+            "dreamland:tower/stick":{},
+            "dreamland:tower/ntick":{}
         },
-        "dream:beacon/tick":{},
-        "dream:creative/tick":{},
-        "dream:dream_portal/tick":{},
-        "dream:entity/dark_illusioner/tick":{},
-        "dream:memory_story/tick":{
-            "dream:memory_story/spacestation/tick":{},
-            "dream:memory_story/slab/story":{},
-            "dream:memory_story/memory_absyy/tick":{},
-            "dream:memory_story/final_boss1/tick":{},
-            "dream:memory_story/final_boss2/tick":{},
-            "dream:memory_story/system/tick":{}
+        "dreamland:beacon/tick":{},
+        "dreamland:creative/tick":{},
+        "dreamland:dream_portal/tick":{},
+        "dreamland:entity/dark_illusioner/tick":{},
+        "dreamland:memory_story/tick":{
+            "dreamland:memory_story/spacestation/tick":{},
+            "dreamland:memory_story/slab/story":{},
+            "dreamland:memory_story/memory_absyy/tick":{},
+            "dreamland:memory_story/final_boss1/tick":{},
+            "dreamland:memory_story/final_boss2/tick":{},
+            "dreamland:memory_story/system/tick":{}
         },
-        "dream:chaos/tick":{}
+        "dreamland:chaos/tick":{}
     },
-	"dream:tick":{
-        "dream:particle/tick":{}
+	"dreamland:tick":{
+        "dreamland:particle/tick":{}
     },
-	"dream:sleep/tick":{},
-	"dream:advancement/tick":{},
-	"dream:structure/tick":{},
-	"dream:biome/tick":{},
-	"dream:entity/tick":{},
+	"dreamland:sleep/tick":{},
+	"dreamland:advancement/tick":{},
+	"dreamland:structure/tick":{},
+	"dreamland:biome/tick":{},
+	"dreamland:entity/tick":{},
 	"fishsoup:tick":{},
-	"dream:items/func_tick":{}
+	"dreamland:items/func_tick":{}
 }

@@ -1,0 +1,3 @@
+#above_the_cloud
+execute in dreamland:sweetdream positioned 0 60 0 run advancement grant @a[distance=0..60,predicate=dreamland:if_entity/in_sweetdream] only dreamland:alpha/above_the_cloud
+execute if score dream_gamestage dream_counter matches 1 in dreamland:sweetdream positioned 0 60 0 if entity @a[distance=0..60] in dreamland:sweetdream unless block 0 53 0 bedrock run function dreamland:structure/dream_tower/generation

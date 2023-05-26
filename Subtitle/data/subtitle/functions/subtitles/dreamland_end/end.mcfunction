@@ -3,4 +3,4 @@ tag @a remove subt_watching
 scoreboard players set subt_dreamland_end subt_timer -1
 kill @e[tag=subt_line, type=armor_stand]
 #梦境数据包衔接部分
-function dream:memory_story/system/subtitle_end
+function dreamland:memory_story/system/subtitle_end

@@ -1,0 +1,33 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_sweetdream_b"
+        },
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_pinkplain"
+        },
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_slimeland"
+        },
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_stoneshore"
+        },
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_scarlet"
+        },
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_deepdeepdark"
+        },
+        {
+            "condition": "reference",
+            "name": "dreamland:if_entity/in_stoneshore"
+        }
+    ]
+}

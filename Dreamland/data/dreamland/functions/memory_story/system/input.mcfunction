@@ -1,0 +1,2 @@
+scoreboard players set dream_system_input_cd dream_timer 0
+function dreamland:memory_story/system/nextframe

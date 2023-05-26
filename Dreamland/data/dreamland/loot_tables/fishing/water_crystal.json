@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:fishing",
+     "pools": [
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1  
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag":"{CustomModelData: 120028, display: {Name: '[{\"translate\":\"item.dreamland.water_crystal\",\"italic\":false}]',Lore:['{\"translate\": \"item.dream.wand.name.nimble\",\"color\": \"#2E64FE\"}']},id: \"dreamland:water_crystal\", dreamland: {WandEx:[3],isTemp: 0b}}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name":"dreamland:1in100"
+                        }
+                    ]
+                }
+            ]
+        }
+     ]
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "title": {"translate":"advancements.dream.beta.black_hole.title"},
+        "description": {"translate":"advancements.dream.beta.black_hole.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dreamland:beta/chaos"
+}

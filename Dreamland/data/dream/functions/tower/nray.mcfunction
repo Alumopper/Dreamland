@@ -1,2 +1,0 @@
-particle dust 0.71 0.039 0.973 1 ~ ~ ~ 0.1 0.1 0.1 0.1 1
-execute unless entity @e[distance=0..0.5,tag=dream_bed] unless entity @e[distance=0..0.5,tag=dream_defender] positioned ^ ^ ^0.2 run function dream:tower/nray

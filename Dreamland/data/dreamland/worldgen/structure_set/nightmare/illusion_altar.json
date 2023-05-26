@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dreamland:nightmare/illusion_altar",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 12,
+        "salt": 56949849849
+    }
+}

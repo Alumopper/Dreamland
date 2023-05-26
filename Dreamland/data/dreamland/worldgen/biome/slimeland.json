@@ -1,0 +1,116 @@
+{
+    "precipitation": "rain",
+    "temperature": 0.65,
+    "temperature_modifier": "none",
+    "downfall": 0.2,
+    "has_precipitation":false,
+    "effects":{
+        "sky_color": 4714721,
+        "fog_color": 9696749,
+        "foliage_color": 2421382,
+        "grass_color": 1962131,
+        "water_color":2421463,
+        "water_fog_color": 2085861
+    },
+    "carvers": {
+        "air": [
+            "minecraft:cave"
+        ],
+        "liquid": [
+            "minecraft:cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_granite_lower",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper",
+            "minecraft:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "minecraft:spring_water"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:flower_forest_flowers",
+            "minecraft:trees_flower_forest",
+            "minecraft:flower_flower_forest",
+            "minecraft:patch_grass_badlands",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin",
+            "dreamland:slime_tree"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "starts": [
+        
+    ],
+    "spawners": {
+        "creature": [
+            {
+                "type": "chicken",
+                "weight": 10,
+                "maxCount": 4,
+                "minCount": 4
+            },
+            {
+                "type": "sheep",
+                "weight": 10,
+                "maxCount": 4,
+                "minCount": 4
+            },
+            {
+                "type": "cow",
+                "weight": 10,
+                "maxCount": 4,
+                "minCount": 4
+            },
+            {
+                "type": "pig",
+                "weight": 10,
+                "maxCount": 4,
+                "minCount": 4
+            }
+        ],
+        "water_ambient": [],
+        "monster": [
+            {
+                "type": "minecraft:slime",
+                "weight": 2,
+                "maxCount": 2,
+                "minCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "creature_spawn_probability": 1
+}

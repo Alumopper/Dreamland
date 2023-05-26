@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {"translate":"advancements.dream.alpha.dark_illusioner.title"},
+        "description": {"translate":"advancements.dream.alpha.dark_illusioner.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dreamland:alpha/sweetdream"
+}

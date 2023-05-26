@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:120013}"
+        },
+        "title": {"translate":"advancements.dream.beta.dream_beacon.title"},
+        "description": {"translate":"advancements.dream.beta.dream_beacon.disc"},
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:carrot_on_a_stick"],
+                        "nbt": "{CustomModelData:120013}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "dreamland:beta/is_it_the_end"
+}

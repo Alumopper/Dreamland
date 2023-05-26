@@ -1,14 +1,14 @@
 {
 	"values":[
-		"dream:timer",
-		"dream:tickmanager",
-		"dream:tick",
-		"dream:sleep/tick",
-		"dream:advancement/tick",
-		"dream:structure/tick",
-		"dream:biome/tick",
-		"dream:entity/tick",
+		"dreamland:timer",
+		"dreamland:tickmanager",
+		"dreamland:tick",
+		"dreamland:sleep/tick",
+		"dreamland:advancement/tick",
+		"dreamland:structure/tick",
+		"dreamland:biome/tick",
+		"dreamland:entity/tick",
 		"fishsoup:tick",
-		"dream:items/func_tick"
+		"dreamland:items/func_tick"
 	]	
 }

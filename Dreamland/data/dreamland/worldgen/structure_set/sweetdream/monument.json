@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "dreamland:sweetdream/monument",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 12,
+        "separation": 10,
+        "salt": 1899498498
+    }
+}

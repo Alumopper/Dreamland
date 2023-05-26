@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye",
+            "nbt": "{CustomModelData:120002}"
+        },
+        "title": {"translate":"advancements.dream.alpha.sweetdream.title"},
+        "description": {"translate":"advancements.dream.alpha.sweetdream.disc"},
+        "frame": "task"
+    },
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to":"dreamland:sweetdream"
+            }
+        }
+    },
+    "parent": "dreamland:alpha/goodnight"
+}

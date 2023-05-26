@@ -1,0 +1,14 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "dreamland:buried_lab1",
+                "location": "dreamland:buried_lab/buried_lab1"
+            },
+            "weight": 1
+        }
+    ]
+}

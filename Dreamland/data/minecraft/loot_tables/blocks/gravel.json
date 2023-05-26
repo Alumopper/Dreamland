@@ -9,7 +9,7 @@
 							"condition": "minecraft:match_tool",
 							"entity": "this",
 							"predicate": {
-								"tag": "dream:shovel",
+								"tag": "dreamland:shovel",
 								"nbt": "{dreamland:{infusion:5b}}"
 							}
 					}
@@ -79,7 +79,7 @@
 					"condition": "minecraft:match_tool",
 					"entity": "this",
 					"predicate": {
-						"tag": "dream:shovel",
+						"tag": "dreamland:shovel",
 						"nbt": "{dreamland:{infusion:5b}}"
 					}
 			},

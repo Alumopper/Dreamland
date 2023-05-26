@@ -1,0 +1,9 @@
+{
+    "condition": "entity_properties",
+    "predicate": {
+        "location": {
+            "structure": "dreamland:sweetdream/peach_orchard"
+        }
+    },
+    "entity": "this"
+}
