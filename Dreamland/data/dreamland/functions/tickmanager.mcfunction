@@ -13,6 +13,8 @@ execute as @e[tag=dream_creative] at @s if entity @a[distance=0..5] run function
 #梦境传送门
 execute as @e[tag=block.dreamland.dream_portal] at @s if entity @a[distance=0..10] run function dreamland:dream_portal/tick
     execute as @a[scores={dream_tpwait=100..160}] at @s unless entity @e[distance=0..1.5,tag=block.dreamland.dream_portal,tag=!block.dreamland.dream_portal_disable,tag=!block.dreamland.dream_portal_empty] run scoreboard players set @s dream_tpwait -1
+    #返回
+    execute as @a at @s run function dreamland:dream_portal/back_tick
 #暗影幻术师的召唤
 execute if score dream_gamestage dream_counter matches 0 as @e[type=item,predicate=dreamland:if_entity/at_illusion_altar] at @s run function dreamland:structure/illusion_altar/trigger
 #暗影幻术师的tick

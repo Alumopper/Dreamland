@@ -4,8 +4,8 @@
             "item": "minecraft:light_blue_dye",
             "nbt": "{CustomModelData:120002}"
         },
-        "title": {"translate":"advancements.dreamland.alpha.sweetdreamland.title"},
-        "description": {"translate":"advancements.dreamland.alpha.sweetdreamland.disc"},
+        "title": {"translate":"advancements.dreamland.alpha.sweetdream.title"},
+        "description": {"translate":"advancements.dreamland.alpha.sweetdream.disc"},
         "frame": "task"
     },
     "criteria": {

@@ -2,7 +2,7 @@ tag @s remove dream_hasput
 #放置方块
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:crafting_table"}}} run tag @s add dream_craftingtable
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:crafting_table"}}} anchored eyes run function dreamland:put/put
-execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:infuse_table"}}} run tag @s add block.dreamland.infusetable
+execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:infuse_table"}}} run tag @s add dream_infusetable
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:infuse_table"}}} anchored eyes run function dreamland:put/put
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_defender"}}} run tag @s add dream_defender
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_defender"}}} anchored eyes run function dreamland:put/put
@@ -10,11 +10,19 @@ execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_breaker"}}} anchored eyes run function dreamland:put/put
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_beacon"}}} run tag @s add dream_beacon
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_beacon"}}} anchored eyes run function dreamland:put/put
-execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_portal"}}} run tag @s add block.dreamland.dream_portal
+execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_portal"}}} run tag @s add dream_portal
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:dream_portal"}}} anchored eyes run function dreamland:put/put
-execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} run tag @s add block.dreamland.cloud_gun
+execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} run tag @s add cloud_gun
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} if entity @s[nbt={Inventory:[{tag:{id:"dreamland:cloud"}}]}] at @s anchored eyes run function dreamland:put/put
-execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} if entity @s[gamemode=creative,tag=block.dreamland.cloud_gun] at @s anchored eyes run function dreamland:put/put
+execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:cloud_gun"}}} if entity @s[gamemode=creative,tag=cloud_gun] at @s anchored eyes run function dreamland:put/put
+#去除各种奇怪的标签
+tag @s remove dream_craftingtable
+tag @s remove dream_infusetable
+tag @s remove dream_defender
+tag @s remove dream_breaker
+tag @s remove dream_beacon
+tag @s remove dream_portal
+tag @s remove cloud_gun
 #功能性物品
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:weather_wand"}}} at @s anchored eyes run function dreamland:items/weather_wand
 execute if data storage dreamland:player_data {SelectedItem:{tag:{id:"dreamland:xp_extract_needle"}}} if entity @s[nbt={SelectedItem:{tag:{id:"dreamland:xp_extract_needle"}}},scores={dream_p_xp=10..}] if score xp dream_xp matches ..9990 at @s anchored eyes run function dreamland:items/xp_extract_needle

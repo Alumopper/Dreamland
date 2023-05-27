@@ -1,10 +1,10 @@
 tag @s add dream_hasput
 execute if entity @s[tag=dream_craftingtable] run function dreamland:put/crafting_table
-execute if entity @s[tag=block.dreamland.infusetable] run function dreamland:put/infuse_table
+execute if entity @s[tag=dream_infusetable] run function dreamland:put/infuse_table
 execute if entity @s[tag=dream_defender] run function dreamland:put/dream_defender
 execute if entity @s[tag=dream_breaker] run function dreamland:put/dream_breaker
 execute if entity @s[tag=dream_beacon] run function dreamland:put/dream_beacon
-execute if entity @s[tag=block.dreamland.dream_portal] run function dreamland:put/block.dreamland.dream_portal
+execute if entity @s[tag=dream_portal] run function dreamland:put/dream_portal
 item replace entity @s[nbt={SelectedItemSlot: 0},gamemode=!creative] hotbar.0 with air
 item replace entity @s[nbt={SelectedItemSlot: 1},gamemode=!creative] hotbar.1 with air
 item replace entity @s[nbt={SelectedItemSlot: 2},gamemode=!creative] hotbar.2 with air

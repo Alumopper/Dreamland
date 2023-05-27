@@ -24,6 +24,6 @@ execute if score dream_dreamtowerboss_pre dream_timer matches 0.. run function d
 #boss技能
     #梦境护卫技能一
     execute unless score dream_boss1_skillcd2 dream_timer matches 181..260 if score dream_boss1_skillcd1 dream_timer matches 0.. run scoreboard players add dream_boss1_skillcd1 dream_timer 1
-    execute unless score dream_boss1_skillcd2 dream_timer matches 181..260 if score dream_boss1_skillcd1 dream_timer matches 100 as @e[tag=dream_boss1] at @s facing entity @p eyes run function dreamland:structure/dream_tower/boss_skill
+    execute unless score dream_boss1_skillcd2 dream_timer matches 181..260 if score dream_boss1_skillcd1 dream_timer matches 100 as @e[tag=entity.dreamland.dream_boss1] at @s facing entity @p eyes run function dreamland:structure/dream_tower/boss_skill
     #梦境护卫技能二
     execute if score dream_boss1_skillcd2 dream_timer matches 0.. run scoreboard players add dream_boss1_skillcd2 dream_timer 1

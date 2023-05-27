@@ -21,4 +21,3 @@ execute if data entity @s {Inventory:[{Slot: 100b,tag: {id: "dreamland:unnamed_b
 tag @s[tag=predicate.dreamland.has_dream_god_armor] add dream_effect_heathboost4
 advancement grant @s[tag=predicate.dreamland.has_dream_god_armor] only dreamland:beta/dream_god
 tag @s[tag=!predicate.dreamland.has_dream_god_armor] remove dream_effect_heathboost4
-#虚幻装备的显示

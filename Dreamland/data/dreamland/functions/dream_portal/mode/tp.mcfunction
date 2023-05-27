@@ -1,2 +1,2 @@
-execute if score dream_world_collapse dream_timer matches -1..120000 run function dreamland:block.dreamland.dream_portal/mode/tp_to_dream
-execute unless score dream_world_collapse dream_timer matches -1..120000 run function dreamland:block.dreamland.dream_portal/mode/tp_to_chaos
+execute if score dream_world_collapse dream_timer matches -1..120000 run function dreamland:dream_portal/mode/tp_to_dream
+execute unless score dream_world_collapse dream_timer matches -1..120000 run function dreamland:dream_portal/mode/tp_to_chaos
