@@ -23,16 +23,18 @@ execute as @e[tag=dream_black_hole] if score @s dream_counter matches 1 if score
 execute as @e[tag=dream_black_hole] if score @s dream_counter matches 2 if score dream_blackhole_radius dream_counter matches 41..60 run function dreamland:structure/black_hole/model/size_3
 execute as @e[tag=dream_black_hole] if score @s dream_counter matches 3 if score dream_blackhole_radius dream_counter matches 61..90 run function dreamland:structure/black_hole/model/size_4
 execute as @e[tag=dream_black_hole] if score @s dream_counter matches 4 if score dream_blackhole_radius dream_counter matches 91.. run function dreamland:structure/black_hole/model/size_5
+#成就
+execute at @e[tag=dream_black_hole] run advancement grant @a[distance=0..100] only dreamland:beta/black_hole
+#传送
+execute at @e[tag=dream_black_hole] if entity @a[distance=0..4,tag=predicate.dreamland.has_dream_god_armor] run tag @a[distance=0..4,tag=predicate.dreamland.has_dream_god_armor] add predicate.dreamland.break_into_blackhole
+execute as @a[tag=predicate.dreamland.break_into_blackhole] at @s run function dreamland:structure/black_hole/tp
 #黑洞事件视界
 execute if score dream_blackhole_radius dream_counter matches 5..20 run kill @e[type=!player,tag=!dream_black_hole,distance=0..3]
 execute if score dream_blackhole_radius dream_counter matches 21..40 run kill @e[type=!player,tag=!dream_black_hole,distance=0..4]
 execute if score dream_blackhole_radius dream_counter matches 41..60 run kill @e[type=!player,tag=!dream_black_hole,distance=0..6]
 execute if score dream_blackhole_radius dream_counter matches 61..90 run kill @e[type=!player,tag=!dream_black_hole,distance=0..10]
 execute if score dream_blackhole_radius dream_counter matches 91.. run kill @e[type=!player,tag=!dream_black_hole,distance=0..15]
-#成就
-execute at @e[tag=dream_black_hole] run advancement grant @a[distance=0..100] only dreamland:beta/black_hole
-#传送
-execute at @e[tag=dream_black_hole] if entity @a[distance=0..4] run function dreamland:structure/black_hole/tp
+execute as @a[tag=!predicate.dreamland.break_into_blackhole,distance=0..4] run damage @s 114514.0 dreamland:black_hole
 #清空区域
 execute as @e[tag=dream_black_hole] at @s rotated as @s run tp @s ~ ~ ~ ~0.2 ~
 scoreboard players set dream_temp_s_b_c_start dream_counter 0

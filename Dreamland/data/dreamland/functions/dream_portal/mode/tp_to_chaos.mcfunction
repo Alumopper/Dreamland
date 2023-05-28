@@ -3,6 +3,8 @@ execute if score dream_world_collapse dream_timer matches -2 as @a in dreamland:
 execute if score dream_world_collapse dream_timer matches -2 as @a in dreamland:chaos run fill ~-2 ~-1 ~-2 ~2 ~2 ~2 air
 execute if score dream_world_collapse dream_timer matches -2 as @a in dreamland:chaos run fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 bedrock
 execute if score dream_world_collapse dream_timer matches -2 as @a in dreamland:chaos run scoreboard players set dream_world_collapse dream_timer 120001
+#设置重生点
+execute if score dream_world_collapse dream_timer matches -2 in dreamland:chaos run spawnpoint @a ~ ~ ~
 #爆炸
 summon tnt ~ ~ ~
 execute unless entity @e[tag=dream_returnpoint] run summon marker ~ ~ ~ {Tags:["dream_returnpoint"]}

@@ -23,7 +23,7 @@ execute unless entity @e[tag=entity.dreamland.nightmare_shield] store result bos
 #闪电移动
 execute as @e[tag=entity.dreamland.nightmare_lightning_summon] at @s run function dreamland:entity/nightmare/skills/funcs/summon_lightninng
 #不能近身
-execute at @e[tag=entity.dreamland.nightmare] run effect give @a[distance=0..9] wither 5 4 
+execute at @e[tag=entity.dreamland.nightmare] run effect give @a[distance=0..10] wither 5 4 
 #梦魇受到远程伤害
 execute unless entity @e[tag=entity.dreamland.nightmare_shield] if score entity.dreamland.nightmare_skill3 dream_timer matches 0..3600 at @e[tag=entity.dreamland.nightmare] positioned ~ ~1 ~ if entity @e[type=arrow,distance=0..2] run scoreboard players remove entity.dreamland.nightmare dream_counter 5
 execute unless entity @e[tag=entity.dreamland.nightmare_shield] if score entity.dreamland.nightmare_skill3 dream_timer matches 0..3600 at @e[tag=entity.dreamland.nightmare] positioned ~ ~1 ~ if entity @e[tag=entity.dreamland.magicball.pure,distance=0..2] run scoreboard players remove entity.dreamland.nightmare dream_counter 7
@@ -47,4 +47,4 @@ execute if score entity.dreamland.nightmare dream_counter matches ..-1 unless sc
 #史莱姆和岩浆怪
 execute at @e[tag=entity.dreamland.nightmare_slime] run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 air replace packed_ice
 #检测玩家存活情况
-execute unless entity @e[type=player,predicate=dreamland:if_entity/in_the_end_of_dream] run function dreamland:entity/nightmare/death
+execute unless entity @e[type=player,predicate=dreamland:if_entity/in_the_end_of_dream] unless score dream_world_collapse dream_counter matches 240000.. run function dreamland:entity/nightmare/death

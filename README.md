@@ -7,5 +7,5 @@ Dreamland(虚幻梦境)是Alumopper制作的一个Minecraft大型生存向和剧
 * [简单的字幕 - Alumopper](https://alumopper.top/projects/%e7%ae%80%e5%8d%95%e7%9a%84%e5%ad%97%e5%b9%95/)
 * [Animated Java](https://github.com/Animated-Java/animated-java)
 ## 开发阶段
-目前：**Gamma 0.2** (2023.1.25)<br>
+目前：**Omega 1.1** (2023.5.28)<br>
 开发周期历史：[Dreamland Wiki](https://alumopper.top/Wiki/Dreamland-wiki/index.html)
