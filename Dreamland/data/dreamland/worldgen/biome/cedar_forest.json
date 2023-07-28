@@ -75,9 +75,6 @@
             "minecraft:freeze_top_layer"
         ]
     ],
-    "starts": [
-        
-    ],
     "creature_spawn_probability": 0.3,
     "spawners": {
         "creature": [

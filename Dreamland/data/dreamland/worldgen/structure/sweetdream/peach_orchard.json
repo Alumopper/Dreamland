@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["dreamland:pinkplain"],
+    "biomes": ["dreamland:cherry_plain"],
     "step": "surface_structures",
     "terrain_adaptation": "beard_thin",
     "spawn_overrides": {

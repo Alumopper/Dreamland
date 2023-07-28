@@ -29,5 +29,5 @@ scoreboard players set C_3919 math_count 3919
 scoreboard players set C_10000 math_count 10000
 scoreboard players set C_49500 math_count 49500
 scoreboard players set C_49500 math_count 49500
-scoreboard players set C_20010921 math_count 20060921
+scoreboard players set C_20031215 math_count 20031215
 scoreboard players set C_1103515245 math_count 1103515245

@@ -25,4 +25,5 @@ execute if score dream_dreamtowerboss_pre dream_timer matches 590 run tellraw @a
 execute if score dream_dreamtowerboss_pre dream_timer matches 610 run tellraw @a {"translate":"word.dreamland.dream_tower.boss.boss11","color": "gray","italic": true}
 execute if score dream_dreamtowerboss_pre dream_timer matches 660 run tellraw @a {"translate":"word.dreamland.dream_tower.boss.player11"}
 execute if score dream_dreamtowerboss_pre dream_timer matches 680 run tellraw @a {"translate":"word.dreamland.dream_tower.boss.player12"}
+advancement grant @a only dreamland:alpha/head_in_the_cloud
 execute if score dream_dreamtowerboss_pre dream_timer matches 681 run scoreboard players set dream_dreamtowerboss_pre dream_timer -4

@@ -49,6 +49,30 @@
           }
         },
         {
+          "biome": "minecraft:cherry_grove",
+          "parameters": {
+            "temperature": [
+              0.5,
+              0.501
+            ],
+            "humidity": [
+              0.5,
+              0.8
+            ],
+            "continentalness": [
+              -1,
+              -0.5
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "dreamland:cedar_forest",
           "parameters": {
             "temperature": [
@@ -130,7 +154,7 @@
           }
         },
         {
-          "biome": "dreamland:pinkplain",
+          "biome": "dreamland:cherry_plain",
           "parameters": {
             "temperature": [
               0,

@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
         "location": {
-            "biome": "dreamland:pinkplain"
+            "biome": "dreamland:cherry_plain"
         }
     }
 }

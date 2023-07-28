@@ -32,3 +32,10 @@ scoreboard players operation #FS_C_FISHSOU aclib_temp %= #FS_C_FISHSOUP aclib_te
 #美梦世界的飞行
 execute as @a at @s if predicate dreamland:if_entity/below_y30 if dimension dreamland:sweetdream run effect give @s levitation 1 40
 execute as @a at @s if predicate dreamland:if_entity/below_y30 if dimension dreamland:sweetdream run scoreboard players add @s[scores={dream_sleeptime=0..}] dream_sleeptime 10
+#初始化
+execute as @a unless score @s dream_playerno matches -2147483648..2147483647 run function dreamland:other/playerno
+execute as @a unless score @s dream_chaser_sm matches -2147483648..2147483647 run scoreboard players set @s dream_chaser_sm 0
+execute as @a unless score @s dream_magic_regeneration matches -2147483648..2147483647 run scoreboard players set @s dream_magic_regeneration 0
+execute as @a unless score @s dream_wanduse_cd matches -2147483648..2147483647 run scoreboard players set @s dream_wanduse_cd 0
+execute as @a unless score @s dream_magic matches -2147483648..2147483647 run scoreboard players set @s dream_magic 80
+execute as @a unless score @s dream_likelihood matches 0..100 run scoreboard players set @s dream_likelihood 50

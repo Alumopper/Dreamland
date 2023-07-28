@@ -115,7 +115,7 @@
             }
           },
           {
-            "biome": "dreamland:pinkplain",
+            "biome": "dreamland:cherry_plain",
             "parameters": {
               "temperature": -0.5,
               "humidity": 0,

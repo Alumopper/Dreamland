@@ -36,5 +36,5 @@ execute if score dream_system_log_timer dream_timer matches 3367 run tellraw @a 
 execute if score dream_system_log_timer dream_timer matches 3407 run tellraw @a {"translate":"word.dreamland.system.log.text36","color": "white"}
 execute if score dream_system_log_timer dream_timer matches 3471 run tellraw @a {"translate":"word.dreamland.system.log.text37","color": "white"}
 execute if score dream_system_log_timer dream_timer matches 3500 run tellraw @a {"translate":"word.dreamland.system.log.text38","color": "white"}
-execute if score dream_system_log_timer dream_timer matches 3550 run tellraw @a {"translate":"word.dreamland.system.log.button","color": "aqua", "clickEvent": {"action": "run_command","value": "/function dreamland:memory_story/system/end"}}
+execute if score dream_system_log_timer dream_timer matches 3550 run tellraw @a {"translate":"word.dreamland.system.log.button","color": "aqua", "clickEvent": {"action": "run_command","value": "/execute as @a run function subtitle:subtitles/dreamland_end/start"}}
 scoreboard players add dream_system_log_timer dream_timer 1

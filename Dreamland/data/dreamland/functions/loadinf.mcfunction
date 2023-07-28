@@ -1,2 +1,2 @@
 tellraw @a [{"translate": "info.dreamland.load.welcome1"},{"translate": "info.dreamland.load.welcome2"}]
-tellraw @a [{"translate": "info.dreamland.load.version1"},{"translate": "info.dreamland.load.version2"}," build 5 dev 1"]
+tellraw @a [{"translate": "info.dreamland.load.version1"},{"translate": "info.dreamland.load.version2"},"snapshot 4"]

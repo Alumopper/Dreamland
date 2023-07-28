@@ -16,4 +16,4 @@ execute if score subt_example subt_timer matches 140 run summon armor_stand ~2 ~
 execute if score subt_example subt_timer matches 150 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":"Alumopper"}'}
 execute if score subt_example subt_timer matches 160 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":""}'}
 execute if score subt_example subt_timer matches 170 run summon armor_stand ~2 ~-5 ~ {Invisible:true,CustomNameVisible:true,Tags:["subt_line"],NoGravity:1b,CustomName:'{"text":"-感谢观看-","bold":true}'}
-execute if score subt_example subt_timer matches 290 run function subtitle:subtitles/example/end
+execute if score subt_example subt_timer matches 350 run function subtitle:subtitles/example/end

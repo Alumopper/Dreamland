@@ -35,3 +35,4 @@ execute as @e[tag=entity.dreamland.dream_boss1] if entity @e[type=wither_skeleto
 #execute positioned 0 55 0 in dreamland:sweetdream run effect give @a[distance=0..3] levitation 1 5 true
 #模型视角对齐
 execute at @e[tag=entity.dreamland.dream_boss1.model] rotated as @e[tag=entity.dreamland.dream_boss1] run tp @e[tag=entity.dreamland.dream_boss1.model] ~ ~ ~ ~ 0
+#

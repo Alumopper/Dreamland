@@ -27,7 +27,6 @@ scoreboard objectives add dream_counter dummy "计数器"
     #2-剧情：最后的Boss
     #3-剧情：离开梦境
     execute unless score dream_finalstorystage dream_counter matches -2147483648..2147483647 run scoreboard players set dream_finalstorystage dream_counter -1
-    execute unless score dream_infuse_stage dream_counter matches -2147483648..2147483647 run scoreboard players set dream_infuse_stage dream_counter 0
     execute unless score dream_blackhole_radius dream_counter matches -2147483648..2147483647 run scoreboard players set dream_blackhole_radius dream_counter 5
 #判断玩家挥剑次数
 scoreboard objectives add dream_use_sword minecraft.used:diamond_sword "挥剑次数"
@@ -41,7 +40,6 @@ scoreboard objectives add dream_p_xp xp "个人经验"
 scoreboard objectives add dream_beacon dummy "信标属性"
 #记录玩家的魔法值
 scoreboard objectives add dream_magic dummy "魔法值"
-execute as @a unless score @s dream_magic matches -2147483648..2147483647 run scoreboard players set @s dream_magic 80
 #记录维度传送时间
 #tpwait值   描述
 #-1         没有在等待被传送
@@ -52,7 +50,6 @@ scoreboard objectives add dream_tpwait dummy "传送等待时间"
 scoreboard players set @a dream_tpwait -1
 #记录每个玩家进入两个梦境的概率
 scoreboard objectives add dream_likelihood dummy "玩家进入两个梦境的概率"
-execute as @a unless score @s dream_likelihood matches 0..100 run scoreboard players set @s dream_likelihood 50
 #...<后补注释：用于生成随机数，决定玩家是去噩梦世界还是美梦世界   ------Alumopper 2021.6.21>
 scoreboard objectives add dream_bxmingming dummy "不想命名了"
 #记录玩家已做梦时长
@@ -90,10 +87,8 @@ scoreboard objectives add dream_fishing minecraft.custom:fish_caught "钓鱼次�
 #玩家编号
 scoreboard objectives add dream_playerno dummy "玩家编号"
     scoreboard players set $static_no dream_playerno 0
-    execute as @a unless score @s dream_playerno matches -2147483648..2147483647 run function dreamland:other/playerno
 #生成追逐者的延时
 scoreboard objectives add dream_chaser_sm dummy "追逐者生成延时"
-    execute as @a unless score @s dream_chaser_sm matches -2147483648..2147483647 run scoreboard players set @s dream_chaser_sm 0
 #粒子圆的半径(*0.1倍率，即一位小数)
 scoreboard objectives add dream_par_rad dummy "圆半径"
 #粒子扩散圆的标号
@@ -103,10 +98,8 @@ scoreboard objectives add dream_par_id dummy "粒子圆标记"
 scoreboard objectives add dream_player_health health "玩家血量"
 #玩家法杖使用cd
 scoreboard objectives add dream_wanduse_cd dummy
-    execute as @a unless score @s dream_wanduse_cd matches -2147483648..2147483647 run scoreboard players set @s dream_wanduse_cd 0
 #玩家魔法回复cd
 scoreboard objectives add dream_magic_regeneration dummy
-    execute as @a unless score @s dream_magic_regeneration matches -2147483648..2147483647 run scoreboard players set @s dream_magic_regeneration 0
 #玩家再传送延迟
 scoreboard objectives add dream_tp_cd dummy
 #注魔台注魔

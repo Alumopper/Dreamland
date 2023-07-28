@@ -23,7 +23,7 @@ scoreboard players set st_next dream_counter 0
 scoreboard players set st_notouchfish dream_counter 0
 #空间站故事线
 scoreboard players set stl_story dream_counter -1
-#放梦境方块
-execute in dreamland:memory_abyss positioned 64.5 68 57.5 run function dreamland:put/block.dreamland.dream_portal
+#放梦境传送门方块
+execute in dreamland:memory_abyss positioned 64.5 68 57.5 run function dreamland:put/dream_portal
 #
 gamemode adventure @a[gamemode=survival]

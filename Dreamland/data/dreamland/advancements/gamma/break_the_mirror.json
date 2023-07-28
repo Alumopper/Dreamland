@@ -5,7 +5,7 @@
         },
         "title": {"translate":"advancements.dreamland.gamma.break_the_mirror.title"},
         "description": {"translate":"advancements.dreamland.gamma.break_the_mirror.disc"},
-        "frame": "task",
+        "frame": "challenge",
         "hidden": true
     },
     "criteria": {
